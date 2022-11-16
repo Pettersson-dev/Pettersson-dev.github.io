@@ -22,7 +22,10 @@ title: Pettersson.dev
 #This website contains my thoughts and reflections on software engineering, IT-architecture and security.
 #Opinions expressed here are my own.
 
-theme: Minima
+#theme: Minima
+
+theme: minimal-mistakes-jekyll
+
 lsi: false
 safe: true
 source: [your repo's top level directory]
