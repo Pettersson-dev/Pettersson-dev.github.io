@@ -24,6 +24,7 @@ title: Pettersson.dev
 
 #theme: Minima
 plugin: 
+ - jekyll-remote-theme
  - jekyll-include-cache
  
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
