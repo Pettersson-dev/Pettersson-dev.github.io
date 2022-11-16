@@ -23,8 +23,10 @@ title: Pettersson.dev
 #Opinions expressed here are my own.
 
 #theme: Minima
-
-theme: minimal-mistakes-jekyll
+plugin: 
+ - jekyll-include-cache
+ 
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 lsi: false
 safe: true
