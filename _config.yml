@@ -31,17 +31,7 @@ author:
   bio              : "I'm an IT architect working with digitalization of business"
   location         : "Sweden"
   email: 
-  links:
-    label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-       url: "david@pettersson.dev"
-    label: "Website"
-      icon: "fas fa-fw fa-link"
-       url: "https://pettersson.dev"
-    label: "GitHub"
-      icon: "fab fa-fw fa-github"
-       url: "https://github.com/pettersson-dev"
-
+      
 # Site Footer
 footer:
   links:
