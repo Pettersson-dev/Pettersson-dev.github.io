@@ -32,11 +32,6 @@ author:
   location         : "Sweden"
   email            :
   links:
-  
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-       url: "https://github.com/pettersson-dev"
-
 
 # Site Footer
 footer:
