@@ -36,9 +36,8 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-       url: "https://github.com/pettersson-dev"
+    label: "GitHub"
+    url: "https://github.com/pettersson-dev"
 
 
 # Reading Files
