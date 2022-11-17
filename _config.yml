@@ -70,6 +70,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:david@pettersson.dev"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin-in"
+      url: "https://linkedin.com/in/petterssondavid"
 footer:
   links:
     - label: "GitHub"
