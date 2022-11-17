@@ -42,7 +42,7 @@ Best practice
 * Disable insecure renegotiation
 
 Links
-* https://github.com/ssllabs/research/wiki/SSL-and-TLS-Deployment-Best-Practices
+* [SSL labs](https://github.com/ssllabs/research/wiki/SSL-and-TLS-Deployment-Best-Practices)
 
 ## API - REST, SOAP, GRPC etc.
 Principles:
@@ -104,4 +104,4 @@ leaks
 * Apply secure data transfer with trusted parties e.g setting up S/MIME 
 
 Links
-* https://explained-from-first-principles.com/email/
+* [Email principles](https://explained-from-first-principles.com/email/)
