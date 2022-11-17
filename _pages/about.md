@@ -1,6 +1,7 @@
 ---
 permalink: /about/
 title: "About"
+author_profile: true
 ---
 
 This website contains my own thoughts, reflection and work. Oppinions and choices are my own.
