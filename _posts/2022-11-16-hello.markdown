@@ -1,5 +1,0 @@
----
-title: First post
-subtitle: Hello world post
----
-Hello world!
