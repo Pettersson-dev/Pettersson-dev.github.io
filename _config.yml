@@ -83,6 +83,9 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/pettersson-dev"
 
+analytics: 
+  provider: "custom"
+
 defaults:
   # _posts
   - scope:
