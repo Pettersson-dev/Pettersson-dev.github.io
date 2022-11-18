@@ -73,7 +73,7 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-linkedin-in"
       url: "https://linkedin.com/in/petterssondavid"
-    - label "CV"
+    - label: "CV"
       icon: "fa fa-file-pdf-o"
       url: "assets/cv.pdf"
 footer:
