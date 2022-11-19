@@ -51,6 +51,7 @@ Principles:
 * Don't trust user input, have whitelists and disable insecure serializers.
 * Use API gateways to minimize attack surface and consolidate logging and traffic inspections.
 * Use TLS and consider mTLS for sensitive information.
+
 ### Authentication
 * Check all possible ways to authenticate to all APIs
 * Use standard authentication, token generation, password storage,
@@ -91,7 +92,7 @@ leaks
 * Use sFTP with certificates.
 * Encrypt and sign sensitive files, exchange keys out of band.
 * Have strict access permissions.
-* Use disk rncryption
+* Use disk encryption
 * Logg activities
 
 ## Email
