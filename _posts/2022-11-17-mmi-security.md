@@ -1,9 +1,7 @@
 ---
 title: Security in machine to machine interaction
-subtitle: Machine to machine interaction such as APIs, events or files
 ---
-Integration between different machines over a communication medium.
-
+Integration between different machines over a communication medium, such as APIs, events or files
 Principles:
 * No trust - Don't trust the channel. Don't trust the transmitter. Don't trust the reciver.
 * Follow the rules of privacy and make sure that communication is traceable, linkable and identifiable.
