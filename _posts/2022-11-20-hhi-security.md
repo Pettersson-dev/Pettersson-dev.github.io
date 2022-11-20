@@ -11,6 +11,6 @@ Principles
 * All communication should tell the same thing
 * Trust chain should be short, preferably first hand
 * Use more trust anchors to verify information
-* Information should be complete, with provided context, to avoid missconceptions
+* Information should be complete, with provided context, to avoid misconceptions
 * Non-public written information should be enveloped, or equally protected, in transport
 * Non-public written information should be locked in when not in use
