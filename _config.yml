@@ -55,7 +55,6 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-analytics
   - jekyll-seo-tag
 
 author:
@@ -115,8 +114,3 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-
-jekyll_analytics:
-  Plausible:
-    domain: 'pettersson.dev'   # The domain configured in plausible
-    source: 'https://plausible.io/js/script.js' # The source of the javascript
