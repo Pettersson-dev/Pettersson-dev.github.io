@@ -85,10 +85,9 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/pettersson-dev"
 
-jekyll_analytics:
-  Plausible:
-    domain: 'pettersson.dev'   # The domain configured in plausible
-    source: 'https://plausible.io/js/script.js' # The source of the javascript
+analytics:
+  provider: "custom"
+
 
 defaults:
   # _posts
@@ -116,3 +115,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+jekyll_analytics:
+  Plausible:
+    domain: 'pettersson.dev'   # The domain configured in plausible
+    source: 'https://plausible.io/js/script.js' # The source of the javascript
