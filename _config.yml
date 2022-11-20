@@ -56,6 +56,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-analytics
+  - jekyll-seo-tag
 
 author:
   name   : "David Pettersson"
