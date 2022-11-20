@@ -87,8 +87,8 @@ footer:
 
 jekyll_analytics:
   Plausible:
-    domain: "Pettersson.dev"   # The domain configured in plausible
-    source: "https://plausible.io/js/script.js" # The source of the javascript
+    domain: 'pettersson.dev'   # The domain configured in plausible
+    source: 'https://plausible.io/js/script.js' # The source of the javascript
 
 defaults:
   # _posts
