@@ -1,5 +1,5 @@
 ---
-title: Security in human to human interaktion
+title: Security in human to human interaction
 ---
 Security in the interaction between humans using voice, mail etc.
 Principles
