@@ -1,4 +1,8 @@
-Draft of a security questionaire for vendor evaluation
+---
+title: Security questionnaire
+---
+
+Draft of a security questionnaire for vendor and solution evaluation
 # Policies and organisation 
 * Describe the company
 * Where is the company located?
