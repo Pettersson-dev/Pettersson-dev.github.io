@@ -57,14 +57,6 @@ plugins:
   - jekyll-include-cache
   - jekyll-seo-tag
 
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
-
 author:
   name   : "David Pettersson"
   avatar : "/assets/images/B171E59B-7F3B-48E1-BD7E-61471D87E1C2.jpeg"
