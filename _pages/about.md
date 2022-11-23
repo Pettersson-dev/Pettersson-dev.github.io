@@ -2,6 +2,12 @@
 permalink: /about/
 title: "About"
 author_profile: true
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+
 ---
 
 This website contains my own thoughts, reflection and work. Oppinions and choices are my own.
