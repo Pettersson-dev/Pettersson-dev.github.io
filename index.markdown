@@ -12,3 +12,5 @@ header:
   overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 ---
+
+Welcome to my site where I try to gather my thoughts about software engineering and IT architeture.
