@@ -1,6 +1,5 @@
 ---
 title: Security and trust
-subtitle: Know your trust anchors.
 
 header:
   overlay_color: "#000"
@@ -9,7 +8,7 @@ header:
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 ---
  
- 
+
 ## Security and trust
 Know your trust anchors.
 

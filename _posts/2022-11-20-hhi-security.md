@@ -1,6 +1,6 @@
 ---
 title: Security in human to human interaction
-subtitle: Security in the interaction between humans using voice, mail etc.
+
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -8,7 +8,7 @@ header:
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 ---
  
- 
+
 ## Security in human to human interaction
 Security in the interaction between humans using voice, mail etc.
 

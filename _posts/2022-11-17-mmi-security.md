@@ -1,6 +1,6 @@
 ---
 title: Security in machine to machine interaction
-subtitle: Integration between different machines over a communication medium, such as APIs, events or files
+
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -8,7 +8,7 @@ header:
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 ---
  
- 
+
 ## Security in machine to machine interaction
 Integration between different machines over a communication medium, such as APIs, events or files
 Principles:

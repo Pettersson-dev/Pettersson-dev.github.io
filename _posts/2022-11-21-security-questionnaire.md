@@ -1,6 +1,6 @@
 ---
 title: Security questionnaire
-subtitle: Draft of a security questionnaire for vendor and solution evaluation
+
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -8,7 +8,7 @@ header:
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 ---
  
- 
+
 ## Security questionnaire
 Draft of a security questionnaire for vendor and solution evaluation
 ## Policies and organisation 
