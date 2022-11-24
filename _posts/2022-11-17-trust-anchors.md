@@ -1,12 +1,16 @@
 ---
 title: Security and trust
+subtitle: Know your trust anchors.
+
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 ---
+## Security and trust
 Know your trust anchors.
+
 ## Trust
 In the end security relies on trust. A solution will most likely have several different
 trust anchors such as:

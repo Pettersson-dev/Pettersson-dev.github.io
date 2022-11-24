@@ -1,13 +1,15 @@
 ---
 title: Security questionnaire
+subtitle: Draft of a security questionnaire for vendor and solution evaluation
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 ---
+## Security questionnaire
 Draft of a security questionnaire for vendor and solution evaluation
-# Policies and organisation 
+## Policies and organisation 
 * Describe the company
 * Where is the company located?
 * Who is responsible for security?
@@ -17,7 +19,7 @@ Draft of a security questionnaire for vendor and solution evaluation
 * Do you perform security awareness training?
 * Do you perform background checks on employees?
 
-# Solution
+## Solution
 * Describe the solution.
 * Describe the architecture of the solution.
 * Does the solution contain PII or sensitive information?
@@ -28,7 +30,7 @@ Draft of a security questionnaire for vendor and solution evaluation
 * How is data at rest protected?
 * How is data in transport protected?
 
-# Technical controls 
+## Technical controls 
 * Do you perform pentests?
 * Do you perform static security analysis of source code?
 * Do you have monitoring in place?
@@ -40,7 +42,7 @@ Draft of a security questionnaire for vendor and solution evaluation
 * Do you have a process for installing operating system and application updates and security patches?
 * Do you have a process for backup and recovery?
 
-# Physical security
+## Physical security
 * Where is your worforce located?
 * Are all facilities used exclusively by your company, or are some shared?
 * Does the company review the physical and environmental risks and adress them?

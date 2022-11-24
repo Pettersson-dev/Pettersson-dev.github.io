@@ -1,12 +1,15 @@
 ---
 title: Security in human to human interaction
+subtitle: Security in the interaction between humans using voice, mail etc.
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 ---
+## Security in human to human interaction
 Security in the interaction between humans using voice, mail etc.
+
 Principles
 * Verify that the information is safe to share
 * Verify the recipient, eg. is there trust
