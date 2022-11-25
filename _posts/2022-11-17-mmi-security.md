@@ -10,10 +10,8 @@ tags:
   - Security
   - Integration
 ---
- 
-
-## Security in machine to machine interaction
 Integration between different machines over a communication medium, such as APIs, events or files
+
 Principles:
 * No trust - Don't trust the channel. Don't trust the transmitter. Don't trust the reciver.
 * Follow the rules of privacy and make sure that communication is traceable, linkable and identifiable.
