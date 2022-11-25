@@ -1,5 +1,12 @@
 ---
 title: "Security in machine to machine interaction"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
+  caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
+excerpt: "Integration between different machines over a communication medium, such as APIs, events or files"
+
 ---
 Integration between different machines over a communication medium, such as APIs, events or files
 
