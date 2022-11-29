@@ -1,5 +1,5 @@
 ---
-title: "Information and integration patterns"
+title: "Information and types of integration"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
