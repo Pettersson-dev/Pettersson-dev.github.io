@@ -1,5 +1,5 @@
 ---
-title: "Integration patterns"
+title: "Information and integration strategy"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -41,9 +41,13 @@ Event driven architectures are more complex than point to point.
 Data consistency could be an issue.
 
 # Information hub based integration
-Information hub integration is based or rather information is the most important thing in the organisation. 
+With the information hub the integration changes focus from system to information. The hub acts as master for the data and all information flows as rivers to the data lake. The raw data is enriched and processed making it available for consumption. 
 
 ## Principles
+- All information is processed in the information hub
+- The information hub contains masterdata
+- Data is ingested from system of records to the information hub
+
 
 ## Rationale
 When the domain is information and report driven and the system of records don't have the abillity to integrate.
@@ -58,4 +62,4 @@ When the domain is information and report driven and the system of records don't
 ## Risks
 Centralised integration can be a bottleneck.
 Missing data governance could make data unusable.
-Data processing and storage comes with a cost. 
+Data processing and storage comes with a cost.
