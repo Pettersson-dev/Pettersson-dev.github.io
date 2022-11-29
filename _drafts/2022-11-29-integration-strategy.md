@@ -46,6 +46,6 @@ When the domain is information and report driven and the system of records don't
 - Data can be preserved over time.
 
 ## Risks
-Centralised integration will potentially be a bottleneck.
+Centralised integration can be a bottleneck.
 Missing data governance could make data unusable.
 Data processing and storage comes with a cost. 
