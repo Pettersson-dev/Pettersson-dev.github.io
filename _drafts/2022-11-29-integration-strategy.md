@@ -1,5 +1,5 @@
 ---
-title: "Information and integration strategy"
+title: "Information and integration patterns"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
