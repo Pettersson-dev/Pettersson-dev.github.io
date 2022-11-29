@@ -2,7 +2,7 @@
 Today more and more of the world becomes digital and as the systems grow in numbers so does the need for integration.
 
 # API based integration
-API based integration decouples the information from the database implementation. There are many styles of API's from RPC based implementation such as gRPC or SOAP to Restful APIs and GraphQl 
+API based integration decouples the information from the database implementation. There are many styles of API's from action based based implementation such as gRPC or SOAP to resource based Restful APIs and GraphQl.
 
 ## Principles
 
