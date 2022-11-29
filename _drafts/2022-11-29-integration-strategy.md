@@ -3,7 +3,7 @@ Today more and more of the world becomes digital and as the systems grow in numb
 Besides being many systems the
 # API based integration
 
-## Defenition
+## Definition
 
 ## Principles
 
