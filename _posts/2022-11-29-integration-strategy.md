@@ -57,7 +57,7 @@ With the information hub the integration changes focus from system to informatio
 
 ## Rationale
 When the domain is information and report driven and the system of records don't have the abillity to integrate.
-- There is no or litle point to point integrations.
+- There is no or little point to point integrations.
 - Information is freed for reports and integrations. 
 - The information is freed from system of records meaning they don't need to evovle their capabilitites to integrate. 
 - Information is made available for use without impacting systems of records.
