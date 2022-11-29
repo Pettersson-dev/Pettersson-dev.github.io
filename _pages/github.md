@@ -14,4 +14,4 @@ header:
 
 ## Security
 - [Security architecture](https://github.com/Pettersson-dev/Security-architecture)
-- [Security questionaire](https://github.com/Pettersson-dev/Security-questionnaire)
+- [Security questionnaire](https://github.com/Pettersson-dev/Security-questionnaire)
