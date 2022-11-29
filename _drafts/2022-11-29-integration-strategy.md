@@ -15,6 +15,8 @@ Today more and more of the world becomes digital and as the systems grow in numb
 API based integration decouples the information from the database implementation. There are many styles of APIs from action based implementations such as gRPC and SOAP to resource based GraphQL and Restful APIs.
 
 ## Principles
+- Smart endpoints and dumb pipes
+- Decouple information from implementation (eg. databases)
 
 ## Rationale
 Low threshold to get started.
@@ -28,6 +30,8 @@ API based integration tends to be point to point. The risk with the approach is 
 Event based integration addresses the concerns of API based integration when it comes to temporal coupling. Event based systems also tend to have lower coupling between systems as topics can be made generic.
 
 ## Principles
+- Smart endpoints and dumb pipes.
+- Reusable topics
 
 ## Rationale
 When the domain wants to decouple it self from the sourrounding systems.
@@ -47,7 +51,6 @@ With the information hub the integration changes focus from system to informatio
 - All information is processed in the information hub
 - The information hub contains masterdata
 - Data is ingested from system of records to the information hub
-
 
 ## Rationale
 When the domain is information and report driven and the system of records don't have the abillity to integrate.
