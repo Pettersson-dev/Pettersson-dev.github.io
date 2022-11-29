@@ -1,3 +1,13 @@
+---
+title: "Integration patterns"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
+  caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
+excerpt: "Integration between different machines over a communication medium"
+---
+
 # Background
 Today more and more of the world becomes digital and as the systems grow in numbers so does the need for integration.
 
