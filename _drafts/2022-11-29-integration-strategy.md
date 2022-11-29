@@ -10,6 +10,7 @@ excerpt: "Integration between different machines over a communication medium"
 
 # Background
 Today more and more of the world becomes digital and as the systems grow in numbers so does the need for integration.
+This information and integration strategy is intended for an organisation that is mainly working with data and reporting.
 
 # API based integration
 API based integration decouples the information from the database implementation. There are many styles of APIs from action based implementations such as gRPC and SOAP to resource based GraphQL and Restful APIs.
