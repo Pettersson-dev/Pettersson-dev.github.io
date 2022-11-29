@@ -10,14 +10,15 @@ excerpt: "Integration between different machines over a communication medium"
 
 # Background
 Today more and more of the world becomes digital and as the systems grow in numbers so does the need for integration.
-This information and integration strategy is intended for an organisation that is mainly working with data and reporting.
 
 # API based integration
 API based integration decouples the information from the database implementation. There are many styles of APIs from action based implementations such as gRPC and SOAP to resource based GraphQL and Restful APIs.
+API based integration can either be centralized with a dedicated integration team or decentralised with an integration platform or framework.
 
 ## Principles
 - Smart endpoints and dumb pipes
 - Decouple information from implementation (eg. databases)
+- Clients needs to handle server unavailabillity
 
 ## Rationale
 Low threshold to get started.
@@ -46,12 +47,13 @@ Event driven architectures are more complex than point to point.
 Data consistency could be an issue.
 
 # Information hub based integration
-With the information hub the integration changes focus from system to information. The hub acts as master for the data and all information flows as rivers to the data lake. The raw data is enriched and processed making it available for consumption. 
+With the information hub the integration changes focus from system to information. The hub acts as master for the data and all information flows as rivers into the data lake. The raw data is enriched and processed making it available for consumption. 
 
 ## Principles
 - All information is processed in the information hub
 - The information hub contains masterdata
 - Data is ingested from system of records to the information hub
+- No processing is done outside the datahub
 
 ## Rationale
 When the domain is information and report driven and the system of records don't have the abillity to integrate.
