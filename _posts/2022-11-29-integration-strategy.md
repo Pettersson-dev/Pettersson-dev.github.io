@@ -21,9 +21,9 @@ API based integration can either be centralized with a dedicated integration tea
 - Client or platform needs to handle server unavailabillity
 
 ## Rationale
-Low threshold to get started.
-Integration decentralisation allows integrations to scale.
-Decouple information from databases.
+- Low threshold to get started.
+- Integration decentralisation allows integrations to scale.
+- Decouple information from databases.
 
 ## Risks
 API based integration tends to be point to point. The risk with the approach is that the number of integrations become to many to keep track of and visualize. Moreover api integrations require temporal coupling and must have the abillity to handle load.
@@ -43,8 +43,8 @@ When the domain wants to decouple it self from the sourrounding systems.
 - Near realtime updates possible.
 
 ## Risks
-Event driven architectures are more complex than point to point.
-Data consistency could be an issue.
+- Event driven architectures are more complex than point to point.
+- Data consistency (eventual consistency) could be an issue.
 
 # Information hub based integration
 With the information hub the integration changes focus from system to information. The hub acts as master for the data and all information flows as rivers into the data lake. The raw data is enriched and processed making it available for consumption. 
@@ -66,6 +66,6 @@ When the domain is information and report driven and the system of records don't
 - Data can be preserved over time.
 
 ## Risks
-Centralised integration can be a bottleneck.
-Missing data governance could make data unusable.
-Data processing and storage comes with a cost.
+- Centralised integration can be a bottleneck.
+- Missing data governance could make data unusable.
+- Data processing and storage comes with a cost.
