@@ -18,7 +18,7 @@ API based integration can either be centralized with a dedicated integration tea
 ## Principles
 - Smart endpoints and dumb pipes
 - Decouple information from implementation (eg. databases)
-- Clients needs to handle server unavailabillity
+- Client or platform needs to handle server unavailabillity
 
 ## Rationale
 Low threshold to get started.
@@ -33,7 +33,7 @@ Event based integration addresses the concerns of API based integration when it 
 
 ## Principles
 - Smart endpoints and dumb pipes.
-- Reusable topics
+- Use reusable topics.
 
 ## Rationale
 When the domain wants to decouple it self from the sourrounding systems.
