@@ -1,4 +1,3 @@
-
 ---
 title: "IT security strategy"
 header:
@@ -7,8 +6,8 @@ header:
   overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 excerpt: " "
+---
 
---- 
 It's no secret that information technology (IT) security is an ever-evolving field. As technology advances, so do the threats to organizations of all sizes. To stay ahead of the curve, companies must develop a comprehensive IT security strategy that addresses current and emerging risks.
 
 A successful IT security strategy should include a clearly defined set of objectives and a plan of action to achieve those objectives. The objectives of the strategy should include the following:
