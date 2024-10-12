@@ -68,8 +68,9 @@ Multi-factor
 policies and weak password checks
 
 ### Authorization
-* Implement authorization checks with user policies and hierarchy • Don’t rely on IDs sent from client. Use IDs stored in the session
-object instead.
+* Implement authorization checks with user policies and hierarchy 
+* Don’t rely on IDs sent from client. Use IDs stored in the session
+object instead
 * Check authorization each time there is a client request to
 access database
 * Use random non-guessable IDs (UUIDs)
