@@ -35,11 +35,11 @@ But here’s the catch: capability mapping isn’t a solo activity. It’s a tea
 
 At its core, a capability map is a structured view of what an organization does — not how it does it, or who does it, or with what tools — but what it must be able to do to fulfill its mission. Think of it as a common language between business, IT, and operations. It’s the foundation for meaningful discussions about priorities, investments, and change.
 
-But too often, these maps are created in isolation — by architects, consultants, or strategy teams — and then handed over to the rest of the organization. That’s like drawing up a game plan without including the players.
+But too often, these maps are created in isolation (by architects, consultants, or strategy teams) and then handed over to the rest of the organization. That’s like drawing up a game plan without including the players.
 
 #### Why capability mapping is a team sport
 
-You can’t map what you don’t understand. And no single role — not the CIO, not the enterprise architect, not even the CEO — understands the full picture. It takes input from product managers, operations leaders, developers, customer support, and more. Each perspective adds a crucial piece to the puzzle.
+You can’t map what you don’t understand. And no single role (not the CIO, not the enterprise architect, not even the CEO) understands the full picture. It takes input from product managers, operations leaders, developers, customer support, and more. Each perspective adds a crucial piece to the puzzle.
 
 Collaboration turns capability mapping from an abstract exercise into a shared sense-making process. Done well, it creates alignment across silos, surfaces mismatches between ambition and ability, and fosters ownership over outcomes.
 
