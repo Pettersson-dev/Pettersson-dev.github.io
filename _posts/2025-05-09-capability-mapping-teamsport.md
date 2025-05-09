@@ -27,13 +27,13 @@ You get them by making capability mapping a team sport and EDGY is the playbook 
 
 ### Capability mapping is a team sport and EDGY is the playbook
 
-In the fast-paced world of digital transformation, every organization is chasing adaptability, alignment, and speed. But getting there isn’t just about deploying the latest technology. It’s about understanding what your organization is capable of — and aligning those capabilities to strategy, structure, and delivery. That’s where capability mapping comes in.
+In the fast-paced world of digital transformation, every organization is chasing adaptability, alignment, and speed. But getting there isn’t just about deploying the latest technology. It’s about understanding what your organization is capable of and aligning those capabilities to strategy, structure, and delivery. That’s where capability mapping comes in.
 
 But here’s the catch: capability mapping isn’t a solo activity. It’s a team sport — and EDGY is the playbook that helps everyone play the same game.
 
 #### What is capability mapping, really?
 
-At its core, a capability map is a structured view of what an organization does — not how it does it, or who does it, or with what tools — but what it must be able to do to fulfill its mission. Think of it as a common language between business, IT, and operations. It’s the foundation for meaningful discussions about priorities, investments, and change.
+At its core, a capability map is a structured view of what an organization does (not how it does it, or who does it, or with what tools) but what it must be able to do to fulfill its mission. Think of it as a common language between business, IT, and operations. It’s the foundation for meaningful discussions about priorities, investments, and change.
 
 But too often, these maps are created in isolation (by architects, consultants, or strategy teams) and then handed over to the rest of the organization. That’s like drawing up a game plan without including the players.
 
@@ -43,7 +43,7 @@ You can’t map what you don’t understand. And no single role (not the CIO, no
 
 Collaboration turns capability mapping from an abstract exercise into a shared sense-making process. Done well, it creates alignment across silos, surfaces mismatches between ambition and ability, and fosters ownership over outcomes.
 
-But collaboration needs structure — and that’s where the EDGY framework shines.
+But collaboration needs structure and that’s where the EDGY framework shines.
 
 #### EDGY: The playbook for mapping together
 
@@ -67,7 +67,7 @@ Making capability mapping a team sport isn’t just about using EDGY. It’s abo
  * Start with purpose. Why are you mapping capabilities? What decisions will it inform?
  * Bring in the right people. Include voices from strategy, delivery, operations, and support.
  * Use visuals. Maps, canvases, and models are tools for co-creation, not just documentation.
- * Iterate openly. Capability maps are living artifacts — not set in stone.
+ * Iterate openly. Capability maps are living artifacts and not set in stone.
 
 #### Final thoughts
 
