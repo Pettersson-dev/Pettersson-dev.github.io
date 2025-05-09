@@ -7,7 +7,9 @@ header:
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 excerpt: "A Modern Approach to System Design"
 ---
+
 In the fast-paced world of digital transformation, every organization is chasing adaptability, alignment, and speed.
+
 ---
 
 
