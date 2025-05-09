@@ -7,8 +7,7 @@ header:
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 excerpt: "A Modern Approach to System Design"
 ---
-In the fast-paced world of digital transformation, every organization is chasing adaptability, alignment, and speed. But getting there isn’t just about deploying the latest technology. It’s about understanding what your organization is capable of — and aligning those capabilities to strategy, structure, and delivery. That’s where capability mapping comes in.
-
+In the fast-paced world of digital transformation, every organization is chasing adaptability, alignment, and speed.
 ---
 
 
