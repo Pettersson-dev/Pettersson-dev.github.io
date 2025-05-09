@@ -8,7 +8,18 @@ header:
 excerpt: "A Modern Approach to System Design"
 ---
 
-In the fast-paced world of digital transformation, every organization is chasing adaptability, alignment, and speed.
+Everyone talks about capability mapping. But the real question is:
+What outcomes are you trying to drive?
+
+Because a map isn’t the goal. The goal is:
+	•	Better strategic alignment
+	•	Smarter investment decisions
+	•	Clearer ownership
+	•	More adaptive delivery
+	•	Shared understanding across silos
+
+You don’t get those outcomes by mapping in a corner.
+You get them by making capability mapping a team sport — and EDGY is the playbook that gets everyone on the field, speaking the same language, and moving in the same direction.
 
 ---
 
