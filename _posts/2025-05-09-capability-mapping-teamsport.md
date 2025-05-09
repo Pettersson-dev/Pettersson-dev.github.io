@@ -12,6 +12,7 @@ Everyone talks about capability mapping. But the real question is:
 What outcomes are you trying to drive?
 
 Because a map isn’t the goal. The goal is:
+
 	•	Better strategic alignment
 	•	Smarter investment decisions
 	•	Clearer ownership
