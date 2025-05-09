@@ -73,5 +73,5 @@ Making capability mapping a team sport isn’t just about using EDGY. It’s abo
 
 In a world where alignment is everything and silos are the enemy, capability mapping can be a game-changer. But only if it’s done collaboratively.
 
-Think of EDGY as your playbook — a structured, visual, and shared approach that brings the team together. Because when everyone plays the same game, you don’t just map capabilities. You unlock them.
+Think of EDGY as your playbook: a structured, visual, and shared approach that brings the team together. Because when everyone plays the same game, you don’t just map capabilities. You unlock them.
 
