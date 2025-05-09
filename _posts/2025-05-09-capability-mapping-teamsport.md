@@ -20,7 +20,7 @@ Because a map isn’t the goal. The goal is:
 	•	Shared understanding across silos
 
 You don’t get those outcomes by mapping in a corner.
-You get them by making capability mapping a team sport — and EDGY is the playbook that gets everyone on the field, speaking the same language, and moving in the same direction.
+You get them by making capability mapping a team sport and EDGY is the playbook that gets everyone on the field, speaking the same language, and moving in the same direction.
 
 ---
 
