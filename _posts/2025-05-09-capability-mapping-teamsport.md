@@ -1,4 +1,18 @@
-* Capability Mapping Is a Team Sport – and EDGY Is the Playbook
+---
+title: "Capability Mapping Is a Team Sport"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
+  caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
+excerpt: "A Modern Approach to System Design"
+---
+In the fast-paced world of digital transformation, every organization is chasing adaptability, alignment, and speed. But getting there isn’t just about deploying the latest technology. It’s about understanding what your organization is capable of — and aligning those capabilities to strategy, structure, and delivery. That’s where capability mapping comes in.
+
+---
+
+
+### Capability Mapping Is a Team Sport – and EDGY Is the Playbook
 
 In the fast-paced world of digital transformation, every organization is chasing adaptability, alignment, and speed. But getting there isn’t just about deploying the latest technology. It’s about understanding what your organization is capable of — and aligning those capabilities to strategy, structure, and delivery. That’s where capability mapping comes in.
 
@@ -44,6 +58,3 @@ In a world where alignment is everything and silos are the enemy, capability map
 
 Think of EDGY as your playbook — a structured, visual, and shared approach that brings the team together. Because when everyone plays the same game, you don’t just map capabilities. You unlock them.
 
-⸻
-
-Would you like a version tailored for LinkedIn, or a visual to go with the post?
