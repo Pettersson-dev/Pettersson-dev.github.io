@@ -51,11 +51,13 @@ EDGY is a modeling framework developed by Intersection Group, designed to make o
 
 In the context of capability mapping, EDGY offers three major advantages:
 
-  1.	A Shared Language
+  1.	A shared language
 EDGY’s formal yet approachable definitions help different stakeholders talk about the same things in the same way. For example, a “capability” in EDGY is not a process or a system — it’s the ability to create value under certain conditions. That clarity is powerful.
-	2.	A Visual Canvas
+ 
+ 2.	A visual canvas
 The EDGY canvas provides a visual, structured format for mapping capabilities and relating them to strategies, services, and roles. This makes it easier to engage stakeholders in workshops and sense-making sessions.
-	3.	Connections Across the Enterprise
+
+ 3.	Connections across the enterprise
 EDGY doesn’t stop at capability maps. It connects capabilities to the experiences you want to create, the structures you need to support them, and the identities that give them purpose. That holistic view is essential for transformation.
 
 #### How to make it work 
