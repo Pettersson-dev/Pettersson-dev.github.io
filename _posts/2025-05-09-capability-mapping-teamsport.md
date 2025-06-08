@@ -29,7 +29,7 @@ You get them by making capability mapping a team sport and EDGY is the playbook 
 
 In the fast-paced world of digital transformation, every organization is chasing adaptability, alignment, and speed. But getting there isn’t just about deploying the latest technology. It’s about understanding what your organization is capable of and aligning those capabilities to strategy, structure, and delivery. That’s where capability mapping comes in.
 
-But here’s the catch: capability mapping isn’t a solo activity. It’s a team sport — and EDGY is the playbook that helps everyone play the same game.
+But here’s the catch: capability mapping isn’t a solo activity. It’s a team sport and EDGY is the playbook that helps everyone play the same game.
 
 #### What is capability mapping, really?
 
@@ -52,7 +52,7 @@ EDGY is a modeling framework developed by Intersection Group, designed to make o
 In the context of capability mapping, EDGY offers three major advantages:
 
   1.	A shared language
-EDGY’s formal yet approachable definitions help different stakeholders talk about the same things in the same way. For example, a “capability” in EDGY is not a process or a system — it’s the ability to create value under certain conditions. That clarity is powerful.
+EDGY’s formal yet approachable definitions help different stakeholders talk about the same things in the same way. For example, a “capability” in EDGY is not a process or a system, it’s the ability to create value under certain conditions. That clarity is powerful.
  
  2.	A visual canvas
 The EDGY canvas provides a visual, structured format for mapping capabilities and relating them to strategies, services, and roles. This makes it easier to engage stakeholders in workshops and sense-making sessions.
