@@ -8,7 +8,7 @@ header:
 excerpt: "A Modern Approach to System Design"
 ---
 
-In today’s rapidly evolving business landscape, flexibility and adaptability are more important than ever. Organizations need to respond quickly to market changes, customer demands, and technological advancements. Traditional monolithic systems—often built around siloed functions—struggle to keep pace with this dynamic environment. Enter the concept of *capabilities*—a powerful framework that enables organizations to decompose, design, and build systems in a way that promotes agility, scalability, and resilience.
+In today’s rapidly evolving business landscape, flexibility and adaptability are more important than ever. Organizations need to respond quickly to market changes, customer demands, and technological advancements. Traditional monolithic systems often built around siloed functions struggle to keep pace with this dynamic environment. Enter the concept of *capabilities* a powerful framework that enables organizations to decompose, design, and build systems in a way that promotes agility, scalability, and resilience.
 
 In this blog post, we'll explore the concept of capabilities and how decomposing systems based on this approach can unlock new levels of efficiency and innovation.
 
@@ -30,7 +30,7 @@ The strength of capabilities lies in their ability to decompose complex systems 
    Large systems, particularly legacy ones, often become monolithic beasts that are difficult to maintain and evolve. Decomposing such systems into capabilities allows architects to isolate distinct functions, each of which can be understood, maintained, and improved independently. This approach makes it easier to address specific pain points without overhauling the entire system.
 
 #### 2. **Enhance Agility**
-   As business needs evolve, so too must systems. Building around capabilities enables organizations to make targeted changes to specific areas without disrupting the entire structure. This modularity fosters agility—teams can adapt and scale individual capabilities faster and with less risk.
+   As business needs evolve, so too must systems. Building around capabilities enables organizations to make targeted changes to specific areas without disrupting the entire structure. This modularity fosters agility teams can adapt and scale individual capabilities faster and with less risk.
 
 #### 3. **Facilitate Better Alignment Between Business and IT**
    One of the perennial challenges in IT architecture is ensuring that the technology supports business objectives. Capabilities bridge the gap between business and IT by focusing on *what* the business needs to achieve. IT can then design, build, and maintain systems that align directly with these capabilities, ensuring that technology serves the organization's strategic goals.
