@@ -120,7 +120,7 @@ Finance ERP and Close as systems of record, enterprise data hub for integration 
   - Event streams, REST APIs, file exchange
 
 ### Interaction Flow
-  
+                   Source Systems
    +--------------------------------------------+
    |  ERP (GL/AP/AR/FA)  |  Close/PBF  | RefMDM |
    +---------------------+-------------+--------+
@@ -152,7 +152,11 @@ Finance ERP and Close as systems of record, enterprise data hub for integration 
             | dashboards, packs|                         | feature store     |
             +------------------+                         +------------------+
 
-
+   Sidecars across all layers
+   - Catalog and lineage
+   - Data quality and observability
+   - Security and access control
+   - Audit and retention
  
 ## 5. Design Principles
 
