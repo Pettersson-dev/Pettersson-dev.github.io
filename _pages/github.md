@@ -12,6 +12,7 @@ header:
 ## Technology
 - [Language selection](https://github.com/Pettersson-dev/Language-selection)
 - [Integration architecture](https://github.com/Pettersson-dev/Integration-architecture)
+- [Application architecture](https://github.com/Pettersson-dev/application-architecture)
 
 ## Security
 - [Security architecture](https://github.com/Pettersson-dev/Security-architecture)
