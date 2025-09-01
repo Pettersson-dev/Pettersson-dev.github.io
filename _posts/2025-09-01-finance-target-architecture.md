@@ -81,17 +81,35 @@ Here’s a simplified view of how the target architecture connects:
     | (Dashboards, AI, ML) |
     +----------------------+
 
-## 6. Benefits of a Finance Target Architecture  
+## 6. Capability-to-System Mapping  
 
-- **Single version of truth** – Consistent data across reporting and BI  
-- **Agility** – Faster close cycles and forecasting updates  
-- **Scalability** – Ability to onboard new entities, systems, and reporting standards  
-- **Transparency** – Strong governance and audit trails for compliance  
-- **Strategic value** – Finance shifts from a control function to a driver of business insight  
+A target architecture should always be grounded in **capabilities**. Below is a high-level mapping of finance capabilities to ERP, Data Hub, and BI.  
+
+| Capability                          | ERP (Finance System) | Data Hub (Integration & MDM) | BI & Analytics        |
+|-------------------------------------|----------------------|-------------------------------|-----------------------|
+| Financial Accounting                | GL, AP, AR           |                               |                       |
+| Financial Consolidation & Close     | Yes                  |                               | Reporting, KPI        |
+| Revenue Recognition                 | Yes                  | Alignment across systems       | Margin analysis       |
+| Budgeting & Forecasting             | Cost planning        | Unified data foundation        | Predictive models     |
+| Regulatory Reporting                | Yes                  | Ensure data lineage            | Compliance reports    |
+| Profitability Analysis              | GL data              | Combine finance + ops data     | Margin & KPI views    |
+| Advanced Analytics & AI/ML          |                      | Data provisioning              | Predictive finance    |
+
+This makes it clear:  
+- **ERP** is the system of record for finance.  
+- **Data Hub** harmonizes and integrates data, ensuring quality and consistency.  
+- **BI** delivers insight by combining financial data with operational perspectives.  
+
+## 7. Benefits of a Finance Target Architecture  
+
+- Single version of truth – Consistent data across reporting and BI  
+- Agility – Faster reporting cycles and forecasting updates  
+- Scalability – Ability to onboard new entities, systems, and reporting standards  
+- Transparency – Clear governance and audit trails  
+- Strategic value – Finance shifts from a control function to a driver of business insight  
 
 ## Conclusion  
 
-Building a modern finance architecture requires more than upgrading the ERP. By designing a layered target architecture — combining finance systems, reporting tools, a robust data hub, and BI capabilities — organizations can transform finance into a true strategic partner for the business.  
+A modern enterprise cannot afford fragmented financial reporting. By designing a target architecture that integrates **ERP, reporting tools, a data hub, and BI**, organizations create a foundation for compliance, agility, and growth.  
 
-The journey isn’t only about technology. It’s about aligning processes, governance, and data culture with the right architectural foundations. Those who succeed will not only close their books faster but also open new opportunities for data-driven growth.  
-
+Finance gains stronger control and faster closes, while leadership benefits from insights that guide long-term strategy.  
