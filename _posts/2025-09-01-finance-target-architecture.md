@@ -8,7 +8,6 @@ header:
 excerpt: "Modern finance functions are expected to deliver far more than accurate bookkeeping. Today’s CFOs, controllers, and analysts must ensure compliance, enable automation, and provide real-time insights that guide strategic decisions."
 ---
 
-
 # Designing a Target Architecture for Finance: From Core Systems to Reporting & Insights  
 
 Modern finance functions are expected to deliver far more than accurate bookkeeping. Today’s CFOs, controllers, and analysts must ensure compliance, enable automation, and provide real-time insights that guide strategic decisions. To support this, organizations need a finance target architecture that brings together **core financial systems, reporting, a data hub, and business intelligence (BI)** in a cohesive way.  
@@ -57,3 +56,42 @@ This layer democratizes access to finance data while ensuring that definitions a
 ## 5. Putting It All Together  
 
 Here’s a simplified view of how the target architecture connects:  
+
+    +----------------------+
+    |  Finance ERP System  |
+    |  (GL, AP, AR, etc.)  |
+    +----------+-----------+
+               |
+               v
+    +----------------------+
+    | Reporting & Close    |
+    | (Consolidation, PBF) |
+    +----------+-----------+
+               |
+               v
+    +----------------------+
+    |   Finance Data Hub   |
+    | (Integration, MDM,   |
+    |  Quality, APIs)      |
+    +----------+-----------+
+               |
+               v
+    +----------------------+
+    |  BI & Analytics      |
+    | (Dashboards, AI, ML) |
+    +----------------------+
+
+## 6. Benefits of a Finance Target Architecture  
+
+- **Single version of truth** – Consistent data across reporting and BI  
+- **Agility** – Faster close cycles and forecasting updates  
+- **Scalability** – Ability to onboard new entities, systems, and reporting standards  
+- **Transparency** – Strong governance and audit trails for compliance  
+- **Strategic value** – Finance shifts from a control function to a driver of business insight  
+
+## Conclusion  
+
+Building a modern finance architecture requires more than upgrading the ERP. By designing a layered target architecture — combining finance systems, reporting tools, a robust data hub, and BI capabilities — organizations can transform finance into a true strategic partner for the business.  
+
+The journey isn’t only about technology. It’s about aligning processes, governance, and data culture with the right architectural foundations. Those who succeed will not only close their books faster but also open new opportunities for data-driven growth.  
+
