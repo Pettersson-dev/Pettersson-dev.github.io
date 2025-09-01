@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 excerpt: "In my previous post, I outlined a modern finance target architecture with ERP, reporting, a finance data hub, and BI/analytics. This follow-up goes one step deeper: how to translate that architecture into an Enterprise Design Blueprint. By mapping capabilities, information, organization, and technology together, finance can move beyond compliance to become a true driver of insight and strategy."
-
+---
 
 
 
