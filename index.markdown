@@ -13,4 +13,4 @@ header:
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 ---
 
-Welcome to my site where I try to gather my thoughts and reflections about software engineering and IT architecture.
+Welcome to my site. Here I share my thoughts, reflections, and experiences from the world of software engineering and IT architecture.
