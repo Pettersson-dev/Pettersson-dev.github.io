@@ -1,4 +1,12 @@
-
+---
+title: "Designing a Target Architecture for Finance"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
+  caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
+excerpt: "Modern finance functions are expected to deliver far more than accurate bookkeeping. Today’s CFOs, controllers, and analysts must ensure compliance, enable automation, and provide real-time insights that guide strategic decisions."
+---
 
 
 # Designing a Target Architecture for Finance: From Core Systems to Reporting & Insights  
