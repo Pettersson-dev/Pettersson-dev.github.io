@@ -88,29 +88,72 @@ This follow-up shows how to **turn that architecture into a structured Enterpris
 | BI and Advanced Analytics   |     |                 | Feature  | Yes                  |
 
 ## 4. Logical Target Architecture
+### Scope
+Finance ERP and Close as systems of record, enterprise data hub for integration and MDM, governed semantic layer for access, BI and data science as consumers.
 
-             Finance ERP (GL/AP/AR/FA)
-                       |
-                       |  CDC/ETL + APIs
-                       v
-   Consolidation and Close (incl. Planning/Budgeting)
-                       |
-                       |  curated extracts
-                       v
-+—————————————————————+
-|                     Enterprise Data Hub                       |
-|  Ingest/CDC | Transform | MDM | Metadata | Quality | APIs     |
-+––––––––––+—————––+–––––––––––+
-|                   |
-v                   v
-Semantic Layer                Feature Store
-|                   |
-v                   v
-BI Dashboards        ML/Forecast Models
-|
-v
-Consumers (CFO, Controllers, Leaders, Auditors)
+### Component View
+- Finance ERP
+  - GL, AP, AR, Fixed Assets, Cash
+  - Authoritative journal and subledger data
+- Consolidation and Close
+  - Eliminations, intercompany, adjustments
+  - Planning, budgeting, forecasting
+- Enterprise Data Hub
+  - Ingestion: CDC, batch, APIs, files
+  - Transformation and orchestration
+  - Data products publishing
+- Master Data Management
+  - Chart of accounts, entities, cost centers, products
+  - Hierarchy and reference data stewardship
+- Storage Zones
+  - Raw, standardized, curated, analytics
+- Semantic Layer
+  - Governed metrics and dimensions
+  - SQL and API access
+- BI and Reporting
+  - Dashboards, board packs, regulatory outputs
+- Data Science and Feature Store
+  - Forecast features and model outputs
+- Governance and Security
+  - Catalog, lineage, data quality, access control, audit
+- Integration Interfaces
+  - Event streams, REST APIs, file exchange
 
+### Interaction Flow
+
+                 Source Systems
+   +--------------------------------------------+
+   |  ERP (GL/AP/AR/FA)  |  Close/PBF  | RefMDM |
+   +---------------------+-------------+--------+
+                 | CDC, batch, APIs, files
+                 v
+   +--------------------------------------------+
+   |              Enterprise Data Hub           |
+   |  ingest  |  transform  |  data products   |
+   +---------------------+---------------------+
+                 | uses                | publishes
+                 v                     v
+   +------------------------+   +------------------------+
+   | Master Data Management |   |     Storage Zones      |
+   | CoA, entities, hier.   |   | raw | std | curated   |
+   +------------------------+   +------------------------+
+                                         |
+                                         | semantic contracts
+                                         v
+                               +-----------------------+
+                               |     Semantic Layer    |
+                               | metrics, dimensions   |
+                               +-----------+-----------+
+                                           |
+                     +---------------------+----------------------+
+                     |                                            |
+                     v                                            v
+            +------------------+                         +------------------+
+            |  BI and Reporting|                         | Data Science/ML  |
+            | dashboards, packs|                         | feature store     |
+            +------------------+                         +------------------+
+
+ 
 ## 5. Design Principles
 
 1. ERP and Close are systems of record — analytics never writes back.  
