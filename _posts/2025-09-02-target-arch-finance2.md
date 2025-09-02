@@ -10,7 +10,7 @@ toc: true
 toc_sticky: true
 ---
 
-# From Target Architecture to Enterprise Design Blueprint for Finance
+# From Target Architecture to Enterprise Design Blueprint for Finance - TODO Redo in EDGY 
 
 In my [previous post, updated on September 1 2025](https://pettersson.dev/finance-target-architecture/), I outlined a modern finance target architecture using core ERP, reporting, a finance data hub, and BI/analytics. That post covered how these components fit together for compliance, reporting, and strategic insight.
 
