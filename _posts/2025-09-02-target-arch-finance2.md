@@ -5,11 +5,10 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
   caption: "Photo credit: [Nate Grant on Unsplash](https://unsplash.com)"
-excerpt: "In my previous post, I outlined a modern finance target architecture with ERP, reporting, a finance data hub, and BI/analytics. This follow-up goes one step deeper: how to translate that architecture into an Enterprise Design Blueprint. By mapping capabilities, information, organization, and technology together, finance can move beyond compliance to become a true driver of insight and strategy."
+excerpt: "In my previous post, I outlined a modern finance target architecture with ERP, reporting, a finance data hub, and BI/analytics. This follow-up goes one step deeper: how to translate that architecture into an Design Blueprint. By mapping capabilities, information, organization, and technology together, finance can move beyond compliance to become a true driver of insight and strategy."
 toc: true
 toc_sticky: true
 ---
-# TODO - Will redo this post using EDGY framework 
 # From Target Architecture to Design Blueprint for Finance
 
 In my [previous post, updated on September 1 2025](https://pettersson.dev/finance-target-architecture/), I outlined a modern finance target architecture using core ERP, reporting, a finance data hub, and BI/analytics. That post covered how these components fit together for compliance, reporting, and strategic insight.
@@ -23,7 +22,7 @@ This follow-up shows how to turn that architecture into a structured model that 
 
 ## 2. Blueprint
 
-**Intent**  
+**Identity**  
 - Purpose: Deliver compliant, timely, and explainable finance information  
 - Value: Reliable reporting, governed data, predictive insights  
 - Success Metrics: Close cycle time, report lead time, forecast accuracy, audit findings
@@ -51,13 +50,13 @@ This follow-up shows how to turn that architecture into a structured model that 
 - Information Governance  
 - Security and Risk
 
-**Information**  
+**Information Assets**  
 - Chart of Accounts, Journal, Ledger, Trial Balance  
 - Consolidated Financial Statements  
 - Entities, Cost Centers, Products, Projects  
 - KPIs and Metrics (margins, cash flow, working capital)
 
-**Technology**  
+**Technology Assets**  
 - ERP / Accounting System  
 - Reporting and Close Tools  
 - Enterprise Data Hub (ETL/MDM, lineage, APIs)  
@@ -65,7 +64,7 @@ This follow-up shows how to turn that architecture into a structured model that 
 
 ## 3. Key Connections 
 
-**Capability - Information**  
+**Capability linked Information**  
 | Capability                    | Information Objects                     |
 |-------------------------------|------------------------------------------|
 | Record to Report              | Journal, Ledger, Chart of Accounts       |
@@ -76,7 +75,7 @@ This follow-up shows how to turn that architecture into a structured model that 
 | Data Integration and MDM      | Chart of Accounts, Entities, Product master |
 | BI and Analytics              | Metrics, Dimensional models              |
 
-**Capability × Technical Assets **  
+**Capability linked Technical Assets**  
 | Capability                  | ERP | Reporting/Close | Data Hub | BI/Analytics         |
 |-----------------------------|-----|-----------------|----------|----------------------|
 | Record to Report            | Yes |                 | Ingest   |                      |
