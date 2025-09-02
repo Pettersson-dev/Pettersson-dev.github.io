@@ -1,5 +1,5 @@
 ---
-title: "From Finance Target Architecture to Enterprise Design Blueprint"
+title: "From Finance Target Architecture to Design Blueprint"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -9,12 +9,12 @@ excerpt: "In my previous post, I outlined a modern finance target architecture w
 toc: true
 toc_sticky: true
 ---
-
-# From Target Architecture to Enterprise Design Blueprint for Finance - TODO Redo in EDGY 
+# TODO - Will redo this post using EDGY framework 
+# From Target Architecture to Design Blueprint for Finance
 
 In my [previous post, updated on September 1 2025](https://pettersson.dev/finance-target-architecture/), I outlined a modern finance target architecture using core ERP, reporting, a finance data hub, and BI/analytics. That post covered how these components fit together for compliance, reporting, and strategic insight.
 
-This follow-up shows how to **turn that architecture into a structured model that connects capabilities, information, organizational structure, technology, and user experiences to drive decisions and investments.
+This follow-up shows how to turn that architecture into a structured model that connects capabilities, information, organizational structure, technology, and user experiences to drive decisions and investments.
 
 ## 1. Scope and Outcomes
 
