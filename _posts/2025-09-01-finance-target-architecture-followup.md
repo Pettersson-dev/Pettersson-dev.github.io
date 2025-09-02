@@ -24,4 +24,4 @@ This blog series will explore:
 
 The first article will lay out a **target architecture for finance** and explain how its components interact. Follow-up posts will dive deeper into governance, design blueprints, and logical data architectures.  
 
-Stay tuned — the journey to **finance as a strategic partner** starts here.  
+Stay tuned!
