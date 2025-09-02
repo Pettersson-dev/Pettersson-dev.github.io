@@ -119,6 +119,7 @@ Finance ERP and Close as systems of record, enterprise data hub for integration 
   - Event streams, REST APIs, file exchange
 
 ### Interaction Flow
+```
                    Source Systems
    +--------------------------------------------+
    |  ERP (GL/AP/AR/FA)  |  Close/PBF  | RefMDM |
@@ -127,13 +128,13 @@ Finance ERP and Close as systems of record, enterprise data hub for integration 
                  v
    +--------------------------------------------+
    |              Enterprise Data Hub           |
-   |  ingest  |  transform  |  data products   |
+   |  ingest  |  transform  |  data products    |
    +---------------------+---------------------+
                  | uses                | publishes
                  v                     v
    +------------------------+   +------------------------+
    | Master Data Management |   |     Storage Zones      |
-   | CoA, entities, hier.   |   | raw | std | curated   |
+   | CoA, entities, hier.   |   | raw | std | curated    |
    +------------------------+   +------------------------+
                                          |
                                          | semantic contracts
@@ -148,7 +149,7 @@ Finance ERP and Close as systems of record, enterprise data hub for integration 
                      v                                            v
             +------------------+                         +------------------+
             |  BI and Reporting|                         | Data Science/ML  |
-            | dashboards, packs|                         | feature store     |
+            | dashboards, packs|                         | feature store    |
             +------------------+                         +------------------+
 
    Crosscutting concerns
@@ -156,7 +157,7 @@ Finance ERP and Close as systems of record, enterprise data hub for integration 
    - Data quality and observability
    - Security and access control
    - Audit and retention
- 
+ ```
 ## 5. Design Principles
 
 1. ERP and Close are systems of record — analytics never writes back.  
