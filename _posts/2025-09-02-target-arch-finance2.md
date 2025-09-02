@@ -65,6 +65,7 @@ This follow-up shows how to turn that architecture into a structured model that 
 ## 3. Key Connections 
 
 **Capability linked Information**  
+
 | Capability                    | Information Objects                     |
 |-------------------------------|------------------------------------------|
 | Record to Report              | Journal, Ledger, Chart of Accounts       |
@@ -75,7 +76,8 @@ This follow-up shows how to turn that architecture into a structured model that 
 | Data Integration and MDM      | Chart of Accounts, Entities, Product master |
 | BI and Analytics              | Metrics, Dimensional models              |
 
-**Capability linked Technical Assets**  
+**Capability linked Technical Assets**
+
 | Capability                  | ERP | Reporting/Close | Data Hub | BI/Analytics         |
 |-----------------------------|-----|-----------------|----------|----------------------|
 | Record to Report            | Yes |                 | Ingest   |                      |
