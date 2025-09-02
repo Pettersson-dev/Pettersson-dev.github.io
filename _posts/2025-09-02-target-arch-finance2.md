@@ -14,14 +14,14 @@ toc_sticky: true
 
 In my [previous post, updated on September 1 2025](https://pettersson.dev/finance-target-architecture/), I outlined a modern finance target architecture using core ERP, reporting, a finance data hub, and BI/analytics. That post covered how these components fit together for compliance, reporting, and strategic insight.
 
-This follow-up shows how to **turn that architecture into a structured Enterprise Design Blueprint**—a model that connects capabilities, information, organizational structure, technology, and user experiences to drive decisions and investments.
+This follow-up shows how to **turn that architecture into a structured model that connects capabilities, information, organizational structure, technology, and user experiences to drive decisions and investments.
 
 ## 1. Scope and Outcomes
 
 - **Scope:** Finance operations, financial close, consolidation, statutory reporting, data hub (integration + MDM), BI, and advanced analytics.  
 - **Outcomes:** Faster and auditable close, single source of truth, governed data products, predictive planning, and self-service insights.
 
-## 2. Blueprint Facets
+## 2. Blueprint
 
 **Intent**  
 - Purpose: Deliver compliant, timely, and explainable finance information  
@@ -63,7 +63,7 @@ This follow-up shows how to **turn that architecture into a structured Enterpris
 - Enterprise Data Hub (ETL/MDM, lineage, APIs)  
 - BI and Analytics Platform
 
-## 3. Key Intersections
+## 3. Key Connections 
 
 **Capability × Information**  
 | Capability                    | Information Objects                     |
@@ -152,7 +152,7 @@ Finance ERP and Close as systems of record, enterprise data hub for integration 
             | dashboards, packs|                         | feature store     |
             +------------------+                         +------------------+
 
-   Sidecars across all layers
+   Crosscutting concerns
    - Catalog and lineage
    - Data quality and observability
    - Security and access control
@@ -182,9 +182,3 @@ Finance ERP and Close as systems of record, enterprise data hub for integration 
 **Wave 3: Predict and Automate**  
 - Rolling forecasts using machine learning  
 - Self-service data portal for finance users
-
-## 7. Conclusion
-
-If the target architecture shows *what* to build, this Enterprise Design Blueprint shows *how* to organize and govern it. By mapping capabilities, information, technology, and organization together, finance can move beyond compliance to become a strategic partner—delivering insights at the speed of business.
-
-If you missed the first post, check it out here: *Designing a Target Architecture for Finance: From Core Systems to Reporting & Insights* (updated September 1, 2025).
