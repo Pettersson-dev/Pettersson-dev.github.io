@@ -66,15 +66,15 @@ This follow-up shows how to turn that architecture into a structured model that 
 
 **Capability linked Information**  
 
-| Capability                    | Information Objects                     |
-|-------------------------------|------------------------------------------|
-| Record to Report              | Journal, Ledger, Chart of Accounts       |
-| Consolidation and Close       | Consolidation rules, Adjustments         |
-| Revenue Recognition           | Contracts, Schedules                     |
-| Planning and Forecasting      | Plans, Versions, Assumptions             |
-| Reporting and Compliance      | Statements, KPIs, Disclosures            |
+| Capability                    | Information Objects                         |
+|-------------------------------|---------------------------------------------|
+| Record to Report              | Journal, Ledger, Chart of Accounts          |
+| Consolidation and Close       | Consolidation rules, Adjustments            |
+| Revenue Recognition           | Contracts, Schedules                        |
+| Planning and Forecasting      | Plans, Versions, Assumptions                |
+| Reporting and Compliance      | Statements, KPIs, Disclosures               |
 | Data Integration and MDM      | Chart of Accounts, Entities, Product master |
-| BI and Analytics              | Metrics, Dimensional models              |
+| BI and Analytics              | Metrics, Dimensional models                 |
 
 **Capability linked Technical Assets**
 
