@@ -12,7 +12,7 @@ toc_sticky: true
 
 # From Blueprint to Execution: Making Finance Target Architecture Real
 
-In the [first post](https://pettersson.dev/finance-target-architecture/), I outlined a **target architecture for finance** — built on ERP, reporting, a finance data hub, and BI. In the [second post](https://pettersson.dev/from-finance-target-architecture-to-enterprise-design-blueprint/), I explored how to **translate that architecture into an enterprise design blueprint** with capabilities, intersections, and logical components.  
+In the [first post](https://pettersson.dev/finance-target-architecture/), I outlined a **target architecture for finance** — built on ERP, reporting, a finance data hub, and BI. In the [second post](https://pettersson.dev/target-arch-finance2/), I explored how to **translate that architecture into a design blueprint** with capabilities, intersections, and logical components.  
 
 This third and final post looks at the next step: **execution**. How do organizations move from blueprint to reality?  
 
