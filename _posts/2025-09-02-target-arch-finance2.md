@@ -124,8 +124,8 @@ Finance ERP and Close as systems of record, enterprise data hub for integration 
   +------------------+        +--------------------------------------------+
    |  Source Systems |        |  ERP (GL/AP/AR/FA)  |  Close/PBF  | RefMDM |
    +-----------------+        +---------------------+-------------+--------+
-         | CDC, batch, APIs, files            |   Synch       ^
-         v                                    v               |    
+         | CDC, batch, APIs, files            |  🮧 Bidirectional Synchronize
+         v                                    v  |    
    +-----------------------------------------------------------------------+
    |              Enterprise Data Hub                                      |
    |  ingest  |  transform  |  data products                               |
