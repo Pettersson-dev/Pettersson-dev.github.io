@@ -66,7 +66,7 @@ From working with finance and architecture teams, three lessons stand out:
 
 1. **Start with outcomes.** Technology choices matter less than delivering faster closes, better forecasts, and trusted reports.  
 2. **Invest in data governance early.** Without consistent master data, BI and analytics cannot deliver on their promise.  
-3. **Adoption beats perfection.** It is better to deliver a good-enough semantic layer with clear KPIs than to aim for a perfect model that never goes live.  
+3. **Adoption beats perfection.** It is better to deliver a good-enough semantic layer with clear KPIs than to aim for a perfect model.  
 
 ## 6. Conclusion
 
