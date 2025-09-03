@@ -75,7 +75,3 @@ Over this series, we’ve gone from:
 - A **target architecture** for finance (ERP + reporting + data hub + BI).  
 - To a **design blueprint** mapping capabilities, information, and technology.  
 - And now to **execution strategies** that make the vision real.  
-
-The journey does not end here. Finance architecture is a continuous evolution. The organizations that succeed are those that treat data as a product, align finance and IT around shared outcomes, and embrace continuous improvement.  
-
-**Architecture is never “done.”** But with the right target, blueprint, and execution approach, finance can move beyond compliance to become a true driver of business strategy.  
