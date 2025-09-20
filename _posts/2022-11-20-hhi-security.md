@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 excerpt: "Security in the interaction between humans using voice, mail etc."
-
+classes: wide
 ---
 Security in the interaction between humans using voice, mail etc.
 
