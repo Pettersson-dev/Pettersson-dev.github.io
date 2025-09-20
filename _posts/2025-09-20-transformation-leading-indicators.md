@@ -5,6 +5,7 @@ last_modified_at: 2025-09-20
 categories:
   - Transformation
   - Leadership
+classes: wide
 tags:
   - Change Management
   - Leading Indicators
