@@ -19,7 +19,6 @@ Designing a compelling **retail mobile experience** requires more than just feat
 
 The diagram above illustrates a **service design blueprint** for a convenience retail mobile app. It highlights three layers of design thinking:
 
----
 
 ## Customer Experience
 At the top we see the **customer-facing intentions**—what people actually want to achieve:
@@ -34,7 +33,6 @@ At the top we see the **customer-facing intentions**—what people actually want
 
 These intentions anchor the design around **jobs-to-be-done** rather than isolated features.
 
----
 
 ## Application Layer
 The middle layer captures **application features** that bring those experiences to life:
@@ -48,7 +46,6 @@ The middle layer captures **application features** that bring those experiences 
 
 This layer shows how **app design must bundle transactional, promotional, and engagement features** in a cohesive experience.
 
----
 
 ## Capability Layer
 Finally, the foundation: **enterprise capabilities**. These ensure the retail ecosystem can scale and adapt:
@@ -62,7 +59,6 @@ Finally, the foundation: **enterprise capabilities**. These ensure the retail ec
 
 By making capabilities explicit, we avoid the trap of feature-only thinking. Instead, the blueprint shows how **capabilities drive resilience, scalability, and future innovation**.
 
----
 
 ## Why This Matters
 Most retail apps fail because they stop at the **feature level**. This EDGY-inspired blueprint makes it clear:  
@@ -73,7 +69,6 @@ Most retail apps fail because they stop at the **feature level**. This EDGY-insp
 
 With this structured view, retailers can prioritize investments, identify missing capabilities (e.g., subscription management), and design experiences that **truly deliver value**.
 
----
 
 ## Final Thoughts
 The blueprint is not just a diagram—it’s a **conversation tool**. It helps business leaders, architects, and designers align around the same service vision.  
