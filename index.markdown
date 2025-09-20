@@ -23,7 +23,7 @@ The goal is to make complex change more tangible by connecting strategy, capabil
 
 Highlights include:  
 - [Finance Target Architecture](/finance-target-architecture-followup/)  
-- [Convenience Retail Mobile Blueprint](/fiservice%20design/retail-convenience-cx/)  
+- [Convenience Retail Mobile Blueprint](/enterprise%20architecture/fiservice%20design/retail-convenience-cx/)  
 - [TOGAF ADM in Practice](/adm/)
 - [Leading indicators in digital transformation](/transformation/leadership/transformation-leading-indicators/)
 
