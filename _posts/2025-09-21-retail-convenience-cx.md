@@ -2,7 +2,7 @@
 title: "Service Design Blueprint for a Retail Mobile Experience"
 excerpt: "Exploring how EDGY service design thinking and capability mapping shape the next generation of retail apps."
 header:
-  overlay_image: /assets/images/Convenvience-Mobile.jpeg
+  overlay_image: /assets/images/Convenvience-Mobile.png
   overlay_filter: 0.4
   caption: "Service design blueprint for convenience retail"
 categories:
@@ -44,7 +44,7 @@ The middle layer captures **application features** that bring those experiences 
 - Store locator & geo-services  
 - Digital offers, push notifications, and referral programs  
 - Games and gamification features  
-- Gift cards and subscription models (notably marked as **missing/failure** in this study)
+- Gift cards and subscription models (notably marked as **missing** in this study)
 
 This layer shows how **app design must bundle transactional, promotional, and engagement features** in a cohesive experience.
 
