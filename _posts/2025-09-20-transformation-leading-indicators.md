@@ -14,8 +14,8 @@ excerpt: "Lagging indicators show the past, but leading indicators give you the 
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/finance-blueprint-execution.jpg
-  caption: "Photo credit: Unsplash"
+  overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
+  caption: "Photo credit: [Nate Grant on Unsplash](https://unsplash.com)"
 ---
 
 # Leading Indicators for Change: Spotting Early Signals Before It’s Too Late  
