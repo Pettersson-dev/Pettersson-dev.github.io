@@ -6,6 +6,7 @@ header:
   overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 excerpt: "Modern finance functions are expected to deliver far more than accurate bookkeeping. Today’s CFOs, controllers, and analysts must ensure compliance, enable automation, and provide real-time insights that guide strategic decisions."
+classes: wide
 ---
 
 # Designing a Target Architecture for Finance: From Core Systems to Reporting & Insights  
