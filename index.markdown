@@ -4,7 +4,7 @@
 
 layout: home
 author_profile: true
-
+classes: wide
 title: Welcome!
 header:
   overlay_color: "#000"
