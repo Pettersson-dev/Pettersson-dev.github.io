@@ -19,7 +19,7 @@ tags:
 
 Designing a compelling **retail mobile experience** requires more than just features—it demands a structured service design blueprint that connects **customer journeys, applications, and enterprise capabilities**. Using the [EDGY](https://intersection.group/edgy) framework, we can visualize how customer value is created by aligning **experience, capabilities, and technology**.
 
-[![styled-image](/assets/images/Convenvience-Mobile.png "Retail CX Service Design"){: .align-center}](/assets/images/Convenvience-Mobile.png "Retail CX Service Design")
+[![styled-image](/assets/images/Convenvience-Mobile.png "Retail CX Service Design")](/assets/images/Convenvience-Mobile.png "Retail CX Service Design")
 
 The diagram above illustrates a **service design blueprint** for a convenience retail mobile app. It highlights three layers of design thinking:
 
