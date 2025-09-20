@@ -6,6 +6,7 @@ header:
   overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 excerpt: "CI/CD - continuous integration/continuous delivery"
+classes: wide
 ---
 
 In today’s tech-driven world, businesses need to stay ahead of the competition and keep up with customer demand. To do this, they must be agile and autonomous; meaning that they can quickly develop, deploy, and maintain applications with minimal human intervention. This is where continuous integration/continuous delivery (CI/CD) comes in.
