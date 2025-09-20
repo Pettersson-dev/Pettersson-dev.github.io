@@ -21,8 +21,7 @@ This site is where I share perspectives on **target architectures, service desig
 Much of my writing builds on frameworks such as **EDGY by Intersection**, **TM Forum ODA**, and **TOGAF**, applied to real-world architecture challenges.  
 The goal is to make complex change more tangible by connecting strategy, capabilities, and technology.  
 
-Highlights include:  
-- [Finance Target Architecture Series](/finance-target-architecture-design/)
+Highlights include: 
 - [Convenience Retail Mobile Blueprint](/enterprise%20architecture/service%20design/retail-convenience-cx/)  
 - [TOGAF ADM in Practice](/adm/)
 - [Leading indicators in digital transformation](/transformation/leadership/transformation-leading-indicators/)
