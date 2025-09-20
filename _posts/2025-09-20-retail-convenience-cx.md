@@ -2,9 +2,10 @@
 title: "Service Design Blueprint for a Retail Mobile Experience"
 excerpt: "Exploring how EDGY service design thinking and capability mapping shape the next generation of retail apps."
 header:
-  overlay_image: /assets/images/Convenvience-Mobile.png
-  overlay_filter: 0.4
-  caption: "Service design blueprint for convenience retail"
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
+  caption: "Photo credit: [Nate Grant on Unsplash](https://unsplash.com)"
 categories:
   - Enterprise Architecture
   - Service Design
