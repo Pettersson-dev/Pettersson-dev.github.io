@@ -8,6 +8,7 @@ header:
 excerpt: "In this final post of the series, I explore how to turn a finance target architecture and design blueprint into reality. What does it take to move from vision to execution — and what pitfalls should you watch out for?"
 toc: true
 toc_sticky: true
+classes: wide
 ---
 
 # From Blueprint to Execution: Making Finance Target Architecture Real
