@@ -8,6 +8,7 @@ header:
 excerpt: "In my previous post, I outlined a modern finance target architecture with ERP, reporting, a finance data hub, and BI/analytics. This follow-up goes one step deeper: how to translate that architecture into an Design Blueprint. By mapping capabilities, information, organization, and technology together, finance can move beyond compliance to become a true driver of insight and strategy."
 toc: true
 toc_sticky: true
+classes: wide
 ---
 # From Target Architecture to Design Blueprint for Finance
 
