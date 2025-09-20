@@ -7,6 +7,7 @@ header:
   caption: "Photo credit: [Unsplash](https://unsplash.com)"
 excerpt: "Finance systems are evolving. In this new series, I’ll explore how target architectures can bring together ERP, reporting, data hubs, and analytics to create a trusted foundation for insight and decision-making."
 toc: false
+classes: wide
 ---
 
 # Introducing the Finance Target Architecture Series
