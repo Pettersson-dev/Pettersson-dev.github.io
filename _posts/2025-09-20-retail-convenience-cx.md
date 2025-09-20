@@ -9,6 +9,7 @@ header:
 categories:
   - Enterprise Architecture
   - Service Design
+classes: wide
 tags:
   - EDGY
   - Retail
