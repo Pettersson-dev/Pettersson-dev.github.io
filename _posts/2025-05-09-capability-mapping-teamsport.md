@@ -6,6 +6,7 @@ header:
   overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 excerpt: "A Modern Approach to System Design"
+classes: wide
 ---
 
 Everyone talks about capability mapping. But the real question is:
