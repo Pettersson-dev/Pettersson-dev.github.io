@@ -12,8 +12,9 @@ tags:
   - Strategy
 excerpt: "Lagging indicators show the past, but leading indicators give you the early signals that predict if change will succeed. Here’s how to spot and use them."
 header:
-  overlay_image: /assets/images/leading-indicators.jpg
-  overlay_filter: 0.4
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/finance-blueprint-execution.jpg
   caption: "Photo credit: Unsplash"
 ---
 
@@ -28,8 +29,6 @@ Leading indicators are measurable actions or patterns that occur early in a chan
 
 They are often softer, behavior-based, and qualitative, but they are powerful predictors of whether your change effort is on track.  
 
----
-
 ## Examples of Leading Indicators for Change  
 
 ### 1. Employee Engagement in Change Activities  
@@ -39,7 +38,7 @@ They are often softer, behavior-based, and qualitative, but they are powerful pr
 
 **Example:** A hospital introducing a new digital patient portal tracks how many nurses and doctors attend optional training sessions. Early participation predicts later adoption rates.  
 
----
+
 
 ### 2. Speed of Decision-Making  
 **What to look for** is the time taken from identifying a problem to making a decision and acting on it.  
@@ -48,7 +47,7 @@ They are often softer, behavior-based, and qualitative, but they are powerful pr
 
 **Example:** An engineering firm implementing agile ways of working measures whether cross-functional teams resolve blockers within 48 hours instead of waiting for escalation.  
 
----
+
 
 ### 3. Experimentation and Learning Velocity  
 **What to look for** is the number of experiments run, lessons documented, and iterations made.  
@@ -57,7 +56,7 @@ They are often softer, behavior-based, and qualitative, but they are powerful pr
 
 **Example:** A retailer shifting toward online sales tracks how often product teams release small A/B tests on their website. A rise in testing activity is a leading indicator that digital practices are sticking.  
 
----
+
 
 ### 4. Customer Curiosity and Early Adoption  
 **What to look for** includes the uptake of beta programs, the number of customers signing up for pilots, or engagement with new features.  
@@ -66,7 +65,7 @@ They are often softer, behavior-based, and qualitative, but they are powerful pr
 
 **Example:** A bank introducing mobile ID verification sees 30 percent of customers opting in during the pilot phase, a strong leading sign of eventual mass adoption.  
 
----
+
 
 ### 5. Collaboration Across Silos  
 **What to look for** includes the number of cross-departmental initiatives, shared documents, or joint workshops.  
@@ -75,12 +74,12 @@ They are often softer, behavior-based, and qualitative, but they are powerful pr
 
 **Example:** A manufacturing company introducing sustainability practices counts how many product teams and supply chain managers collaborate on lifecycle assessments. This is a leading indicator of future environmental impact reductions.  
 
----
+
 
 ## Turning Leading Indicators into Action  
 Leading indicators should not remain abstract. They should be defined clearly by choosing behaviors or actions that can actually be observed or measured. They should be tracked consistently by making them part of dashboards or regular retrospectives. They should be connected to lagging indicators by showing how early behaviors eventually impact outcomes, so teams understand the causal link.  
 
----
+
 
 ## Final Thought  
 Change leadership is often described as walking in the fog. Lagging indicators are the road signs you see too late. Leading indicators are the faint lights ahead that help you steer before you drift off course.  
