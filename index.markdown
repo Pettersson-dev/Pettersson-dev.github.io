@@ -22,8 +22,9 @@ Much of my writing builds on frameworks such as **EDGY by Intersection**, **TM F
 The goal is to make complex change more tangible by connecting strategy, capabilities, and technology.  
 
 Highlights include:  
-- [Finance Target Architecture](/posts/finance-target-architecture/)  
-- [Convenience Retail Mobile Blueprint](/posts/retail-mobile-service-design/)  
-- [TOGAF ADM in Practice](/posts/togaf-adm/)  
+- [Finance Target Architecture](/posts/finance-target-architecture-followup/)  
+- [Convenience Retail Mobile Blueprint](/fiservice design/retail-convenience-cx/)  
+- [TOGAF ADM in Practice](/adm/)
+- [Leading indicators in digital transformation](/transformation/leadership/transformation-leading-indicators/)
 
 If you’d like to continue the conversation, connect with me on [LinkedIn](https://www.linkedin.com/in/davepettersson/).
