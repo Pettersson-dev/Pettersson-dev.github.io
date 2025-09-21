@@ -1,1 +1,4 @@
-
+---
+title: "EDGY"
+permalink: /edgy/
+---
