@@ -14,6 +14,8 @@ tags:
   - Transformation
   - Strategy
   - Finance
+categories:
+  - Finance
 ---
 # From Target Architecture to Design Blueprint for Finance
 
