@@ -7,6 +7,8 @@ header:
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 excerpt: "Security in the interaction between humans using voice, mail etc."
 classes: wide
+tags:
+  - Security
 ---
 Security in the interaction between humans using voice, mail etc.
 
