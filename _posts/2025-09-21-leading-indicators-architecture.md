@@ -3,7 +3,8 @@ title: "Leading Indicators for Change"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/leading-indicators.jpg
+  overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
+  caption: "Photo credit: [Nate Grant on Unsplash](https://unsplash.com)"
 excerpt: "Why architects and leaders should look beyond lagging metrics when guiding transformation."
 categories:
   - Enterprise Architecture
