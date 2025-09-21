@@ -7,6 +7,8 @@ header:
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 excerpt: "Integration between different machines over a communication medium, such as APIs, events or files"
 classes: wide
+tags:
+  - Security
 ---
 Integration between different machines over a communication medium, such as APIs, events or files
 
