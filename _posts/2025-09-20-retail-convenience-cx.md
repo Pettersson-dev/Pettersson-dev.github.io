@@ -21,7 +21,7 @@ Designing a compelling **retail mobile experience** requires more than just feat
 
 [![styled-image](/assets/images/Convenvience-Mobile.png "Retail CX Service Design")](/assets/images/Convenvience-Mobile.png "Retail CX Service Design")
 
-The diagram above illustrates a **service design blueprint** for a convenience retail mobile app. It highlights three layers of design thinking:
+The diagram above illustrates a **service design blueprint** for a convenience retail mobile experience. It highlights three layers of design thinking:
 
 
 ## Customer Experience
@@ -46,7 +46,7 @@ The middle layer captures **application features** that bring those experiences 
 - Store locator & geo-services  
 - Digital offers, push notifications, and referral programs  
 - Games and gamification features  
-- Gift cards and subscription models (notably marked as **missing** in this study)
+- Gift cards and subscription models (notably marked as **missing** in this study and often become features in later releases).
 
 This layer shows how **app design must bundle transactional, promotional, and engagement features** in a cohesive experience.
 
