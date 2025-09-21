@@ -11,6 +11,9 @@ tags:
   - Enterprise Architecture
   - Transformation
   - EDGY
+categories:
+  - EDGY
+  - Transformation
 ---
 
 Everyone talks about capability mapping. But the real question is:
