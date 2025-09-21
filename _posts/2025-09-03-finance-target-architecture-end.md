@@ -9,6 +9,10 @@ excerpt: "In this final post of the series, I explore how to turn a finance targ
 toc: true
 toc_sticky: true
 classes: wide
+tags:
+  - Target Architecture
+  - Transformation
+  - Strategy
 ---
 
 # From Blueprint to Execution: Making Finance Target Architecture Real
