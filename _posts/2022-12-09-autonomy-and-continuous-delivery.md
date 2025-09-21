@@ -24,7 +24,7 @@ When done right, CI/CD provides:
 - Consistency and reliability in deployments  
 - Autonomy for teams to ship value without bottlenecks  
 
----
+
 
 # CI/CD Guidelines  
 
@@ -66,7 +66,7 @@ When done right, CI/CD provides:
 - **Automated feedback:** Provide developers immediate visibility on builds, tests, and deployments.  
 - **Continuous improvement:** Run retrospectives on pipeline performance and adjust.  
 
----
+
 
 # Closing Thoughts  
 CI/CD is more than automation — it’s the foundation for **autonomous teams**. By embedding testing, security, and monitoring into the delivery pipeline, teams gain the confidence to release frequently, safely, and at scale.  
