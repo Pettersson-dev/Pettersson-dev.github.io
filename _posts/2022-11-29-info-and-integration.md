@@ -21,6 +21,7 @@ There are many integration styles. This post highlights three of the most common
 2. **Event-based integration**  
 3. **Information hub-based integration**  
 
+Each style comes with its own strengths, trade-offs, and risks. In practice, enterprises usually apply a **blend of all three**, depending on the business domain and use case.  
 
 # API-based integration  
 API-based integration decouples information from database implementations. APIs expose data and functionality through standardized interfaces, and can be designed in different styles — from **action-based** (SOAP, gRPC) to **resource-based** (REST, GraphQL).  
@@ -42,6 +43,11 @@ API integration can be delivered **centrally** (by a dedicated integration team)
 - Requires **temporal coupling** — both systems must be available at the same time  
 - Load handling and retry logic are often pushed to clients  
 
+## Example use cases  
+- Customer-facing portals calling product, pricing, and order APIs  
+- Mobile apps integrating with back-end services  
+- Partner integration through exposed APIs  
+
 # Event-based integration  
 Event-based integration addresses the **temporal coupling problem** in APIs. Instead of synchronous requests, systems publish and subscribe to events on topics. This reduces direct dependencies between systems and promotes looser coupling.  
 
@@ -60,6 +66,11 @@ Event-based integration addresses the **temporal coupling problem** in APIs. Ins
 - More complex than simple point-to-point APIs  
 - Data consistency challenges (eventual consistency)  
 - Requires strong monitoring and governance to avoid “event spaghetti”  
+
+## Example use cases  
+- E-commerce order events triggering warehouse and billing processes  
+- Customer data change events (e.g., GDPR updates) published to multiple consuming systems  
+- Real-time IoT telemetry streams  
 
 # Information hub-based integration  
 In an **information hub** model, integration is centered on **information** rather than system-to-system flows. The hub acts as a master for shared data — often as a **data lake or data warehouse** — ingesting, enriching, and distributing information for reporting and consumption.  
@@ -82,6 +93,25 @@ In an **information hub** model, integration is centered on **information** rath
 - Without strong data governance, data quality can degrade  
 - Processing and storage costs can become significant  
 - Risk of turning into a “data swamp” if design and stewardship are weak  
+
+## Example use cases  
+- Enterprise data warehouse supporting financial reporting  
+- Data lake aggregating telemetry from diverse platforms  
+- Master data hub ensuring consistent customer or product information  
+
+# Choosing the right integration style  
+- **Use APIs** when you need **transactional, request/response** communication between systems.  
+- **Use events** when you need **real-time, decoupled notifications** and want to scale to many subscribers.  
+- **Use an information hub** when your focus is **analytics, reporting, and long-term data retention**.  
+
+In reality, most organizations combine these: an API exposes product information, events notify downstream systems of changes, and a hub stores the full product history for analysis.  
+
+# Governance considerations  
+Integration is not just technical — it must be governed as an **enterprise capability**. Key practices include:  
+- **API catalogues** to avoid duplication and shadow integrations  
+- **Event schemas and versioning** to maintain contract clarity  
+- **Data stewardship** for information hubs to ensure data quality and compliance  
+- **Security controls** (authentication, encryption, monitoring) across all integration styles  
 
 # Closing Thoughts  
 There is no single “best” integration style. Most organizations use a **mix**:  
