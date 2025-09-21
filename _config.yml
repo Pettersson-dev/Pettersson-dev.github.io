@@ -1,51 +1,40 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# --- Site settings ---
 title: pettersson.dev
 email: david@pettersson.dev
-description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my site where I try to gather my thoughts and reflections about software engineering and IT architecture.
+description: >-
+  Enterprise Architecture made practical — ADM, EDGY, TM Forum. Notes and reflections on software engineering and IT architecture.
+url: "https://pettersson.dev"
+locale: "en"
+timezone: "Europe/Stockholm"
+
 github_username: pettersson-dev
-minimal_mistakes_skin: "contrast"
+minimal_mistakes_skin: "contrast"   # your current skin
 search: true
 
-# Build settings
+# --- Build settings ---
 markdown: kramdown
+highlighter: rouge
 remote_theme: mmistakes/minimal-mistakes
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+# Output
+permalink: /:categories/:title/
+paginate: 10
+paginate_path: /page/:num/
+
+# Include folders
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Exclude from build
+exclude:
+  - README.md
+  - node_modules
+  - vendor
+  - .github
+  - package.json
+  - package-lock.json
 
-# Plugins (previously gems:)
+# --- Plugins (GitHub Pages-safe) ---
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -55,10 +44,25 @@ plugins:
   - jekyll-include-cache
   - jekyll-seo-tag
 
+# --- Theme options ---
+breadcrumbs: true
+lunr:
+  search_within_pages: true
+
+# --- SEO ---
+seo:
+  type: "Person"
+  name: "David Pettersson"
+  social:
+    links:
+      - https://www.linkedin.com/in/petterssondavid
+      - https://github.com/pettersson-dev
+
+# --- Author profile ---
 author:
   name   : "David Pettersson"
   avatar : "/assets/images/B171E59B-7F3B-48E1-BD7E-61471D87E1C2.jpeg"
-  bio    : "I am a technical professional dedicated to improving efficiency and business value by enabling teams and individuals in digital transformation."
+  bio    : "Enterprise Architect — ADM in practice with EDGY. I help teams turn strategy into execution."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -73,17 +77,23 @@ author:
       icon: "fab fa-linkedin-in"
       url: "https://www.linkedin.com/in/petterssondavid"
 
+# --- Footer links ---
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/pettersson-dev"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin-in"
+      url: "https://www.linkedin.com/in/petterssondavid"
 
+# --- Analytics ---
 analytics:
-  provider: "custom"
- 
+  provider: "custom"   # keep as-is (you can add Plausible/GA later)
+
+# --- Defaults ---
 defaults:
-  # _posts
+  # Posts
   - scope:
       path: ""
       type: posts
@@ -93,14 +103,27 @@ defaults:
       read_time: true
       share: true
       related: true
-  # _pages
+      toc: true
+      toc_sticky: true
+      toc_label: "On this page"
+      comments: false
+      classes: wide
+      excerpt_separator: "<!--more-->"
+      image: /assets/images/social/default-og.png
+      header:
+        overlay_filter: 0.5
+
+  # Pages
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
+      toc: false
+      classes: wide
 
+# --- Archives ---
 category_archive:
   type: liquid
   path: /categories/
