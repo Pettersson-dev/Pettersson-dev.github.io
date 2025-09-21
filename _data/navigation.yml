@@ -1,11 +1,9 @@
 # main links
 main:
-  - title: "ADM in practice"
-    url: /adm/
+  - title: "Transformation"
+    url: /transformation/
   - title: "EDGY"
     url: /edgy/
-  - title: "TM Forum"
-    url: /tmforum/
   - title: "Blog"
     url: /year-archive/
   - title: "Repositories"
