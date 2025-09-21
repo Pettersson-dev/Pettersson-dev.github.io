@@ -1,9 +1,9 @@
 # main links
 main:
   - title: "Transformation"
-    url: /transformation/
+    url: /tags/#transformation/
   - title: "EDGY"
-    url: /edgy/
+    url: /tags/#EDGY/
   - title: "Blog"
     url: /year-archive/
   - title: "Repositories"
