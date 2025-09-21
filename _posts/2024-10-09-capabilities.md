@@ -11,6 +11,8 @@ tags:
   - Enterprise Architecture
   - Transformation
   - EDGY
+categories:
+  - Capability Mapping
 ---
 
 In today’s rapidly evolving business landscape, flexibility and adaptability are more important than ever. Organizations need to respond quickly to market changes, customer demands, and technological advancements. Traditional monolithic systems often built around siloed functions struggle to keep pace with this dynamic environment. Enter the concept of *capabilities* a powerful framework that enables organizations to decompose, design, and build systems in a way that promotes agility, scalability, and resilience.
