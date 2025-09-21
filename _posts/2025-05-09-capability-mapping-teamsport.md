@@ -7,6 +7,11 @@ header:
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 excerpt: "A Modern Approach to System Design"
 classes: wide
+tags:
+  - Enterprise Architecture
+  - Togaf ADM
+  - Transformation
+  - EDGY
 ---
 
 Everyone talks about capability mapping. But the real question is:
