@@ -1,14 +1,16 @@
 # main links
 main:
-  #- title: "Quick-Start Guide"
-  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Start here"
+    url: /start-here/
+  - title: "ADM in practice"
+    url: /adm/
+  - title: "EDGY"
+    url: /edgy/
+  - title: "TM Forum"
+    url: /tmforum/
   - title: "Blog"
-    url: /blog/
+    url: /year-archive/
   - title: "Repositories"
     url: /github/
   - title: "About"
     url: /about/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
