@@ -9,6 +9,10 @@ excerpt: "In my previous post, I outlined a modern finance target architecture w
 toc: true
 toc_sticky: true
 classes: wide
+tags:
+  - Target Architecture
+  - Transformation
+  - Strategy
 ---
 # From Target Architecture to Design Blueprint for Finance
 
