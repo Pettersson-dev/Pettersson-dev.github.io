@@ -7,6 +7,8 @@ header:
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 excerpt: "Know your trust anchors."
 classes: wide
+tags:
+  - Security
 ---
 Know your trust anchors.
 
