@@ -7,6 +7,8 @@ header:
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 excerpt: "Draft of a security questionnaire for vendor and solution evaluation"
 classes: wide
+tags:
+  - Security
 ---
 Draft of a security questionnaire for vendor and solution evaluation
 ## Policies and organisation 
