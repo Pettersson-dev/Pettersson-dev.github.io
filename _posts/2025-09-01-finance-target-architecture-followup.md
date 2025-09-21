@@ -13,6 +13,8 @@ tags:
   - Transformation
   - Strategy
   - Financce
+categories:
+  - Finance
 ---
 
 # Introducing the Finance Target Architecture Series
