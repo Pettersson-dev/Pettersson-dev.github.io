@@ -7,6 +7,9 @@ header:
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 excerpt: " "
 classes: wide
+tags:
+  - Transformation
+  - Security
 ---
 
 It's no secret that information technology (IT) security is an ever-evolving field. As technology advances, so do the threats to organizations of all sizes. To stay ahead of the curve, companies must develop a comprehensive IT security strategy that addresses current and emerging risks.
