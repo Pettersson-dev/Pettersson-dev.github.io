@@ -1,9 +1,9 @@
 # main links
 main:
   - title: "Transformation"
-    url: /categories/#transformation/
+    url: /categories/#transformation
   - title: "EDGY"
-    url: /categories/#edgy/
+    url: /categories/#edgy
   - title: "Blog"
     url: /year-archive/
   - title: "Repositories"
