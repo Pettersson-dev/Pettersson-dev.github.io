@@ -21,7 +21,7 @@ The goal is to make complex change more tangible by connecting strategy, capabil
 Highlights include: 
 - [Convenience Retail Mobile Blueprint]({% post_url 2025-09-20-retail-convenience-cx %})
 - [TOGAF ADM in Practice]({% post_url 2025-09-20-adm %})
-- [Leading indicators in digital transformation]({% post_url 2025-09-21-transformation-leading-indicators %})
+- [Leading indicators in digital transformation]({% post_url 2025-09-20-transformation-leading-indicators %})
 
 
 If you’d like to continue the conversation, connect with me on [LinkedIn](https://www.linkedin.com/in/davepettersson/).
