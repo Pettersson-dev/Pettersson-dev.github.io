@@ -7,6 +7,8 @@ header:
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 excerpt: "Integration between different machines over a communication medium"
 classes: wide
+tags:
+  - Security
 ---
 
 # Background
