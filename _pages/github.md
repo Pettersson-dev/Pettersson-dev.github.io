@@ -8,6 +8,7 @@ header:
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 
 ---
+A curated list of my github projects.
 
 ## Technology
 - [Language selection](https://github.com/Pettersson-dev/Language-selection)
