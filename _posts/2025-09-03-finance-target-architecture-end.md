@@ -13,6 +13,7 @@ tags:
   - Target Architecture
   - Transformation
   - Strategy
+  - Finance
 ---
 
 # From Blueprint to Execution: Making Finance Target Architecture Real
