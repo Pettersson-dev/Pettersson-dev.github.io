@@ -1,6 +1,7 @@
 ---
 permalink: /github/
 title: "Repositories"
+excerpt: "A curated list of my github projects."
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -8,7 +9,6 @@ header:
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 
 ---
-A curated list of my github projects.
 
 ## Technology
 - [Language selection](https://github.com/Pettersson-dev/Language-selection)
