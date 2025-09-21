@@ -12,6 +12,8 @@ tags:
   - Transformation
   - Strategy
   - Finance
+categories:
+  - Finance
 ---
 
 # Designing a Target Architecture for Finance: From Core Systems to Reporting & Insights  
