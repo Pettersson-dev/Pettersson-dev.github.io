@@ -21,7 +21,6 @@ There are many integration styles. This post highlights three of the most common
 2. **Event-based integration**  
 3. **Information hub-based integration**  
 
----
 
 # API-based integration  
 API-based integration decouples information from database implementations. APIs expose data and functionality through standardized interfaces, and can be designed in different styles — from **action-based** (SOAP, gRPC) to **resource-based** (REST, GraphQL).  
@@ -43,8 +42,6 @@ API integration can be delivered **centrally** (by a dedicated integration team)
 - Requires **temporal coupling** — both systems must be available at the same time  
 - Load handling and retry logic are often pushed to clients  
 
----
-
 # Event-based integration  
 Event-based integration addresses the **temporal coupling problem** in APIs. Instead of synchronous requests, systems publish and subscribe to events on topics. This reduces direct dependencies between systems and promotes looser coupling.  
 
@@ -63,8 +60,6 @@ Event-based integration addresses the **temporal coupling problem** in APIs. Ins
 - More complex than simple point-to-point APIs  
 - Data consistency challenges (eventual consistency)  
 - Requires strong monitoring and governance to avoid “event spaghetti”  
-
----
 
 # Information hub-based integration  
 In an **information hub** model, integration is centered on **information** rather than system-to-system flows. The hub acts as a master for shared data — often as a **data lake or data warehouse** — ingesting, enriching, and distributing information for reporting and consumption.  
@@ -87,8 +82,6 @@ In an **information hub** model, integration is centered on **information** rath
 - Without strong data governance, data quality can degrade  
 - Processing and storage costs can become significant  
 - Risk of turning into a “data swamp” if design and stewardship are weak  
-
----
 
 # Closing Thoughts  
 There is no single “best” integration style. Most organizations use a **mix**:  
