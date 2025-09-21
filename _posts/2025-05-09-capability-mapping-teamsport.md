@@ -9,7 +9,6 @@ excerpt: "A Modern Approach to System Design"
 classes: wide
 tags:
   - Enterprise Architecture
-  - Togaf ADM
   - Transformation
   - EDGY
 ---
