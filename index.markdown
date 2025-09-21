@@ -22,7 +22,7 @@ Much of my writing builds on frameworks such as **EDGY by Intersection**, **TM F
 The goal is to make complex change more tangible by connecting strategy, capabilities, and technology.  
 
 Highlights include: 
-- [Convenience Retail Mobile Blueprint](/enterprise%20architecture/service%20design/retail-convenience-cx/)  
+- [Convenience Retail Mobile Blueprint](/enterprise%20architecture/service%20design/retail-convenience-cx/)  For background, read [From Blueprint to Execution: Finance Target Architecture]({% post_url 2025-09-21-finance-blueprint-execution %}).
 - [TOGAF ADM in Practice](/adm/)
 - [Leading indicators in digital transformation](/transformation/leadership/transformation-leading-indicators/)
 
