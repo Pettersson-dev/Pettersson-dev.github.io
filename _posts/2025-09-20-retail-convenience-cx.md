@@ -15,6 +15,8 @@ tags:
   - Retail
   - Customer Experience
   - Capability Mapping
+categories:
+  - EDGY
 ---
 
 Designing a compelling **retail mobile experience** requires more than just features—it demands a structured service design blueprint that connects **customer journeys, applications, and enterprise capabilities**. Using the [EDGY](https://intersection.group/edgy) framework, we can visualize how customer value is created by aligning **experience, capabilities, and technology**.
