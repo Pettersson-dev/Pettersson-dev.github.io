@@ -18,6 +18,9 @@ tags:
 categories:
   - EDGY
 ---
+> **Disclaimer:** This exploration is based only on publicly available retail applications.  
+> It does not reflect insider knowledge or client work. The goal is not to critique a specific product,  
+> but to illustrate how architects can connect customer journeys with applications and capabilities.
 
 Designing a compelling **retail mobile experience** requires more than just features—it demands a structured service design blueprint that connects **customer journeys, applications, and enterprise capabilities**. Using the [EDGY](https://intersection.group/edgy) framework, we can visualize how customer value is created by aligning **experience, capabilities, and technology**.
 
