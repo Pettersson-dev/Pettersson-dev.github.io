@@ -115,6 +115,7 @@ This ensures the North Star is not only **aspirational** but also **executable**
   - Remote Monitoring & Telehealth  
 - **Architecture Impact**: interoperability standards (FHIR/HL7), secure health data exchange, mobile-first platforms for patients and clinicians.
 
+
 # Making the North Star Real  
 
 ### 1. Visualize It  
