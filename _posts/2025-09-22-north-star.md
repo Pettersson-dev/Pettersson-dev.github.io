@@ -106,15 +106,14 @@ This ensures the North Star is not only **aspirational** but also **executable**
   - Frictionless Checkout  
 - **Architecture Impact**: mobile-first platforms, inventory data hub, omni-channel integration.  
 
-### Telecom  
-- **Identity**: Simple, reliable connectivity.  
-- **Experience**: Customers demand effortless support and proactive service.  
+### Healthcare  
+- **Identity**: Trusted provider of care and wellbeing.  
+- **Experience**: Patients expect accessible, coordinated, and digital-first services.  
 - **North Star Capabilities**:  
-  - Unified Customer Profile  
-  - AI-powered Self-Service  
-  - Proactive Network Care  
-- **Architecture Impact**: data consolidation, chatbot/voicebot integration, predictive analytics.  
-
+  - Digital Patient Onboarding  
+  - Integrated Care Pathways  
+  - Remote Monitoring & Telehealth  
+- **Architecture Impact**: interoperability standards (FHIR/HL7), secure health data exchange, mobile-first platforms for patients and clinicians.
 
 # Making the North Star Real  
 
