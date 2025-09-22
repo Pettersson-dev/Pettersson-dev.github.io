@@ -3,8 +3,8 @@ title: "Architecture North Star – Guiding Change with Capabilities"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/north-star-architecture.jpg
-  caption: "Photo credit: [Unsplash](https://unsplash.com)"
+  overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
+  caption: "Photo credit: [Nate Grant on Unsplash](https://unsplash.com)"
 excerpt: "Why every transformation needs an Architecture North Star — and how capabilities provide the compass to guide change."
 classes: wide
 categories:
