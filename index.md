@@ -23,7 +23,7 @@ My goal is to make complex change more tangible by connecting **strategy, capabi
 ## Featured Posts  
 
 - [Architecture North Star – Guiding Change with Capabilities]({% post_url 2025-09-22-north-star %})  
-- [Convenience Retail Mobile Blueprint]({% post_url 2025-09-20-retail-convenience-cx %})  
+- [Convenience Retail Mobile Blueprint]({% post_url 2025-09-20-retail-service-design %})  
 - [TOGAF ADM in Practice]({% post_url 2025-09-20-adm %})  
 - [Leading Indicators in Digital Transformation]({% post_url 2025-09-20-transformation-leading-indicators %})  
 
