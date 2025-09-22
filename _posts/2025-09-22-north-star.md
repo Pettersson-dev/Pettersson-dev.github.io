@@ -11,6 +11,7 @@ categories:
   - Enterprise Architecture
   - Transformation
   - Enterprise Design
+  - EDGY
 tags:
   - Enterprise Architecture
   - Transformation
