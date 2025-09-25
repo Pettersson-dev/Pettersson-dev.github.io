@@ -29,4 +29,4 @@ My goal is to make complex change more tangible by connecting **strategy, capabi
 
 ---
 
-If you’d like to continue the conversation, connect with me on [LinkedIn](www.linkedin.com/in/petterssondavid/).
+If you’d like to continue the conversation, connect with me on [LinkedIn](https://www.linkedin.com/in/petterssondavid/).
