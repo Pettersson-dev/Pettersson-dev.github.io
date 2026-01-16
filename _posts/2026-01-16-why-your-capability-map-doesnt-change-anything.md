@@ -27,7 +27,7 @@ classes: wide
 
 ## Why Your Capability Map Doesn’t Change Anything
 
-Most organizations I work with have a capability map.
+A lot of organizations have a capability map.
 
 It’s approved.  
 It’s well-structured.  
