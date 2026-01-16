@@ -1,6 +1,11 @@
 ---
 title: "Capability Map for Financial Institutions"
 excerpt: "A Level 1 enterprise capability map for financial institutions – enabling strategy execution, risk management, and regulatory compliance."
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
+    caption: "Photo credit: [Nate Grant on Unsplash](https://unsplash.com)"
 categories:
   - Enterprise Architecture
   - Financial Services
