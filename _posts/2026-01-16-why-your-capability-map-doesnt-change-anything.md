@@ -1,6 +1,11 @@
 ---
 title: "Why Your Capability Map Doesn’t Change Anything (And How to Fix It)"
 excerpt: "Most organizations have a capability map. Few use it to change priorities, funding, or decisions. Here’s why — and how to turn it into real leverage."
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
+  caption: "Photo credit: [Nate Grant on Unsplash](https://unsplash.com)"
 date: 2026-01-16
 last_modified_at: 2026-01-16
 categories:
