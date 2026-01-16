@@ -1,6 +1,11 @@
 ---
 title: "Capability Map for Financial Institutions – Level 2 Decomposition"
 excerpt: "A practical Level 2 capability decomposition for financial institutions, bridging strategy, regulation, and execution."
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
+  caption: "Photo credit: [Nate Grant on Unsplash](https://unsplash.com)"
 categories:
   - Enterprise Architecture
   - Financial Services
