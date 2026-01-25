@@ -47,7 +47,7 @@ This post outlines a practical playbook — inspired by EDGY and ADM — that or
 This playbook builds on earlier work where I explored:
 
 - How EDGY and an ADM-inspired cycle enable continuous enterprise design  
-  ([EDGY & ADM: From Architecture Method to Operating Model](% post_url 2025-09-20-adm %))
+  ([EDGY & ADM: From Architecture Method to Operating Model]({% post_url 2025-09-20-adm %})),
 
 - Why capability models are the foundation of meaningful change  
   ([Why Your Capability Map Doesn’t Change Anything](% post_url 2026-01-16-why-your-capability-map-doesnt-change-anything.md %)
