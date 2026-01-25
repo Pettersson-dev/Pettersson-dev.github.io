@@ -587,8 +587,8 @@ Structure enabled speed.
 
 This post is part of a broader series on capability-driven and design-led transformation:
 
-- [EDGY & ADM: From Architecture Method to Operating Model]((% post_url 2025-09-20-adm.md %)  
-- [Why Your Capability Map Doesn’t Change Anything]((% post_url 2026-01-16-why-your-capability-map-doesnt-change-anything.md %)
+- [EDGY & ADM: From Architecture Method to Operating Model](% post_url 2025-09-20-adm.md %)  
+- [Why Your Capability Map Doesn’t Change Anything]( % post_url 2026-01-16-why-your-capability-map-doesnt-change-anything.md %)
 
 Together, these articles describe how enterprise architecture can evolve from static documentation into a continuous organizational capability.
 
