@@ -67,7 +67,7 @@ Selected posts that explore architecture, capabilities, and transformation in de
 - [Why Your Capability Map Doesn’t Change Anything]({% post_url 2026-01-16-why-your-capability-map-doesnt-change-anything %})  
 - [TOGAF ADM in Practice]({% post_url 2025-09-20-adm %})  
 - [Capability Map for Financial Institutions – Level 2]({% post_url 2025-12-17-finance-intitute-capabilitiesL2 %})  
-- [Finance Target Architecture – End State]({% post_url 2025-09-03-finance-target-architecture-end %})  
+- [From Blueprint to Execution: Making Finance Target Architecture Real]({% post_url 2025-09-03-finance-target-architecture-end %})  
 - [Leading Indicators in Architecture]({% post_url 2025-09-21-leading-indicators-architecture %})
 
 ---
