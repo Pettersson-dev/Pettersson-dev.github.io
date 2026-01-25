@@ -1,7 +1,11 @@
 ---
 title: "From North Star to Delivery: An Architecture Playbook for Continuous Change"
 excerpt: "How to use EDGY and an ADM-inspired cycle to translate strategy into real execution."
-
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
+  caption: "Photo credit: [Nate Grant on Unsplash](https://unsplash.com)"
 categories:
   - Enterprise Architecture
   - Transformation
