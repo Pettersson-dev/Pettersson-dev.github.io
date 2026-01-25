@@ -20,6 +20,12 @@ tags:
   - North Star
   - Governance
   - Leadership
+author_profile: true
+toc: true
+toc_label: "On this page"
+toc_icon: "list"
+toc_sticky: true
+classes: wide
 ---
 
 Most organizations today have strategy documents, capability maps, and target architectures.
