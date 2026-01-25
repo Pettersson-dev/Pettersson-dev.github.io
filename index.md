@@ -29,32 +29,32 @@ If you’re new to this site, this path explains how to approach enterprise arch
 ### 1. Define Direction: North Star
 How strategy becomes a navigational instrument for multi-year transformation.
 
-- [Architecture North Star – Guiding Change with Capabilities]({% post_url 2025-09-22-north-star.md %})
+- [Architecture North Star – Guiding Change with Capabilities]({% post_url 2025-09-22-north-star %})
 
 ### 2. Establish Method: Architecture Operating Model
 How EDGY and ADM enable continuous enterprise design.
 
-- [TOGAF ADM in Practice]({% post_url 2025-09-20-adm.md %})
+- [TOGAF ADM in Practice]({% post_url 2025-09-20-adm %})
 
 ### 3. Make It Actionable: The Architecture Playbook
 An end-to-end model for translating intent into execution.
 
-- [From North Star to Delivery: An Architecture Playbook for Continuous Change]({% post_url 2026-01-24-from-north-star-to-delivery-architecture-playbook.md %})
+- [From North Star to Delivery: An Architecture Playbook for Continuous Change]({% post_url 2026-01-24-from-north-star-to-delivery-architecture-playbook %})
 
 ### 4. Build Structural Leverage: Capability Thinking
 Why capability maps fail — and how to make them matter.
 
-- [Why Your Capability Map Doesn’t Change Anything]({% post_url 2026-01-16-why-your-capability-map-doesnt-change-anything.md %})
+- [Why Your Capability Map Doesn’t Change Anything]({% post_url 2026-01-16-why-your-capability-map-doesnt-change-anything %})
 
 ### 5. Prove It in Practice: Service & Platform Design
 How strategy, architecture, and experience come together.
 
-- [Convenience Retail Mobile Blueprint]({% post_url 2025-09-20-retail-service-design.md %})
+- [Convenience Retail Mobile Blueprint]({% post_url 2025-09-20-retail-service-design %})
 
 ### 6. Steer Change: Leading Indicators
 How to govern transformation using predictive signals.
 
-- [Leading Indicators in Digital Transformation]({% post_url 2025-09-20-transformation-leading-indicators.md %})
+- [Leading Indicators in Digital Transformation]({% post_url 2025-09-20-transformation-leading-indicators %})
 
 ---
 
@@ -62,13 +62,13 @@ How to govern transformation using predictive signals.
 
 Selected posts that explore architecture, capabilities, and transformation in depth.
 
-- [From North Star to Delivery: An Architecture Playbook]({% post_url 2026-01-24-from-north-star-to-delivery-architecture-playbook.md %})  
-- [Architecture North Star – Guiding Change with Capabilities]({% post_url 2025-09-22-north-star.md %})  
-- [Why Your Capability Map Doesn’t Change Anything]({% post_url 2026-01-16-why-your-capability-map-doesnt-change-anything.md %})  
-- [TOGAF ADM in Practice]({% post_url 2025-09-20-adm.md %})  
-- [Capability Map for Financial Institutions – Level 2]({% post_url 2025-12-17-finance-intitute-capabilitiesL2.md %})  
-- [Finance Target Architecture – End State]({% post_url 2025-09-03-finance-target-architecture-end.md %})  
-- [Leading Indicators in Architecture]({% post_url 2025-09-21-leading-indicators-architecture.md %})
+- [From North Star to Delivery: An Architecture Playbook]({% post_url 2026-01-24-from-north-star-to-delivery-architecture-playbook %})  
+- [Architecture North Star – Guiding Change with Capabilities]({% post_url 2025-09-22-north-star %})  
+- [Why Your Capability Map Doesn’t Change Anything]({% post_url 2026-01-16-why-your-capability-map-doesnt-change-anything %})  
+- [TOGAF ADM in Practice]({% post_url 2025-09-20-adm %})  
+- [Capability Map for Financial Institutions – Level 2]({% post_url 2025-12-17-finance-intitute-capabilitiesL2 %})  
+- [Finance Target Architecture – End State]({% post_url 2025-09-03-finance-target-architecture-end %})  
+- [Leading Indicators in Architecture]({% post_url 2025-09-21-leading-indicators-architecture %})
 
 ---
 
