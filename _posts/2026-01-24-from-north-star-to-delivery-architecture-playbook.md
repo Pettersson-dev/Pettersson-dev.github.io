@@ -26,6 +26,7 @@ toc_label: "On this page"
 toc_icon: "list"
 toc_sticky: true
 classes: wide
+render_with_liquid: true
 ---
 
 Most organizations today have strategy documents, capability maps, and target architectures.
@@ -50,7 +51,7 @@ This playbook builds on earlier work where I explored:
   ([EDGY & ADM: From Architecture Method to Operating Model]({% post_url 2025-09-20-adm %})),
 
 - Why capability models are the foundation of meaningful change  
-  ([Why Your Capability Map Doesn’t Change Anything](% post_url 2026-01-16-why-your-capability-map-doesnt-change-anything.md %)
+  ([Why Your Capability Map Doesn’t Change Anything]({% post_url 2026-01-16-why-your-capability-map-doesnt-change-anything.md %})
 
 Together, these posts form a coherent view of architecture as a system for transformation — not a collection of artefacts.
 
@@ -325,7 +326,7 @@ Architecture is as much about relationships as it is about structures.
 ## Architecture as a Continuous Design Cycle
 
 Inspired by EDGY and TOGAF ADM, and as outlined in  
-[EDGY & ADM: From Architecture Method to Operating Model](% post_url 2025-09-20-adm %)), 
+[EDGY & ADM: From Architecture Method to Operating Model]({% post_url 2025-09-20-adm %})), 
 a recommended approach is to treat architecture as a repeating cycle:
 
 > Sense → Design → Align → Enable → Deliver → Learn → Adapt
@@ -587,8 +588,8 @@ Structure enabled speed.
 
 This post is part of a broader series on capability-driven and design-led transformation:
 
-- [EDGY & ADM: From Architecture Method to Operating Model](% post_url 2025-09-20-adm.md %)  
-- [Why Your Capability Map Doesn’t Change Anything]( % post_url 2026-01-16-why-your-capability-map-doesnt-change-anything.md %)
+- [EDGY & ADM: From Architecture Method to Operating Model]({% post_url 2025-09-20-adm.md %})  
+- [Why Your Capability Map Doesn’t Change Anything]( {% post_url 2026-01-16-why-your-capability-map-doesnt-change-anything.md %})
 
 Together, these articles describe how enterprise architecture can evolve from static documentation into a continuous organizational capability.
 
