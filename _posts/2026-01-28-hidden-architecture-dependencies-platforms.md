@@ -12,7 +12,6 @@ tags:
   - CRM
   - Billing Systems
   - ERP
-  - EDGY
   - Architecture Governance
   - Operating Model
   - DevOps
