@@ -25,7 +25,7 @@ header:
 > **TL;DR**
 > 
 > - Dependencies — not tools — define how fast an organization can change  
-> - Standardized core systems (CRM, billing, ERP) reduce local complexity but can create systemic risk  
+> - Standardized core systems (CRM, billing, ERP) reduce complexity but can create systemic risk  
 > - Capability-based decomposition enables autonomy and limits harmful dependencies  
 > - Speed is an architectural outcome, shaped by boundaries, ownership, and governance
 
