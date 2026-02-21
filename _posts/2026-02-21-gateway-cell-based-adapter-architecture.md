@@ -233,6 +233,77 @@ Without clear rules:
 
 By the time the pain is visible, the boundaries are already gone.
 
+ ## Architecture principles I rely on
+
+When I say “layers” or “adapters”, I’m not talking about boxes in a diagram.  
+I’m talking about constraints that make the *right thing* easy and the *wrong thing* uncomfortable.
+
+These are the principles I use to keep boundaries real.
+
+### 1. Use cases are the only entry point to business behavior
+All business interactions must be expressed as **application use cases** (commands/queries).  
+No controller, UI, scheduler, or consumer should reach into repositories or domain objects directly.
+
+**Implication:** request handlers should be thin; orchestration lives in the application layer.
+
+---
+
+### 2. Adapters translate — they do not decide
+Adapters exist to **isolate** the core from protocols, vendors, and transport concerns.  
+They can validate, map, normalize, and enrich context — but they must not contain business rules.
+
+**Implication:** if business logic appears in an adapter, the boundary is leaking.
+
+---
+
+### 3. The application layer orchestrates; the domain contains behavior
+The application layer coordinates work: transactions, authorization, consistency, workflows.  
+Business rules and invariants live in the **domain model**.
+
+**Implication:** if the application layer keeps growing, it’s usually absorbing domain behavior that should be modeled explicitly.
+
+---
+
+### 4. The domain is pure and technology-agnostic
+The domain must not depend on frameworks, persistence, SDKs, or vendor APIs.  
+If the domain can’t be unit tested without infrastructure, it’s not isolated enough.
+
+**Implication:** keep annotations, mappers, repositories, and clients outside the domain.
+
+---
+
+### 5. Reuse must not create hidden coupling
+Shared libraries are allowed, but only when they do not become a “global dependency magnet”.  
+If everyone depends on a utility package, it needs ownership, versioning, and a lifecycle — just like a product.
+
+**Implication:** prefer duplication over accidental coupling when ownership is unclear.
+
+---
+
+### 6. Every change must have an obvious home
+A healthy architecture makes it obvious where new logic belongs.  
+If engineers debate placement, boundaries are unclear or principles aren’t enforced.
+
+**Implication:** clarify responsibilities until “where does this go?” becomes a non-question.
+
+---
+
+### 7. Architecture is enforced, not just documented
+Diagrams are useful, but they don’t create architecture — constraints do.  
+If the code and the diagram diverge, the code wins, and the architecture has already lost authority.
+
+**Implication:** enforce boundaries via reviews, tests, and automation (where possible).
+
+---
+
+### 8. Own boundaries through cells
+Cells exist to make ownership and failure boundaries explicit.  
+A cell owns its runtime, dependencies, and data. Crossing boundaries must be intentional and visible.
+
+**Implication:** if teams can’t evolve independently, the cell boundaries are wrong (or not real).
+
+---
+
 ---
 
 ## Why I combine layers with adapters
