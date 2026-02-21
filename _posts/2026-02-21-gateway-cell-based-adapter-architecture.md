@@ -439,6 +439,17 @@ Architecture becomes an enabler for change rather than a constraint.
 
 ---
 
-## Summary
+## The real lesson
 
-This architecture combines client/server interaction with gateway-based edge control, cell-based system decomposition, and adapter-driven internal design. Gateways protect and route traffic, cells limit blast radius and enable independent evolution, and adapters isolate core domain logic from external dependencies. The result is a scalable, resilient platform architecture that supports autonomy without sacrificing architectural integrity.
+Layered architecture is not enough by itself.
+
+Without explicit boundaries, enforcement, and ownership, layers decay into convention — and convention decays under pressure.
+
+Adapters make boundaries explicit.  
+Cells make boundary violations painful.
+
+Together, they turn architecture from a diagram into a system that pushes back.
+
+Good architecture should make the right thing the easy thing, and the wrong thing uncomfortable.
+
+That’s the difference between drawing boxes and designing systems.
