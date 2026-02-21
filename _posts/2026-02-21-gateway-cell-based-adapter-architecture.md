@@ -24,14 +24,20 @@ toc_sticky: true
 
 ## Why this architecture exists
 
-Many enterprise platforms struggle not because of missing tools or frameworks, but because:
+I don’t arrive at this architecture because it’s fashionable or “cloud-native”.
 
-- Failures propagate across the entire system  
-- Shared platforms become bottlenecks  
-- Integrations leak into core logic  
-- Teams cannot change independently  
+I arrive here because I keep seeing the same failure modes repeat themselves in enterprise platforms — regardless of tech stack, vendor, or organizational model:
 
-This architecture combines **client/server**, **gateway**, **cell-based decomposition**, and **adapter-based design** to explicitly address those problems.
+- Failures propagate far beyond where they start  
+- Shared platforms slowly turn into bottlenecks  
+- Integrations leak straight into core logic  
+- Teams are nominally autonomous, but architecturally stuck  
+
+What these systems usually have in common isn’t a lack of layers or patterns.
+
+It’s a lack of **enforced boundaries**.
+
+This architecture combines client/server interaction, gateway-based edge control, cell-based decomposition, and adapter-driven design to make boundaries explicit, enforceable, and hard to bypass.
 
 > **TL;DR**  
 > Layered architecture fails not because layers are wrong, but because boundaries are unenforced. Over time, shortcuts erode structure, business logic leaks outward, and systems become fragile and slow to change. Combining gateways, cell-based decomposition, and adapter-driven design makes boundaries explicit and painful to violate. Adapters protect the domain, cells limit blast radius, and together they turn architecture from a diagram into a system that actively resists decay.
