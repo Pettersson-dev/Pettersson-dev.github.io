@@ -139,6 +139,77 @@ Outbound Adapters
 This structure is intentional and enforced.
 
 ---
+## When layered architecture turns into a mess
+
+I’ve seen layered architecture go wrong more times than I can count.
+
+On paper, the boundaries look clean.  
+In reality, they often blur fast:
+
+- Controllers start calling repositories directly  
+- Application layers accumulate business rules  
+- Domain logic leaks into adapters “just for convenience”  
+- Infrastructure concerns creep upward, one shortcut at a time  
+
+What started as a layered architecture quietly turns into a **layered illusion**.
+
+Everyone still talks about “the domain layer”, but no one can really point to where it begins or ends.
+
+---
+
+## The problem isn’t layers — it’s missing boundaries
+
+The issue isn’t that layered architecture is flawed.  
+The issue is that **layers without ownership and enforcement are just naming conventions**.
+
+Without clear rules:
+
+- Layers become suggestions instead of constraints  
+- Violations feel harmless in the moment  
+- Short-term delivery pressure overrides structure  
+- The architecture erodes silently  
+
+By the time the pain is visible, the boundaries are already gone.
+
+---
+
+## Why I combine layers with adapters
+
+This is why I don’t rely on layers alone.
+
+Adapters make boundaries **explicit and enforceable**:
+
+- Inbound adapters define how the system may be called  
+- Outbound adapters define how the system may depend on others  
+- Everything in between is forced to stay honest  
+
+It becomes obvious when something is in the wrong place — and just as obvious when someone tries to bypass a layer.
+
+---
+
+## Cells make boundary violations visible
+
+Cell-based architecture adds another level of pressure in the right direction.
+
+When each cell owns its runtime, data, and dependencies:
+
+- Boundary violations hurt faster  
+- Coupling becomes visible immediately  
+- “Quick fixes” stop being quick  
+
+You can’t casually reach across layers or cells without feeling the cost.
+
+---
+
+## The real lesson
+
+Layered architecture isn’t enough by itself.
+
+Without explicit boundaries, enforcement, and ownership, layers decay into a mess — not because people are careless, but because the system doesn’t push back.
+
+Good architecture should make the *right thing* the easy thing, and the *wrong thing* uncomfortable.
+
+That’s the difference between a diagram and a design.
 
 ## Inbound adapters
 
