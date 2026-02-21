@@ -343,16 +343,6 @@ You can’t casually reach across layers or cells without feeling the cost.
 
 ---
 
-## The real lesson
-
-Layered architecture isn’t enough by itself.
-
-Without explicit boundaries, enforcement, and ownership, layers decay into a mess — not because people are careless, but because the system doesn’t push back.
-
-Good architecture should make the *right thing* the easy thing, and the *wrong thing* uncomfortable.
-
-That’s the difference between a diagram and a design.
-
 ## Inbound adapters
 
 Inbound adapters translate external interaction models into internal use cases.
