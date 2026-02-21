@@ -155,6 +155,35 @@ What started as a layered architecture quietly turns into a **layered illusion**
 
 Everyone still talks about “the domain layer”, but no one can really point to where it begins or ends.
 
+### Common architectural smells I watch for
+
+When layered architecture starts to decay, the signals are usually subtle at first.  
+These are the smells I’ve learned to pay attention to:
+
+- **Controllers calling repositories directly**  
+  A shortcut that quietly bypasses the application and domain layers.
+
+- **“Just this once” logic in adapters**  
+  Business rules creeping into REST controllers, event consumers, or integration code.
+
+- **An application layer that keeps growing**  
+  Use-case orchestration turning into a second domain model.
+
+- **Domain objects depending on frameworks**  
+  Annotations, SDKs, or persistence concerns leaking into core logic.
+
+- **Shared utility packages used everywhere**  
+  Coupling disguised as reuse.
+
+- **Developers unsure where new logic belongs**  
+  When placement becomes a debate, boundaries are already unclear.
+
+- **Architecture diagrams that look right but don’t match the code**  
+  The most dangerous smell of all.
+
+Individually, these issues feel harmless.  
+Together, they’re a reliable indicator that boundaries are no longer doing their job.
+
 ---
 
 ## The problem isn’t layers — it’s missing boundaries
