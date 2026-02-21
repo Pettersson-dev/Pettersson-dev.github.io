@@ -155,35 +155,68 @@ What started as a layered architecture quietly turns into a **layered illusion**
 
 Everyone still talks about “the domain layer”, but no one can really point to where it begins or ends.
 
-### Common architectural smells I watch for
+### Common architectural smells — and the rules they violate
 
-When layered architecture starts to decay, the signals are usually subtle at first.  
-These are the smells I’ve learned to pay attention to:
+When layered architecture starts to decay, the symptoms are rarely dramatic.  
+What I’ve learned is that every “small” shortcut almost always breaks a very specific architectural rule.
 
-- **Controllers calling repositories directly**  
-  A shortcut that quietly bypasses the application and domain layers.
+Making those rules explicit is what turns architecture from intention into constraint.
 
-- **“Just this once” logic in adapters**  
-  Business rules creeping into REST controllers, event consumers, or integration code.
+---
 
-- **An application layer that keeps growing**  
-  Use-case orchestration turning into a second domain model.
+**Smell: Controllers calling repositories directly**  
+**Violated rule:** *All business interactions must go through application use cases.*
 
-- **Domain objects depending on frameworks**  
-  Annotations, SDKs, or persistence concerns leaking into core logic.
+This bypasses orchestration, authorization, and consistency boundaries.  
+It turns the UI or API layer into an accidental application layer.
 
-- **Shared utility packages used everywhere**  
-  Coupling disguised as reuse.
+---
 
-- **Developers unsure where new logic belongs**  
-  When placement becomes a debate, boundaries are already unclear.
+**Smell: “Just this once” logic in adapters**  
+**Violated rule:** *Adapters translate — they do not decide.*
 
-- **Architecture diagrams that look right but don’t match the code**  
-  The most dangerous smell of all.
+Inbound and outbound adapters exist to isolate the core from the outside world.  
+Once business rules appear here, the direction of dependency is already broken.
 
-Individually, these issues feel harmless.  
-Together, they’re a reliable indicator that boundaries are no longer doing their job.
+---
 
+**Smell: An application layer that keeps growing**  
+**Violated rule:** *The application layer orchestrates behavior; it does not contain it.*
+
+When business rules accumulate here, the domain is being hollowed out and the model loses meaning.
+
+---
+
+**Smell: Domain objects depending on frameworks or SDKs**  
+**Violated rule:** *The domain must be technology-agnostic.*
+
+Framework annotations, persistence concerns, or vendor SDKs in the domain are a direct breach of this rule — and they make change expensive later.
+
+---
+
+**Smell: Shared utility packages used everywhere**  
+**Violated rule:** *Reuse must not create hidden coupling.*
+
+Utilities that “everyone depends on” quickly become informal shared infrastructure with no clear ownership or lifecycle.
+
+---
+
+**Smell: Developers unsure where new logic belongs**  
+**Violated rule:** *Every change must have an obvious home.*
+
+When placement becomes a discussion rather than a decision, boundaries are no longer doing their job.
+
+---
+
+**Smell: Architecture diagrams that look right but don’t match the code**  
+**Violated rule:** *Architecture must be enforced, not just documented.*
+
+When diagrams and reality diverge, the architecture has already lost authority — even if no one says it out loud.
+
+---
+
+None of these violations are dramatic on their own.  
+Together, they are a reliable signal that the system is no longer protecting its core.
 ---
 
 ## The problem isn’t layers — it’s missing boundaries
