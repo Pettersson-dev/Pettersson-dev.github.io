@@ -33,6 +33,9 @@ Many enterprise platforms struggle not because of missing tools or frameworks, b
 
 This architecture combines **client/server**, **gateway**, **cell-based decomposition**, and **adapter-based design** to explicitly address those problems.
 
+> **TL;DR**  
+> Layered architecture fails not because layers are wrong, but because boundaries are unenforced. Over time, shortcuts erode structure, business logic leaks outward, and systems become fragile and slow to change. Combining gateways, cell-based decomposition, and adapter-driven design makes boundaries explicit and painful to violate. Adapters protect the domain, cells limit blast radius, and together they turn architecture from a diagram into a system that actively resists decay.
+
 ---
 
 ## High-level structure
