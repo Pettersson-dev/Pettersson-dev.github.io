@@ -7,11 +7,6 @@ categories:
   - Distributed Systems
 tags:
   - Architecture Patterns
-  - Cell-Based Architecture
-  - API Gateway
-  - Adapters
-  - Ports and Adapters
-  - Cloud Architecture
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
