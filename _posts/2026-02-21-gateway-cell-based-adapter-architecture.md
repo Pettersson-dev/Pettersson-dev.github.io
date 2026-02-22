@@ -226,6 +226,7 @@ When diagrams and reality diverge, the architecture has already lost authority �
 
 None of these violations are dramatic on their own.  
 Together, they are a reliable signal that the system is no longer protecting its core.
+
 ---
 
 ## The problem isn’t layers — it’s missing boundaries
