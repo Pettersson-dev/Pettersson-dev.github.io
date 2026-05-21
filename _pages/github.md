@@ -1,6 +1,6 @@
 ---
 permalink: /github/
-title: "Repositories"
+title: "Github"
 excerpt: "A curated list of my github projects."
 header:
   overlay_color: "#000"
