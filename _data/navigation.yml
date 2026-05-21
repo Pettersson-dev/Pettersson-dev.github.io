@@ -6,7 +6,7 @@ main:
     url: /categories/#edgy
   - title: "Blog"
     url: /year-archive/
-  - title: "Repositories"
+  - title: "Github Repositories"
     url: /github/
   - title: "About"
     url: /about/
