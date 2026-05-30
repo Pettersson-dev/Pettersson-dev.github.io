@@ -98,14 +98,10 @@ Areas covered include:
 ## Suggested Review Flow
 
 ```text
-Business Need
-      â
-Overview Checklist
-      â
-IT Architecture Checklist
-      â
-Architecture Decision
-      â
+Business Need ->
+Overview Checklist -> 
+IT Architecture Checklist ->
+Architecture Decision ->
 Implementation and Governance
 ```
 
