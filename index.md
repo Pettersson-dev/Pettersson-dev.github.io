@@ -33,7 +33,7 @@ If you're new to this site, this path explains how to approach enterprise archit
 
 Why architecture creates value when treated as an organizational capability rather than a centralized function.
 
-- [Architecture as a Capability: Why Architecture Is Not a Function]({% post_url 2026-06-01-architecture-as-a-capability %})
+- [Architecture as a Capability: Why Architecture Is Not a Function]({% post_url 2026-05-31-architecture-as-a-capability %})
 
 ### 2. Define Direction: North Star
 
