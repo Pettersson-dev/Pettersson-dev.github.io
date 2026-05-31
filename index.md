@@ -83,7 +83,7 @@ How to govern transformation using predictive signals.
 
 Selected posts that explore architecture, capabilities, governance, and transformation in depth.
 
-- [Architecture as a Capability: Why Architecture Is Not a Function]({% post_url 2026-06-01-architecture-as-a-capability %})
+- [Architecture as a Capability: Why Architecture Is Not a Function]({% post_url 2026-05-31-architecture-as-a-capability %})
 - [From North Star to Delivery: An Architecture Playbook]({% post_url 2026-01-24-from-north-star-to-delivery-architecture-playbook %})
 - [Architecture North Star – Guiding Change with Capabilities]({% post_url 2025-09-22-north-star %})
 - [Architecture Review & Governance Toolkit](/architecture/architecture-checklist/)
