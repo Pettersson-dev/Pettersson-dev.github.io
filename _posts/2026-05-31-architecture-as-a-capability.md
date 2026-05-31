@@ -1,7 +1,7 @@
 ---
 title: "Architecture as a Capability: Why Architecture Is Not a Function"
 excerpt: "Architecture creates the most value when it is treated as an organizational capability rather than a centralized function."
-date: 2026-06-01
+date: 2026-05-31
 categories:
   - Enterprise Architecture
 tags:
