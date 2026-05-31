@@ -20,9 +20,9 @@ My writing combines practical experience with frameworks such as EDGY by Interse
 
 If you’re short on time, start with the curated reading path below.
 
-Architecture is not a document.
-
-It is a capability that enables continuous change.
+> Architecture is not a document.
+> 
+> It is a capability that enables continuous change.
 ---
 
 ## Start Here – Architecture as Continuous Change
