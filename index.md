@@ -18,7 +18,8 @@ target architecture, architecture governance, service design,
 and capability-driven transformation.
 
 Much of my writing builds on frameworks such as **EDGY by Intersection**, **TM Forum ODA**, and **TOGAF** — applied to real-world architecture challenges.  
-My goal is to make complex change more tangible by connecting **strategy, capabilities, and technology**.
+My goal is to make complex change more tangible by connecting strategy,
+capabilities, operating models, and technology.
 
 If you’re short on time, start with the curated reading path below.
 
