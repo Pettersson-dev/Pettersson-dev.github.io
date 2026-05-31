@@ -1,6 +1,6 @@
 ---
 title: "Architecture Review & Governance Toolkit"
-excerpt: "excerpt: "A practical architecture review and governance toolkit for evaluating systems, guiding technology decisions, and enabling continuous change."
+excerpt: "A practical architecture review and governance toolkit for evaluating systems, guiding technology decisions, and enabling continuous change."
 date: 2026-05-30
 categories:
   - Architecture
