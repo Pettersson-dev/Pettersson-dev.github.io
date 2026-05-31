@@ -2,7 +2,7 @@
 layout: home
 author_profile: true
 classes: wide
-title: Welcome!
+title: Architecture for Continuous Change!
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
