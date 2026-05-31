@@ -1,5 +1,5 @@
 ---
-title: "Architecture Governance Through Checklists"
+title: "Architecture Review & Governance Toolkit"
 excerpt: "A practical architecture review and governance toolkit built around repeatable checklists, templates, and governance practices."
 date: 2026-05-30
 categories:
@@ -22,7 +22,7 @@ toc_icon: "cog"
 classes: wide
 ---
 
-# Architecture Governance Through Checklists
+# Architecture Review & Governance Toolkit
 
 Architecture reviews often fail for a surprisingly simple reason: every architect asks different questions.
 
