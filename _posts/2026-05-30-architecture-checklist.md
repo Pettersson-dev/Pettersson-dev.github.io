@@ -1,6 +1,6 @@
 ---
 title: "Architecture Governance Through Checklists"
-excerpt: "A practical architecture governance framework built around repeatable checklists for evaluating new systems, platforms, and solutions."
+excerpt: "A practical architecture review and governance toolkit built around repeatable checklists, templates, and governance practices."
 date: 2026-05-30
 categories:
   - Architecture
@@ -48,7 +48,7 @@ Some have architecture boards.
 
 Yet many architecture decisions still depend heavily on individual experience and institutional knowledge.
 
-A structured checklist helps create repeatable governance by ensuring that every solution is evaluated across the same dimensions:
+A structured review process helps create repeatable governance by ensuring that every solution is evaluated across the same dimensions:
 
 - Business alignment
 - Capability fit
@@ -64,68 +64,81 @@ The goal is not bureaucracy.
 
 The goal is to prevent expensive surprises later.
 
-## The Architecture Governance Framework
+## From Checklists to a Governance Toolkit
+
+What started as a simple architecture checklist has evolved into a lightweight Architecture Review & Governance Toolkit.
+
+The toolkit now includes:
 
 ### Overview Checklist
 
-The Overview Checklist focuses on the high-level architecture assessment of a proposed solution.
+A high-level assessment for introducing new systems, platforms, SaaS solutions, or vendor products.
 
-Typical questions include:
+### System Onboarding Checklist
 
-- Why do we need this system?
-- Which business capability does it support?
-- Does an existing platform already solve this problem?
-- Who owns the information?
-- What complexity does it introduce?
-- How does it align with the target architecture?
+A structured assessment used when introducing, acquiring, inheriting, or evaluating systems.
 
 ### IT Architecture Checklist
 
-The IT Architecture Checklist focuses on technical quality and sustainability.
+A detailed technical architecture assessment covering application, information, integration, security, infrastructure, and operational concerns.
 
-Areas covered include:
+### Architecture Review Template
 
-- Application Architecture
-- Information Architecture
-- Integration Architecture
-- Security Architecture
-- Cloud and Infrastructure Architecture
-- Scalability and Reliability
-- Observability
-- DevOps and Delivery
-- Technical Debt
+A reusable template for documenting architecture reviews, findings, decisions, and recommendations.
+
+### Architecture Governance Framework
+
+A governance model defining decision rights, review processes, roles, responsibilities, and architectural guardrails.
 
 ## Suggested Review Flow
 
 ```text
-Business Need ->
-Overview Checklist -> 
-IT Architecture Checklist ->
-Architecture Decision ->
-Implementation and Governance
+Business Need
+      ↓
+Overview Checklist
+      ↓
+System Onboarding Checklist
+      ↓
+IT Architecture Checklist
+      ↓
+Architecture Review
+      ↓
+Architecture Decision
+      ↓
+Implementation & Governance
 ```
 
 ## Architecture as a Capability
 
 One of the recurring themes in my work is that architecture should be viewed as an organizational capability rather than a centralized function.
 
+Architecture should enable teams to make better decisions through principles, guardrails, transparency, and shared accountability.
+
 The objective of governance is therefore not to create bottlenecks.
 
-It is to provide teams with clear guardrails and decision support.
+It is to provide teams with decision support.
 
 ## Repository
 
-The complete checklist framework is available on GitHub:
+The complete toolkit is available on GitHub:
 
-https://github.com/Pettersson-dev/Architecture-checklist
+- Repository: https://github.com/Pettersson-dev/Architecture-checklist
+
+The repository currently contains:
+
+- Overview Checklist
+- System Onboarding Checklist
+- IT Architecture Checklist
+- Architecture Review Template
+- Architecture Governance Framework
 
 ## Final Thoughts
 
-Architecture frameworks, principles, and target-state diagrams are valuable.
+Architecture frameworks, principles, target-state diagrams, and governance forums are valuable.
 
 However, architecture governance ultimately succeeds or fails based on the quality of everyday decisions.
 
-Checklists help make those decisions more consistent, transparent, and repeatable.
+Checklists, templates, and governance frameworks help make those decisions more consistent, transparent, and repeatable.
 
 They do not replace architectural judgement.
 
