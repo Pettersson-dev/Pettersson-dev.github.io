@@ -10,15 +10,15 @@ header:
   caption: "Photo credit: [**Photo by Nate Grant on Unsplash**](https://unsplash.com)"
 ---
 
-Hi, I’m David Pettersson.
+Architecture enables continuous change.
 
-I am an enterprise architect with experience across telecom, finance, insurance, and retail.
+This site explores how organizations connect strategy, capabilities, operating models, governance, and technology to turn intent into execution.
 
-This site explores how architecture enables continuous change by connecting strategy, capabilities, operating models, governance, and technology.
+I'm **David Pettersson**, an enterprise architect with experience across telecom, finance, insurance, and retail.
 
-My writing combines practical experience with frameworks such as EDGY by Intersection, TM Forum ODA, and TOGAF, focusing on how organizations move from vision and target architecture to execution and measurable outcomes.
+My writing combines practical experience with frameworks such as **EDGY by Intersection**, **TM Forum ODA**, and **TOGAF**, focusing on how organizations move from vision and target architecture to measurable outcomes.
 
-If you’re short on time, start with the curated reading path below.
+If you're short on time, start with the curated reading path below.
 
 > Architecture is not a document.
 > 
