@@ -126,11 +126,11 @@ The complete toolkit is available on GitHub:
 
 The repository currently contains:
 
-- Overview Checklist
-- System Onboarding Checklist
-- IT Architecture Checklist
-- Architecture Review Template
-- Architecture Governance Framework
+- [Overview Checklist](https://github.com/Pettersson-dev/Architecture-checklist/blob/main/Overview-checklist.md)
+- [System Onboarding Checklist](https://github.com/Pettersson-dev/Architecture-checklist/blob/main/system-onboarding-checklist.md)
+- [IT Architecture Checklist](https://github.com/Pettersson-dev/Architecture-checklist/blob/main/IT-architecture-checklist.md)
+- [Architecture Review Template](https://github.com/Pettersson-dev/Architecture-checklist/blob/main/architecture-review-template.md)
+- [Architecture Governance Framework](https://github.com/Pettersson-dev/Architecture-checklist/blob/main/architecture-governance-model.md)
 
 ## Final Thoughts
 
