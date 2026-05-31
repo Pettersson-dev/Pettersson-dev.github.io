@@ -133,13 +133,8 @@ The repository currently contains:
 - [Architecture Governance Framework](https://github.com/Pettersson-dev/Architecture-checklist/blob/main/architecture-governance-model.md)
 
 ## Final Thoughts
+Architecture governance should not be a centralized approval process.
 
-Architecture frameworks, principles, target-state diagrams, and governance forums are valuable.
+It should be an organizational capability that enables better technology decisions through principles, guardrails, transparency, and shared accountability.
 
-However, architecture governance ultimately succeeds or fails based on the quality of everyday decisions.
-
-Checklists, templates, and governance frameworks help make those decisions more consistent, transparent, and repeatable.
-
-They do not replace architectural judgement.
-
-They provide a structure that allows architectural judgement to be applied more effectively.
+The Architecture Review & Governance Toolkit is one practical approach to achieving that.
