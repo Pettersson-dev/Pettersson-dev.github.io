@@ -55,7 +55,7 @@ Why capability maps fail — and how to make them matter.
 
 Practical checklists for onboarding, assessing, and governing systems and solutions.
 
-- [Architecture Checklist](/architecture/architecture-checklist/)
+- [Architecture Governance Through Checklists](/architecture/architecture-checklist/)
 
 ### 6. Prove It in Practice: Service & Platform Design
 How strategy, architecture, and experience come together.
