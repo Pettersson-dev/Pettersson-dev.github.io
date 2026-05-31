@@ -122,7 +122,7 @@ It is to provide teams with decision support.
 
 The complete toolkit is available on GitHub:
 
-- Repository: https://github.com/Pettersson-dev/Architecture-checklist
+- Repository: [Architecture-checklist repo](https://github.com/Pettersson-dev/Architecture-checklist)
 
 The repository currently contains:
 
