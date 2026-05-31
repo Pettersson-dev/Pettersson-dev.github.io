@@ -10,7 +10,7 @@ header:
 
 ---
 ## Governance 
-- [Architecture checklist](https://github.com/Pettersson-dev/Architecture-checklist)
+- [Architecture Governance Framework](https://github.com/Pettersson-dev/Architecture-checklist)
 
 ## Technology
 - [Language selection](https://github.com/Pettersson-dev/Language-selection)
