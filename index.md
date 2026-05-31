@@ -45,13 +45,19 @@ An end-to-end model for translating intent into execution.
 Why capability maps fail — and how to make them matter.
 
 - [Why Your Capability Map Doesn’t Change Anything]({% post_url 2026-01-16-why-your-capability-map-doesnt-change-anything %})
+ 
+### 5. Architecture in Practice: Checklists & Reviews
 
-### 5. Prove It in Practice: Service & Platform Design
+Practical checklists for onboarding, assessing, and governing systems and solutions.
+
+- [Architecture Checklist](/architecture/architecture-checklist/)
+
+### 6. Prove It in Practice: Service & Platform Design
 How strategy, architecture, and experience come together.
 
 - [Convenience Retail Mobile Blueprint]({% post_url 2025-09-20-retail-service-design %})
 
-### 6. Steer Change: Leading Indicators
+### 7. Steer Change: Leading Indicators
 How to govern transformation using predictive signals.
 
 - [Leading Indicators in Digital Transformation]({% post_url 2025-09-20-transformation-leading-indicators %})
@@ -69,7 +75,7 @@ Selected posts that explore architecture, capabilities, and transformation in de
 - [Capability Map for Financial Institutions – Level 2]({% post_url 2025-12-17-finance-intitute-capabilitiesL2 %})  
 - [From Blueprint to Execution: Making Finance Target Architecture Real]({% post_url 2025-09-03-finance-target-architecture-end %})  
 - [Leading Indicators in Architecture]({% post_url 2025-09-21-leading-indicators-architecture %})
-
+- [Architecture Checklist](/architecture/architecture-checklist/)
 ---
 
 If you’d like to continue the conversation, connect with me on  
