@@ -75,7 +75,7 @@ Selected posts that explore architecture, capabilities, and transformation in de
 
 - [From North Star to Delivery: An Architecture Playbook]({% post_url 2026-01-24-from-north-star-to-delivery-architecture-playbook %})  
 - [Architecture North Star – Guiding Change with Capabilities]({% post_url 2025-09-22-north-star %})  
-- [Architecture Checklist](/architecture/architecture-checklist/)
+- [Architecture Governance Through Checklists](/architecture/architecture-checklist/)
 - [Why Your Capability Map Doesn’t Change Anything]({% post_url 2026-01-16-why-your-capability-map-doesnt-change-anything %})  
 - [TOGAF ADM in Practice]({% post_url 2025-09-20-adm %})  
 - [Capability Map for Financial Institutions – Level 2]({% post_url 2025-12-17-finance-intitute-capabilitiesL2 %})  
