@@ -13,7 +13,9 @@ header:
 Hi, I’m **David Pettersson**.
 
 I am an **enterprise and domain architect** with experience across telecom, finance, insurance, and retail.  
-This site is where I share perspectives on **target architectures, service design, and capability-driven transformation**.
+This site is where I share perspectives on enterprise architecture,
+target architecture, architecture governance, service design,
+and capability-driven transformation.
 
 Much of my writing builds on frameworks such as **EDGY by Intersection**, **TM Forum ODA**, and **TOGAF** — applied to real-world architecture challenges.  
 My goal is to make complex change more tangible by connecting **strategy, capabilities, and technology**.
