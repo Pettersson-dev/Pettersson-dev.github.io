@@ -13,4 +13,10 @@ header:
 This website contains my own thoughts, reflection and work. Opinions and choices are my own. 
 
 # About me
-I am a technical professional dedicated to improving efficiency and business value by enabling teams and individuals in digital transformation. I genuinely believe that the key to efficiency is Autonomy, Mastery and Purpose and that business value is achieved by speed of iteration. My contribution is to enable that transformation by providing technical leadership and business knowledge by coaching, guiding, teaching and leading by example.
+I help organizations transform strategy into execution through architecture.
+
+Over the years I have worked across enterprise, domain, and solution architecture, helping organizations navigate complex transformations and build the capabilities needed for long-term success.
+
+I believe architecture is fundamentally about enabling people and teams. Clear direction, strong principles, and empowered teams create the conditions for autonomy, mastery, and purpose. When combined with modern platforms and operating models, they enable organizations to learn faster, adapt faster, and deliver value continuously.
+
+This site is where I share thoughts, reflections, and practical experiences from working with enterprise architecture, digital transformation, capabilities, operating models, and technology.
