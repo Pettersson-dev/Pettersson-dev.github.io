@@ -553,37 +553,6 @@ Everything else is optional.
 
 ---
 
-## Example: Applying the Playbook in Practice
-
-In a telecom environment, organizations often encounter:
-
-- Siloed customer and service platforms  
-- Overlapping digital and assisted channels  
-- High cost of change  
-- Slow time-to-market  
-- Limited end-to-end visibility  
-
-Using this cycle:
-
-1. Strategy focused on self-service and automation  
-2. Capabilities were reframed around journeys  
-3. A platform-based North Star was defined  
-4. Legacy systems were phased via transitions  
-5. Portfolio was restructured around domains  
-6. Teams were enabled with APIs and events  
-7. Continuous feedback improved prioritization  
-
-Within two years:
-
-- Channel duplication reduced  
-- Release cycles shortened  
-- Operating costs decreased  
-- Customer satisfaction improved  
-
-Structure enabled speed.
-
----
-
 ## Related Reading
 
 This post is part of a broader series on capability-driven and design-led transformation:
