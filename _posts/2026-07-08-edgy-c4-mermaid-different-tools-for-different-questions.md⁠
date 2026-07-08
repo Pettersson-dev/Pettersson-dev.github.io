@@ -20,7 +20,7 @@ toc: true
 toc_label: "Contents"
 toc_icon: "cog"
 classes: wide
-mermaid: true
+
 ---
 
 # EDGY vs C4 vs Mermaid
