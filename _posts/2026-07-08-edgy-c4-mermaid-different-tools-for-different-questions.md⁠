@@ -1,8 +1,5 @@
 ---
-title: "EDGY vs C4 vs Mermaid: Different Tools for Different Questions"
-excerpt: "EDGY, C4, and Mermaid are often compared as alternatives, but they solve different problems. Understanding how they complement each other leads to clearer architecture documentation."
-date: 2026-07-08
----
+
 title: "EDGY vs C4 vs Mermaid: Different Tools for Different Questions"
 excerpt: "EDGY, C4, and Mermaid are often compared as alternatives, but they solve different problems. Understanding how they complement each other leads to clearer architecture documentation."
 date: 2026-07-08
@@ -20,9 +17,13 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
   caption: "Photo credit: Nate Grant on Unsplash"
+author_profile: true
 toc: true
 toc_label: "Contents"
 toc_icon: "cog"
+read_time: true
+share: truer
+related: true
 classes: wide
 mermaid: true
 ---
