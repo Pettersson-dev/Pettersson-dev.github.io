@@ -16,8 +16,9 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
   caption: "Photo credit: Nate Grant on Unsplash"
-author_profile: true
 toc: true
+toc_label: "Contents"
+toc_icon: "cog"
 classes: wide
 mermaid: true
 ---
