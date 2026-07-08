@@ -152,25 +152,6 @@ The question is therefore not:
 The better question is:
 
 > Which architectural question are we trying to answer?
-  - Architecture
-tags:
-  - Architecture
-  - Enterprise Architecture
-  - EDGY
-  - C4
-  - Mermaid
-  - Documentation
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
-  caption: "Photo credit: Nate Grant on Unsplash"
-toc: true
-toc_label: "Contents"
-toc_icon: "cog"
-classes: wide
-mermaid: true
----
 
 # EDGY vs C4 vs Mermaid
 
