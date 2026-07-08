@@ -1,6 +1,6 @@
 ---
 title: "EDGY vs C4 vs Mermaid: Different Tools for Different Questions"
-excerpt: "EDGY, C4, and Mermaid are often compared as alternatives, but they solve different problems."
+excerpt: "EDGY, C4, and Mermaid are often compared as alternatives, but they solve different problems. Understanding how they complement each other leads to clearer architecture documentation."
 date: 2026-07-08
 categories:
   - Architecture
@@ -22,265 +22,100 @@ toc_icon: "cog"
 classes: wide
 mermaid: true
 ---
-
-# EDGY vs C4 vs Mermaid
-
 Architecture teams often ask:
-
 Should we use EDGY?
-
 Should we use C4?
-
-These questions assume the different approaches solve the same problem.
-
-They don't.
-
-> EDGY, C4, and Mermaid operate at different levels of abstraction and complement one another rather than compete.
-
-Understanding this distinction helps architects choose the right tool for the right conversation.
-
-## EDGY Models the Enterprise
-
-Enterprise architecture begins long before applications and APIs.
-
-It starts by understanding the enterprise itself.
-
-Questions include:
-
-- What value do we create?
-- Which capabilities do we need?
-- Who are our stakeholders?
-- Which products and services deliver value?
-
-EDGY provides a lightweight way to model these relationships without focusing on technology.
-
-## C4 Models Software Systems
-
-Once strategy becomes delivery, software architecture requires a different viewpoint.
-
-C4 provides a structured way to describe software at multiple levels of abstraction.
-
-| Level | Focus |
-|--------|-------|
-| Context | How the system fits into its environment |
-| Container | The major building blocks |
-| Component | Internal responsibilities |
-| Code | Implementation details |
-
-Rather than creating one large architecture diagram, C4 encourages multiple focused views for different audiences.
-
-## Mermaid Draws the Diagrams
-
-Unlike EDGY and C4, Mermaid is not a modelling approach.
-
-It is a diagramming language.
-
-Mermaid allows architecture diagrams to be written as plain text and stored alongside documentation.
-
-This makes diagrams:
-
-- version controlled
-- easy to review
-- easy to update
-- easy to publish
-
-For documentation-as-code, Mermaid has become a natural choice.
-
-## They Solve Different Problems
-
-Each approach answers a different question.
-
-| Tool | Primary Question |
-|--------|-----------------|
-| EDGY | How is the enterprise designed? |
-| C4 | How is the software designed? |
-| Mermaid | How should we communicate it? |
-
-Notice that none of these overlap.
-
-Using one does not replace the others.
-
-## A Practical Combination
-
-Many modern architecture repositories benefit from using all three.
-
-EDGY provides the enterprise context.
-
-C4 describes individual software systems.
-
-Mermaid renders both as living documentation.
-
-A typical journey might look like this.
-
-```mermaid
-flowchart LR
-    Strategy --> EDGY
-    EDGY --> Capability
-    Capability --> C4
-    C4 --> Mermaid
-    Mermaid --> Documentation
-```
-
-Each layer builds on the previous one while answering a different architectural question.
-
-## Choose the Right Viewpoint
-
-One of the most common mistakes in architecture is trying to use a single notation for every discussion.
-
-Capability maps become software diagrams.
-
-Context diagrams become enterprise models.
-
-Eventually every diagram tries to explain everything—and explains very little.
-
-Architecture becomes significantly clearer when each viewpoint has a specific purpose.
-
-## Final Thoughts
-
-EDGY is not a replacement for C4.
-
-C4 is not a replacement for Mermaid.
-
-Mermaid is not a replacement for either.
-
-Together they provide a practical path from enterprise strategy to software implementation.
-
-The question is therefore not:
-
-> Which one should we use?
-
-The better question is:
-
-> Which architectural question are we trying to answer?
-
-# EDGY vs C4 vs Mermaid
-
-Architecture teams often ask:
-
-Should we use EDGY?
-
-Should we use C4?
-
 Is Mermaid replacing both?
-
 These questions assume the three approaches solve the same problem.
-
 They don't.
-
 > EDGY, C4, and Mermaid operate at different levels of abstraction and complement one another rather than compete.
-
 Understanding this distinction helps architects choose the right tool for the right conversation.
-
 ## EDGY Models the Enterprise
-
 Enterprise architecture begins long before applications and APIs.
-
 It starts by understanding the enterprise itself.
-
 Questions include:
-
 - What value do we create?
 - Which capabilities do we need?
 - Who are our stakeholders?
 - Which products and services deliver value?
-
 EDGY provides a lightweight way to model these relationships without focusing on technology.
-
+Enterprise architecture asks questions such as:
+- Why does the organization exist?
+- How is value created?
+- Which capabilities enable the strategy?
+- Which products and services deliver that value?
+Technology supports these conversations, but it should not drive them.
 ## C4 Models Software Systems
-
 Once strategy becomes delivery, software architecture requires a different viewpoint.
-
 C4 provides a structured way to describe software at multiple levels of abstraction.
-
 | Level | Focus |
 |--------|-------|
 | Context | How the system fits into its environment |
 | Container | The major building blocks |
 | Component | Internal responsibilities |
 | Code | Implementation details |
-
 Rather than creating one large architecture diagram, C4 encourages multiple focused views for different audiences.
-
+Each level answers a different question while maintaining a consistent architectural narrative.
 ## Mermaid Draws the Diagrams
-
 Unlike EDGY and C4, Mermaid is not a modelling approach.
-
 It is a diagramming language.
-
-Mermaid allows architecture diagrams to be written as plain text and stored alongside documentation.
-
+Mermaid allows architecture diagrams to be written as plain text and stored alongside Markdown documentation.
 This makes diagrams:
-
-- version controlled
-- easy to review
-- easy to update
-- easy to publish
-
-For documentation-as-code, Mermaid has become a natural choice.
-
+- Version controlled
+- Easy to review
+- Easy to update
+- Easy to publish
+For documentation-as-code, Mermaid has become a natural choice because diagrams evolve alongside the architecture they describe.
 ## They Solve Different Problems
-
 Each approach answers a different question.
-
 | Tool | Primary Question |
 |--------|-----------------|
 | EDGY | How is the enterprise designed? |
 | C4 | How is the software designed? |
 | Mermaid | How should we communicate it? |
-
 Notice that none of these overlap.
-
 Using one does not replace the others.
-
+Instead, each provides a different viewpoint.
 ## A Practical Combination
-
 Many modern architecture repositories benefit from using all three.
-
 EDGY provides the enterprise context.
-
 C4 describes individual software systems.
-
 Mermaid renders both as living documentation.
-
-A typical journey might look like this.
-
+A typical architecture journey might look like this.
 ```mermaid
 flowchart LR
+    Strategy["Enterprise Strategy"]
+    EDGY["EDGY"]
+    Capability["Capabilities"]
+    C4["C4"]
+    Mermaid["Mermaid"]
+    Documentation["Living Documentation"]
     Strategy --> EDGY
     EDGY --> Capability
     Capability --> C4
     C4 --> Mermaid
     Mermaid --> Documentation
 ```
-
 Each layer builds on the previous one while answering a different architectural question.
-
+Enterprise Architecture explains **why**.
+Software Architecture explains **how**.
+Mermaid helps communicate both.
 ## Choose the Right Viewpoint
-
 One of the most common mistakes in architecture is trying to use a single notation for every discussion.
-
 Capability maps become software diagrams.
-
 Context diagrams become enterprise models.
-
 Eventually every diagram tries to explain everything—and explains very little.
-
 Architecture becomes significantly clearer when each viewpoint has a specific purpose.
-
+The goal is not to standardize on one notation.
+The goal is to communicate the right information to the right audience.
 ## Final Thoughts
-
 EDGY is not a replacement for C4.
-
 C4 is not a replacement for Mermaid.
-
 Mermaid is not a replacement for either.
-
 Together they provide a practical path from enterprise strategy to software implementation.
-
 The question is therefore not:
-
 > Which one should we use?
-
 The better question is:
-
 > Which architectural question are we trying to answer?
+The best architecture repositories don't standardize on a single diagramming approach.
+They standardize on answering the right questions with the appropriate viewpoint.
