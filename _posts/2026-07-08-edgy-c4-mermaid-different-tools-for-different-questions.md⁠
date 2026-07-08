@@ -26,6 +26,7 @@ header:
   overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
   caption: "Photo credit: Nate Grant on Unsplash"
 ---
+
 Enterprise architecture has no shortage of frameworks, methods, and diagramming tools. It's common to hear questions like:
 > Should we use EDGY or C4? Is Mermaid replacing both?
 The answer is simple:
