@@ -22,6 +22,12 @@ toc_icon: "cog"
 classes: wide
 mermaid: true
 ---
+> I recently added Mermaid support to this site.
+> Rather than writing a tutorial, I thought I'd use the opportunity to compare three concepts that are often mentioned together: EDGY, C4, and Mermaid.
+> The goal isn't to determine which one is "better." They solve different problems.
+> This post is therefore both a comparison and a demonstration of how Mermaid diagrams can be embedded directly into Markdown to create living architecture documentation.
+
+
 Architecture teams often ask:
 Should we use EDGY?
 Should we use C4?
