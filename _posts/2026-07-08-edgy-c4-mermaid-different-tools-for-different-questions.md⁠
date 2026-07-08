@@ -18,11 +18,6 @@ header:
   caption: "Photo credit: Nate Grant on Unsplash"
 author_profile: true
 toc: true
-toc_label: "Contents"
-toc_icon: "cog"
-read_time: true
-share: truer
-related: true
 classes: wide
 mermaid: true
 ---
