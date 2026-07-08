@@ -1,16 +1,16 @@
 ---
-title: "EDGY vs C4 vs Mermaid: Different Tools for Different Questions"
-excerpt: "EDGY, C4, and Mermaid are often compared as alternatives, but they solve different problems."
-date: 2026-07-08
+title: "Roles vs Titles: Why Architecture Depends on Responsibilities, Not Job Names"
+excerpt: "Organizations often spend too much time debating titles and too little time defining decision rights and responsibilities."
+date: 2026-06-10
 categories:
   - Architecture
 tags:
   - Architecture
   - Enterprise Architecture
-  - EDGY
-  - C4
-  - Mermaid
-  - Documentation
+  - Governance
+  - Organization Design
+  - Roles
+  - Operating Model
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -20,286 +20,160 @@ toc: true
 toc_label: "Contents"
 toc_icon: "cog"
 classes: wide
-mermaid: true
 ---
 
-# EDGY vs C4 vs Mermaid
+# Roles vs Titles
 
-Architecture teams often ask:
+Many architecture discussions begin with titles.
 
-Should we use EDGY?
+Should we have Enterprise Architects?
 
-Should we use C4?
+Do we need Domain Architects?
 
-These questions assume the different approaches solve the same problem.
+What is the difference between a Chief Architect and a Solution Architect?
 
-They don't.
+While these questions seem important, they often distract from a more fundamental concern:
 
-> EDGY, C4, and Mermaid operate at different levels of abstraction and complement one another rather than compete.
+> Architecture effectiveness depends on responsibilities and decision rights, not job titles.
 
-Understanding this distinction helps architects choose the right tool for the right conversation.
+Organizations frequently spend significant effort defining titles while leaving accountability unclear.
 
-## EDGY Models the Enterprise
+The result is confusion, overlap, and governance that depends more on individuals than on the operating model.
 
-Enterprise architecture begins long before applications and APIs.
+## Titles Are Labels
 
-It starts by understanding the enterprise itself.
+Titles are useful.
 
-Questions include:
+They help communicate seniority, specialization, and organizational structure.
 
-- What value do we create?
-- Which capabilities do we need?
-- Who are our stakeholders?
-- Which products and services deliver value?
+Examples include:
 
-EDGY provides a lightweight way to model these relationships without focusing on technology.
+- Chief Architect
+- Enterprise Architect
+- Domain Architect
+- Solution Architect
+- Platform Architect
+- Product Owner
+- Technical Lead
 
-## C4 Models Software Systems
+However, titles alone tell us very little about what someone actually owns.
 
-Once strategy becomes delivery, software architecture requires a different viewpoint.
+An Enterprise Architect in one organization may define strategy and investment priorities.
 
-C4 provides a structured way to describe software at multiple levels of abstraction.
+In another organization, the same title may primarily review solution designs.
 
-| Level | Focus |
-|--------|-------|
-| Context | How the system fits into its environment |
-| Container | The major building blocks |
-| Component | Internal responsibilities |
-| Code | Implementation details |
+The title is identical.
 
-Rather than creating one large architecture diagram, C4 encourages multiple focused views for different audiences.
+The responsibilities are not.
 
-## Mermaid Draws the Diagrams
+## Roles Define Accountability
 
-Unlike EDGY and C4, Mermaid is not a modelling approach.
+Roles exist to establish accountability.
 
-It is a diagramming language.
+A role answers questions such as:
 
-Mermaid allows architecture diagrams to be written as plain text and stored alongside documentation.
+- What decisions can this person make?
+- What outcomes are they responsible for?
+- What risks do they own?
+- What authority do they have?
 
-This makes diagrams:
+Architecture governance becomes significantly clearer when organizations focus on roles rather than titles.
 
-- version controlled
-- easy to review
-- easy to update
-- easy to publish
+Consider the following simplified operating model.
 
-For documentation-as-code, Mermaid has become a natural choice.
+| Role | Primary Responsibility |
+|--------|--------|
+| Board | Business strategy and investment direction |
+| IT Management | Technology strategy and governance |
+| IT Architect | Architecture principles, target architecture, and decision support |
+| Delivery Team | Solution design and implementation |
 
-## They Solve Different Problems
+Notice that none of these are job titles.
 
-Each approach answers a different question.
+They are roles.
 
-| Tool | Primary Question |
-|--------|-----------------|
-| EDGY | How is the enterprise designed? |
-| C4 | How is the software designed? |
-| Mermaid | How should we communicate it? |
+Multiple individuals may perform the same role.
 
-Notice that none of these overlap.
+A single individual may perform multiple roles.
 
-Using one does not replace the others.
+The focus remains on accountability.
 
-## A Practical Combination
+## Start with Decisions, Not Titles
 
-Many modern architecture repositories benefit from using all three.
+When designing an architecture operating model, begin with decisions rather than titles.
 
-EDGY provides the enterprise context.
+Ask:
 
-C4 describes individual software systems.
+- Who defines architecture principles?
+- Who owns technology strategy?
+- Who approves major investments?
+- Who designs solutions?
+- Who accepts architecture exceptions?
 
-Mermaid renders both as living documentation.
+Only after these responsibilities are clear should titles be assigned.
 
-A typical journey might look like this.
+A useful principle is:
 
-```mermaid
-flowchart LR
-    Strategy --> EDGY
-    EDGY --> Capability
-    Capability --> C4
-    C4 --> Mermaid
-    Mermaid --> Documentation
-```
+> Decisions create roles. Titles communicate them.
 
-Each layer builds on the previous one while answering a different architectural question.
+## The Problem with Title-Centric Organizations
 
-## Choose the Right Viewpoint
+When organizations optimize around titles, several problems emerge.
 
-One of the most common mistakes in architecture is trying to use a single notation for every discussion.
+### Governance Becomes Person-Dependent
 
-Capability maps become software diagrams.
+Architecture decisions depend on who attends a meeting rather than on defined decision rights.
 
-Context diagrams become enterprise models.
+### Responsibility Overlaps
 
-Eventually every diagram tries to explain everything—and explains very little.
+Multiple architects review the same decision without clear ownership.
 
-Architecture becomes significantly clearer when each viewpoint has a specific purpose.
+### Delivery Slows Down
+
+Teams spend time navigating organizational structures rather than solving business problems.
+
+### Architecture Becomes a Function
+
+Architecture becomes something architects do instead of a capability embedded across the organization.
+
+## Architecture as a Capability
+
+This is one of the reasons I believe architecture should be viewed as a capability rather than a function.
+
+Capabilities are not owned by titles.
+
+Capabilities are enabled through operating models, governance, skills, principles, and decision-making structures.
+
+The goal is therefore not to create more architecture titles.
+
+The goal is to ensure that architectural responsibilities are understood and that decision rights are clear.
+
+## Titles Change. Responsibilities Endure.
+
+Titles vary significantly between organizations.
+
+What one company calls an Enterprise Architect may be called a Chief Architect, Domain Architect, Lead Architect, or Principal Architect somewhere else.
+
+The title is less important than the decisions that role owns.
+
+Architecture maturity improves when organizations stop asking:
+
+> What architects should we have?
+
+and start asking:
+
+> What architectural decisions need to be made?
 
 ## Final Thoughts
 
-EDGY is not a replacement for C4.
+Titles matter.
 
-C4 is not a replacement for Mermaid.
+But roles matter more.
 
-Mermaid is not a replacement for either.
+Organizations rarely fail because they chose the wrong architecture title.
 
-Together they provide a practical path from enterprise strategy to software implementation.
+They fail because decision ownership, accountability, and governance are unclear.
 
-The question is therefore not:
+Architecture is ultimately about enabling better decisions.
 
-> Which one should we use?
-
-The better question is:
-
-> Which architectural question are we trying to answer?
-  - Architecture
-tags:
-  - Architecture
-  - Enterprise Architecture
-  - EDGY
-  - C4
-  - Mermaid
-  - Documentation
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/nate-grant-QQ9LainS6tI-unsplash.jpg
-  caption: "Photo credit: Nate Grant on Unsplash"
-toc: true
-toc_label: "Contents"
-toc_icon: "cog"
-classes: wide
-mermaid: true
----
-
-# EDGY vs C4 vs Mermaid
-
-Architecture teams often ask:
-
-Should we use EDGY?
-
-Should we use C4?
-
-Is Mermaid replacing both?
-
-These questions assume the three approaches solve the same problem.
-
-They don't.
-
-> EDGY, C4, and Mermaid operate at different levels of abstraction and complement one another rather than compete.
-
-Understanding this distinction helps architects choose the right tool for the right conversation.
-
-## EDGY Models the Enterprise
-
-Enterprise architecture begins long before applications and APIs.
-
-It starts by understanding the enterprise itself.
-
-Questions include:
-
-- What value do we create?
-- Which capabilities do we need?
-- Who are our stakeholders?
-- Which products and services deliver value?
-
-EDGY provides a lightweight way to model these relationships without focusing on technology.
-
-## C4 Models Software Systems
-
-Once strategy becomes delivery, software architecture requires a different viewpoint.
-
-C4 provides a structured way to describe software at multiple levels of abstraction.
-
-| Level | Focus |
-|--------|-------|
-| Context | How the system fits into its environment |
-| Container | The major building blocks |
-| Component | Internal responsibilities |
-| Code | Implementation details |
-
-Rather than creating one large architecture diagram, C4 encourages multiple focused views for different audiences.
-
-## Mermaid Draws the Diagrams
-
-Unlike EDGY and C4, Mermaid is not a modelling approach.
-
-It is a diagramming language.
-
-Mermaid allows architecture diagrams to be written as plain text and stored alongside documentation.
-
-This makes diagrams:
-
-- version controlled
-- easy to review
-- easy to update
-- easy to publish
-
-For documentation-as-code, Mermaid has become a natural choice.
-
-## They Solve Different Problems
-
-Each approach answers a different question.
-
-| Tool | Primary Question |
-|--------|-----------------|
-| EDGY | How is the enterprise designed? |
-| C4 | How is the software designed? |
-| Mermaid | How should we communicate it? |
-
-Notice that none of these overlap.
-
-Using one does not replace the others.
-
-## A Practical Combination
-
-Many modern architecture repositories benefit from using all three.
-
-EDGY provides the enterprise context.
-
-C4 describes individual software systems.
-
-Mermaid renders both as living documentation.
-
-A typical journey might look like this.
-
-```mermaid
-flowchart LR
-    Strategy --> EDGY
-    EDGY --> Capability
-    Capability --> C4
-    C4 --> Mermaid
-    Mermaid --> Documentation
-```
-
-Each layer builds on the previous one while answering a different architectural question.
-
-## Choose the Right Viewpoint
-
-One of the most common mistakes in architecture is trying to use a single notation for every discussion.
-
-Capability maps become software diagrams.
-
-Context diagrams become enterprise models.
-
-Eventually every diagram tries to explain everything—and explains very little.
-
-Architecture becomes significantly clearer when each viewpoint has a specific purpose.
-
-## Final Thoughts
-
-EDGY is not a replacement for C4.
-
-C4 is not a replacement for Mermaid.
-
-Mermaid is not a replacement for either.
-
-Together they provide a practical path from enterprise strategy to software implementation.
-
-The question is therefore not:
-
-> Which one should we use?
-
-The better question is:
-
-> Which architectural question are we trying to answer?
+The first step is ensuring that everyone understands who owns them.
