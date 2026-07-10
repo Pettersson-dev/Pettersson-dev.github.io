@@ -3,16 +3,14 @@
 
 
 ---
-
 title: “An Operating Model for Change: Turning Strategy into Continuous Delivery”
 excerpt: “Successful transformation depends on more than architecture. An operating model for change defines how strategy becomes execution through governance, ownership, and decision-making.”
 date: 2026-07-10
 categories:
-
-* Architecture
-    tags:
-* Architecture
-* Enterprise Architecture
+  * Architecture
+tags:
+  * Architecture
+  * Enterprise Architecture
 * Operating Model
 * Governance
 * Transformation
@@ -27,7 +25,6 @@ categories:
     toc_icon: “cog”
     classes: wide
     mermaid: true
-
 ---
 
 Organizations invest significant time creating strategies, roadmaps, and target architectures.
