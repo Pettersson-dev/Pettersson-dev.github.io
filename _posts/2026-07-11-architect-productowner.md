@@ -3,7 +3,7 @@ title: "Architect vs Product Owner: Different Decisions, Shared Outcomes"
 excerpt: "Architects and Product Owners are often seen as overlapping roles. In reality, they operate at different levels, with different responsibilities and decision rights."
 date: 2026-07-11
 categories:
-  - Architecture
+  - Governance
 tags:
   - Architecture
   - Enterprise Architecture
