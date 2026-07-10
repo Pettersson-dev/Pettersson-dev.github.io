@@ -122,6 +122,7 @@ Conway's Law has traditionally been interpreted through human communication stru
 AI introduces something broader.
 People no longer communicate only with one another.
 They increasingly communicate through documentation, models, platforms, and shared knowledge.
+
 Architectural decisions, business terminology, operating models, capability maps, architecture principles, and API documentation become shared context for both humans and AI.
 Communication increasingly flows through knowledge rather than conversations alone.
 
@@ -129,13 +130,16 @@ Communication increasingly flows through knowledge rather than conversations alo
 
 One common misconception is that AI reduces the need for documentation.
 The opposite may be true.
+
 As AI becomes part of everyday work, documentation becomes one of an organization's most valuable assets.
 A wiki is no longer just documentation for people.
 It becomes context for AI.
 
 > Enterprise search, retrieval-augmented generation, coding assistants, architecture copilots, and internal AI agents all depend on structured, trustworthy information.
+
 The quality of AI-generated answers increasingly depends on the quality of the organization's knowledge.
 This changes the role of architecture documentation.
+
 Architecture principles, decision records, capability maps, reference architectures, standards, and operating models are no longer static documents.
 They become part of the organization's information flow.
 In an AI-enabled enterprise, documentation is not a by-product of delivery.
@@ -165,6 +169,7 @@ Well-structured knowledge creates better decisions.
 Despite these changes, one thing remains constant.
 AI can suggest.
 Humans decide.
+
 Organizations must still determine:
 
 - Who owns architectural decisions?
@@ -202,9 +207,12 @@ Teams may become smaller.
 Boundaries may shift.
 
 Shared AI platforms, knowledge sources, and decision structures may become more important than traditional coordination paths.
+
 Software will still mirror how the organization communicates.
 The difference is that communication increasingly flows through people, AI agents, platforms, and shared knowledge.
+
 Architecture documentation, decision records, capability maps, and operating models are therefore no longer passive artefacts.
 They actively shape how both humans and AI understand the enterprise.
+
 Perhaps AI does not change Conway's Law.
 Perhaps AI changes the organization that Conway's Law describes.
