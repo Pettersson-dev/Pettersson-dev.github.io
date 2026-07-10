@@ -3,7 +3,7 @@ title: "Architecture Review & Governance Toolkit"
 excerpt: "A practical architecture review and governance toolkit for evaluating systems, guiding technology decisions, and enabling continuous change."
 date: 2026-05-30
 categories:
-  - Architecture
+  - Enterprise Architecture
 tags:
   - Architecture
   - Enterprise Architecture
