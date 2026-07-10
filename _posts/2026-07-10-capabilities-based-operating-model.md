@@ -31,6 +31,7 @@ Products evolve.
 Organizations reorganize.
 Business capabilities, however, remain remarkably stable.
 > A capability-centric operating model organizes change around what the business must be able to do rather than how the organization happens to be structured today.
+
 ## Why Capabilities?
 Capabilities describe **what** an organization needs to do.
 They deliberately avoid describing **who** performs the work or **how** it is implemented.
@@ -40,8 +41,10 @@ Examples include:
 - Billing
 - Identity Management
 - Risk Management
+
 Unlike projects, products, and organizational structures, capabilities tend to survive reorganizations, technology replacements, and leadership changes.
 That stability makes them an excellent foundation for long-term planning and investment.
+
 ## Capabilities Connect Strategy to Delivery
 One of the greatest strengths of capability-centric thinking is that it creates traceability across the enterprise.
 ```mermaid
@@ -60,7 +63,9 @@ Organizations begin asking:
 - Which capabilities create competitive advantage?
 - Which capabilities are underperforming?
 - Which capabilities should be modernized?
+
 The conversation shifts from solutions to business outcomes.
+
 ## Decision Rights Matter More Than Organizational Structure
 Many organizations assign capability ownership without giving capability owners meaningful authority.
 The result is accountability without influence.
@@ -78,8 +83,10 @@ At the same time, they should **not** decide:
 - Sprint priorities
 - Team composition
 - Low-level solution design
+
 Those decisions belong closer to delivery.
 A capability-centric operating model works because decision rights are distributed to the appropriate level.
+
 ## Capability Owners Are Not Product Owners
 Capability ownership and product ownership complement one another.
 A capability owner looks across multiple products and focuses on long-term business outcomes.
@@ -91,8 +98,10 @@ A product owner maximizes the value of an individual product.
 | Prioritizes investments | Prioritizes backlog |
 | Measures business outcomes | Measures product outcomes |
 | Coordinates multiple products | Optimizes a single product |
+
 Neither role replaces the other.
 Together they connect enterprise strategy with product delivery.
+
 ## Architecture Supports Better Decisions
 Enterprise architecture becomes significantly more valuable when aligned with capability ownership.
 Instead of reviewing individual solutions in isolation, architects support capability owners by answering questions such as:
@@ -101,16 +110,21 @@ Instead of reviewing individual solutions in isolation, architects support capab
 - Which platforms should be reused?
 - Which capabilities are strategic differentiators?
 - Which investments reduce enterprise complexity?
+
 Architecture becomes a decision-support capability rather than an approval function.
+
 ## Funding Should Follow Capabilities
 Traditional budgeting allocates funding to projects.
 Capability-centric organizations increasingly allocate funding to strategic capabilities.
 This changes the conversation from:
+
 > Which project should receive funding?
 to:
 > Which capability requires investment to achieve our strategic objectives?
+
 Projects become temporary implementation vehicles.
 Capabilities become long-term investment portfolios.
+
 ## An Example Operating Model
 A simplified capability-centric operating model might look like this.
 ```mermaid
@@ -134,8 +148,10 @@ Responsibilities are intentionally separated.
 - Enterprise architects provide principles, guardrails, and long-term direction.
 - Product owners prioritize product delivery.
 - Delivery teams determine how solutions are implemented.
+
 Everyone has clear responsibilities.
 Everyone has appropriate decision rights.
+
 ## Governance Focuses on Outcomes
 Traditional governance often reviews projects.
 Capability-centric governance reviews outcomes.
@@ -145,7 +161,9 @@ Typical questions include:
 - Are we reducing duplication?
 - Are customers seeing measurable improvements?
 - Are technology risks decreasing?
+
 Governance shifts from approving work to measuring progress.
+
 ## Challenges
 Capability-centric operating models are not without challenges.
 Organizations often struggle with:
@@ -155,8 +173,10 @@ Organizations often struggle with:
 - Measuring capability maturity
 - Coordinating multiple product teams
 - Balancing local autonomy with enterprise priorities
+
 These challenges are organizational rather than technical.
 They require executive sponsorship, governance, and a shared understanding of accountability.
+
 ## When Does It Make Sense?
 Capability-centric operating models are particularly effective when organizations:
 - Operate multiple product teams
