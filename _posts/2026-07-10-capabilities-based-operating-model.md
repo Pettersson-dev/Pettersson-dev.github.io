@@ -186,6 +186,7 @@ Capability-centric operating models are particularly effective when organization
 - Need stronger alignment between strategy and execution
 - Want enterprise-wide investment prioritization
 Smaller organizations may not require a formal capability model, but the principles remain valuable.
+
 ## Final Thoughts
 Projects are temporary.
 Products evolve.
