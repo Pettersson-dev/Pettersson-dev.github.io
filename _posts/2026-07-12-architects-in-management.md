@@ -3,7 +3,7 @@ title: "Should Architects Be Part of Management?"
 excerpt: "Some organizations place architects in management, while others embed them in delivery teams. The right answer depends on decision rights, governance, and the organization's operating model."
 date: 2026-07-12
 categories:
-  - Architecture
+  - Governance
 tags:
   - Architecture
   - Enterprise Architecture
