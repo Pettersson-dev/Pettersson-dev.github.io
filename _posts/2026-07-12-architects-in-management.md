@@ -71,6 +71,7 @@ Many organizations benefit from keeping them separate.
 
 ## A Better Model
 Rather than asking whether architects belong in management, define their decision rights.
+
 For example:
 
 | Decision | Manager | Architect |
@@ -87,6 +88,7 @@ The goal is to give them architectural authority.
 
 ## Influence Without Hierarchy
 Many successful architecture functions operate through influence rather than hierarchy.
+
 Architects provide:
 - Strategic direction
 - Principles
