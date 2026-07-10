@@ -3,7 +3,7 @@ title: "Roles vs Titles: Why Architecture Depends on Responsibilities, Not Job N
 excerpt: "Organizations often spend too much time debating titles and too little time defining decision rights and responsibilities."
 date: 2026-06-10
 categories:
-  - Architecture
+  - Governance
 tags:
   - Architecture
   - Enterprise Architecture
