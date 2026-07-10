@@ -3,7 +3,8 @@ title: "Capability-Centric Operating Models: Organizing for Continuous Change"
 excerpt: "Projects, products, and platforms all matter, but business capabilities provide the most stable foundation for organizing enterprise change."
 date: 2026-07-10
 categories:
-  - Architecture
+  - Enterprise Architecture 
+  - Governance 
 tags:
   - Architecture
   - Enterprise Architecture
