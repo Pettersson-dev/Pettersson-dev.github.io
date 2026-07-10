@@ -123,7 +123,7 @@ AI introduces something broader.
 People no longer communicate only with one another.
 They increasingly communicate through documentation, models, platforms, and shared knowledge.
 
-Architectural decisions, business terminology, operating models, capability maps, architecture principles, and API documentation become shared context for both humans and AI.
+Architectural decisions, business terminology, capability maps, architecture principles, and API documentation become shared context for both humans and AI.
 Communication increasingly flows through knowledge rather than conversations alone.
 
 ## Documentation Becomes Strategic
@@ -211,7 +211,7 @@ Shared AI platforms, knowledge sources, and decision structures may become more 
 Software will still mirror how the organization communicates.
 The difference is that communication increasingly flows through people, AI agents, platforms, and shared knowledge.
 
-Architecture documentation, decision records, capability maps, and operating models are therefore no longer passive artefacts.
+Architecture documentation, decision records, and capability maps are therefore no longer passive artefacts.
 They actively shape how both humans and AI understand the enterprise.
 
 Perhaps AI does not change Conway's Law.
