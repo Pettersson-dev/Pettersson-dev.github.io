@@ -8,7 +8,7 @@ header:
 excerpt: "An overview of common integration styles — APIs, events, and information hubs — with their principles, rationale, and risks."
 classes: wide
 categories:
- - Integration architecture
+ - Integration Architecture
 tags:
   - Integration
   - Architecture
