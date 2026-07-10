@@ -3,7 +3,7 @@ title: "Don't Confuse Order with Bottlenecks"
 excerpt: "Many organizations mistake governance for bureaucracy. The real bottleneck is often unclear decision-making rather than structured decision-making."
 date: 2026-07-13
 categories:
-  - Architecture
+  - Governance
 tags:
   - Architecture
   - Enterprise Architecture
