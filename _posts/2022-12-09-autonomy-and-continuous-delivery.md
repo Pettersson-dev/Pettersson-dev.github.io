@@ -7,6 +7,8 @@ header:
   caption: "Photo credit: [**Nate Grant on Unsplash**](https://unsplash.com)"
 excerpt: "CI/CD — continuous integration and continuous delivery as enablers of autonomy and transformation."
 classes: wide
+categories: 
+ - Platform
 tags:
   - CI/CD
   - Delivery
