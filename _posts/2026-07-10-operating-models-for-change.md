@@ -170,9 +170,11 @@ Architecture becomes one capability within a broader operating model for change.
 ## Final Thoughts
 Organizations don't transform because they produce better architecture diagrams.
 They transform because they establish an operating model that consistently turns strategy into outcomes.
+
 Architecture is one part of that model.
 Governance is another.
 Delivery is another.
+
 The most successful organizations connect them into a system that continuously learns and adapts.
 An operating model for change is not about controlling transformation.
 It's about making continuous transformation possible.
