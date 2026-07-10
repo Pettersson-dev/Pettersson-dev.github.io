@@ -27,6 +27,7 @@ Yet many transformation initiatives fail to deliver the expected outcomes.
 The reason is rarely the strategy itself.
 More often, organizations lack an operating model for change.
 > Strategy defines where we're going. An operating model for change defines how we get there.
+
 ## Change Is a Capability
 Many organizations treat change as a collection of projects.
 Projects begin.
@@ -40,6 +41,7 @@ they ask:
 > How does our organization continuously adapt?
 One optimizes projects.
 The other optimizes change.
+
 ## Architecture Is Necessary, But Not Sufficient
 Enterprise architecture provides direction.
 It defines principles, target states, capabilities, and technology strategy.
@@ -52,6 +54,7 @@ Successful transformation also requires:
 - Delivery capabilities
 - Feedback loops
 Without these elements, even the best architecture becomes shelfware.
+
 ## An Operating Model for Change
 A practical operating model answers questions such as:
 - Who makes strategic decisions?
@@ -62,6 +65,7 @@ A practical operating model answers questions such as:
 - Who measures outcomes?
 If these questions remain unanswered, delivery teams will create their own operating model.
 That rarely scales.
+
 ## Connecting Strategy to Delivery
 One way to think about change is as a chain of connected decisions.
 ```mermaid
@@ -75,6 +79,7 @@ flowchart LR
 ```
 Each stage influences the next.
 Most importantly, outcomes feed back into strategy, creating a continuous learning loop rather than a one-way roadmap.
+
 ## Governance Enables Speed
 Governance is often mistaken for bureaucracy.
 In reality, good governance reduces uncertainty.
@@ -86,9 +91,11 @@ When decision rights are clear:
 - Strategic priorities remain aligned.
 The goal is not more governance.
 The goal is better governance.
+
 ## Examples of Operating Models for Change
 There is no universal operating model.
 Different organizations optimize for different types of change.
+
 ### Project-Centric
 Change is delivered through temporary projects.
 Characteristics:
@@ -98,6 +105,7 @@ Characteristics:
 - Fixed budgets
 - Defined start and end dates
 Best suited for organizations with predictable, discrete initiatives.
+
 ### Product-Centric
 Long-lived product teams own products from idea through operation.
 Characteristics:
@@ -107,6 +115,7 @@ Characteristics:
 - Frequent releases
 - Product ownership
 Best suited for organizations delivering digital products and services.
+
 ### Capability-Centric
 Business capabilities become the primary organizing principle for investment.
 Characteristics:
@@ -116,6 +125,7 @@ Characteristics:
 - Long-term investment horizons
 - Architecture-led decision support
 Best suited for large enterprises undergoing strategic transformation.
+
 ### Platform-Centric
 Shared technology platforms provide reusable capabilities for delivery teams.
 Characteristics:
@@ -125,6 +135,7 @@ Characteristics:
 - Standardized technology
 - Reduced duplication
 Best suited for organizations with many engineering teams.
+
 ### Federated
 Decision-making is distributed while governance remains consistent across the enterprise.
 Characteristics:
@@ -134,6 +145,7 @@ Characteristics:
 - Clear decision rights
 - Enterprise-wide standards
 Best suited for large organizations balancing autonomy with consistency.
+
 ## Most Organizations Use a Hybrid Model
 Few organizations operate using a single model.
 A modern enterprise might:
@@ -143,6 +155,7 @@ A modern enterprise might:
 - Govern through a federated architecture function.
 The objective is not to copy another organization's operating model.
 The objective is to create one that enables continuous change while remaining aligned with business strategy.
+
 ## Architecture as Part of the Operating Model
 Architecture should not exist outside delivery.
 Nor should it become a centralized approval function.
@@ -153,6 +166,7 @@ Instead, architecture enables change by providing:
 - Decision support
 - Long-term thinking
 Architecture becomes one capability within a broader operating model for change.
+
 ## Final Thoughts
 Organizations don't transform because they produce better architecture diagrams.
 They transform because they establish an operating model that consistently turns strategy into outcomes.
