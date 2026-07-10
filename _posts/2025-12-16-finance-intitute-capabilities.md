@@ -8,7 +8,7 @@ header:
   caption: "Photo credit: [Nate Grant on Unsplash](https://unsplash.com)"
 categories:
   - Enterprise Architecture
-  - Financial Services
+  - Finance
 tags:
   - Capability Mapping
   - Business Architecture
