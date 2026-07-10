@@ -2,7 +2,7 @@
 title: "Gateway, Cell-Based and Adapter Architecture"
 excerpt: "From edge control to protected domain logic in modern enterprise platforms."
 categories:
-  - Enterprise Architecture
+  - Integration Architecture
   - Platform Architecture
   - Distributed Systems
 tags:
