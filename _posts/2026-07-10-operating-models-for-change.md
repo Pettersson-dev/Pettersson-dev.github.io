@@ -39,6 +39,7 @@ Instead of asking:
 > Which project delivers this initiative?
 they ask:
 > How does our organization continuously adapt?
+
 One optimizes projects.
 The other optimizes change.
 
@@ -53,6 +54,7 @@ Successful transformation also requires:
 - Product ownership
 - Delivery capabilities
 - Feedback loops
+
 Without these elements, even the best architecture becomes shelfware.
 
 ## An Operating Model for Change
@@ -63,6 +65,7 @@ A practical operating model answers questions such as:
 - Who funds change?
 - Who governs architecture?
 - Who measures outcomes?
+
 If these questions remain unanswered, delivery teams will create their own operating model.
 That rarely scales.
 
@@ -89,6 +92,7 @@ When decision rights are clear:
 - Escalations decrease.
 - Architectural consistency improves.
 - Strategic priorities remain aligned.
+
 The goal is not more governance.
 The goal is better governance.
 
@@ -104,6 +108,7 @@ Characteristics:
 - Stage-gate governance
 - Fixed budgets
 - Defined start and end dates
+
 Best suited for organizations with predictable, discrete initiatives.
 
 ### Product-Centric
@@ -114,6 +119,7 @@ Characteristics:
 - Outcome-based planning
 - Frequent releases
 - Product ownership
+
 Best suited for organizations delivering digital products and services.
 
 ### Capability-Centric
@@ -124,6 +130,7 @@ Characteristics:
 - Cross-functional planning
 - Long-term investment horizons
 - Architecture-led decision support
+
 Best suited for large enterprises undergoing strategic transformation.
 
 ### Platform-Centric
@@ -134,6 +141,7 @@ Characteristics:
 - Shared services
 - Standardized technology
 - Reduced duplication
+
 Best suited for organizations with many engineering teams.
 
 ### Federated
@@ -144,6 +152,7 @@ Characteristics:
 - Lightweight governance
 - Clear decision rights
 - Enterprise-wide standards
+
 Best suited for large organizations balancing autonomy with consistency.
 
 ## Most Organizations Use a Hybrid Model
@@ -153,6 +162,7 @@ A modern enterprise might:
 - Invest according to business capabilities.
 - Build shared technology platforms.
 - Govern through a federated architecture function.
+
 The objective is not to copy another organization's operating model.
 The objective is to create one that enables continuous change while remaining aligned with business strategy.
 
