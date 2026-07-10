@@ -91,6 +91,7 @@ A capability-centric operating model works because decision rights are distribut
 Capability ownership and product ownership complement one another.
 A capability owner looks across multiple products and focuses on long-term business outcomes.
 A product owner maximizes the value of an individual product.
+
 | Capability Owner | Product Owner |
 |------------------|---------------|
 | Owns a business capability | Owns a product or service |
