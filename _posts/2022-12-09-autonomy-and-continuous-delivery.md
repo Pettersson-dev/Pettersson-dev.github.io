@@ -8,7 +8,7 @@ header:
 excerpt: "CI/CD — continuous integration and continuous delivery as enablers of autonomy and transformation."
 classes: wide
 categories: 
- - Platform
+ - Platform Architecture
 tags:
   - CI/CD
   - Delivery
