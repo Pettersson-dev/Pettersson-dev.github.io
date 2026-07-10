@@ -7,6 +7,8 @@ header:
   caption: "Photo credit: [**Nate Grant on Unsplash**](https://unsplash.com)"
 excerpt: "An overview of common integration styles — APIs, events, and information hubs — with their principles, rationale, and risks."
 classes: wide
+categories:
+ - Integration architecture
 tags:
   - Integration
   - Architecture
