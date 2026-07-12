@@ -740,6 +740,10 @@ They reveal:
 - Where architecture has influence
 - Where governance is only implicit
 
+Architecture is not created only by architects.
+
+It emerges from the decisions the organization repeatedly makes.
+
 Architecture is not only the structure of systems.
 
 It is also the structure of decisions.
