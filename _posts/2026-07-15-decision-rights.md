@@ -753,10 +753,10 @@ It is also the structure of decisions.
 
 > Clear decision rights turn governance from a queue into an operating model.
 
-## References and Further Reading
+[^jensen-meckling]: Michael C. Jensen and William H. Meckling, “Specific and General Knowledge, and Organizational Structure,” in *Contract Economics*, 1992.
 
-- Jensen, Michael C., and William H. Meckling. “Specific and General Knowledge, and Organizational Structure.” In *Contract Economics*, 1992.
-- NIST. *Prioritizing Cybersecurity Risk for Enterprise Risk Management*, NIST IR 8286B.
-- NIST. *Risk Management Framework for Information Systems and Organizations*, SP 800-37 Rev. 2.
-- Nygard, Michael. “Documenting Architecture Decisions.”
-- Intersection Group. *Enterprise Design with EDGY*.
+[^nist-risk-owner]: NIST, *Prioritizing Cybersecurity Risk for Enterprise Risk Management*, NIST IR 8286B, 2022.
+
+[^nygard-adr]: Michael Nygard, “Documenting Architecture Decisions,” 2011.
+
+[^edgy]: Intersection Group, *Enterprise Design with EDGY*.
