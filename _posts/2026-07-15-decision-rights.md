@@ -754,6 +754,8 @@ It is also the structure of decisions.
 
 > Clear decision rights turn governance from a queue into an operating model.
 
+
+# References and Further Reading
 [^jensen-meckling]: Michael C. Jensen and William H. Meckling, “Specific and General Knowledge, and Organizational Structure,” in *Contract Economics*, 1992.
 
 [^nist-risk-owner]: NIST, *Prioritizing Cybersecurity Risk for Enterprise Risk Management*, NIST IR 8286B, 2022.
