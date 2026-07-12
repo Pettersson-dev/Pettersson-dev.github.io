@@ -196,6 +196,8 @@ That is not the same as pushing every decision downward.
 
 Some decisions are inherently broader than a single team.
 
+This reflects a long-standing principle in organizational design: decision rights should be placed close to the specific knowledge required to make the decision, while authority and control mechanisms must remain aligned.[^jensen-meckling]
+
 ## Example: Implementation Decisions
 
 A delivery team should typically own decisions such as:
