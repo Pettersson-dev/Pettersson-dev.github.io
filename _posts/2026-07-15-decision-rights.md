@@ -24,6 +24,7 @@ toc_icon: "cog"
 classes: wide
 mermaid: true
 ---
+
 > **Note:** The decision-rights examples in this article are illustrative, not prescriptive. Different organizations may assign the same decisions to different roles depending on their structure, maturity, regulatory obligations, and operating model.
 
 Architecture is often described as the structure of systems.
@@ -493,6 +494,7 @@ flowchart TD
     Finance --> Owner
     Owner --> Decision
 ```
+
 Shared decisions also require shared understanding.
 
 This is where approaches such as EDGY can help.
