@@ -247,7 +247,7 @@ These decisions are broader than one product but may not require enterprise-wide
 
 ## Example: Enterprise Architecture Decisions
 
-Enterprise Architecture may own or govern decisions such as:
+Enterprise Architecture may own, facilitate, or govern decisions such as:
 
 - Enterprise architecture principles
 - Strategic platforms
