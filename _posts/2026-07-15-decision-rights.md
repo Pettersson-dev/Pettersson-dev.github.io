@@ -12,6 +12,7 @@ tags:
   - Operating Model
   - Team Autonomy
   - Accountability
+  - EDGY
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -492,6 +493,33 @@ flowchart TD
     Finance --> Owner
     Owner --> Decision
 ```
+Shared decisions also require shared understanding.
+
+This is where approaches such as EDGY can help.
+
+The purpose of EDGY is not primarily to create better diagrams.
+
+It is to provide a shared visual language that allows business leaders, architects, designers, product teams, and technologists to discuss the same enterprise from different perspectives.
+
+Identity, experience, and architecture are connected rather than treated as separate conversations.
+
+This matters because decision rights alone are not enough.
+
+A clearly identified decision owner may still make a poor decision if the participants do not share the same understanding of:
+
+- The intended outcome
+- The stakeholders affected
+- The capabilities involved
+- The value being created
+- The organizational and technical consequences
+
+EDGY can help create that shared context.
+
+It does not replace decision ownership.
+
+It helps ensure that the people contributing to a decision are discussing the same enterprise.
+
+> Shared language informs the decision. Clear decision rights determine who makes it.
 
 Consensus can inform a decision.
 
