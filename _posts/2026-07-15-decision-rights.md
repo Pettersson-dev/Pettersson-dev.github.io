@@ -752,3 +752,11 @@ Architecture is not only the structure of systems.
 It is also the structure of decisions.
 
 > Clear decision rights turn governance from a queue into an operating model.
+
+## References and Further Reading
+
+- Jensen, Michael C., and William H. Meckling. “Specific and General Knowledge, and Organizational Structure.” In *Contract Economics*, 1992.
+- NIST. *Prioritizing Cybersecurity Risk for Enterprise Risk Management*, NIST IR 8286B.
+- NIST. *Risk Management Framework for Information Systems and Organizations*, SP 800-37 Rev. 2.
+- Nygard, Michael. “Documenting Architecture Decisions.”
+- Intersection Group. *Enterprise Design with EDGY*.
