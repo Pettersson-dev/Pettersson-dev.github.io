@@ -643,6 +643,30 @@ Decentralize when:
 
 Decision rights should reflect current organizational capability, not ideology.
 
+## The Real Architects May Be the Decision-Makers
+
+Organizations often assume that architecture is created by architects.
+
+In reality, architecture is shaped by everyone who makes decisions with long-term consequences.
+
+A Product Owner who prioritizes a local solution over a shared capability shapes the architecture.
+
+A manager who funds one platform and not another shapes the architecture.
+
+A security function that defines mandatory controls shapes the architecture.
+
+A delivery team that introduces a new technology shapes the architecture.
+
+An architect may provide direction, but the resulting architecture is created through the decisions the organization actually makes.
+
+> Perhaps the real architects in an organization are the people who hold the decision rights.
+
+This does not make formal architecture roles irrelevant.
+
+It makes their purpose clearer.
+
+Architects help ensure that important decisions are informed, coherent, and connected across the enterprise.
+
 ## Architecture Should Design the Decision System
 
 Architecture is more than designing systems.
