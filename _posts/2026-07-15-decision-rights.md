@@ -751,20 +751,21 @@ It is also the structure of authority, accountability, and choice.
 
 ## Related Perspectives
 
+The following articles explore adjacent questions about architecture, authority, governance, and organizational decision-making.
+
 ### On pettersson.dev
 
-- [Don’t Confuse Order with Bottlenecks](/governance/confusing-order-with-bottlenecks/)
-- [Roles vs Titles: Why Architecture Depends on Responsibilities, Not Job Names](/governance/roles-vs-titles-architecture/)
-- [Architecture as a Capability: Why Architecture Is Not a Function](/enterprise%20architecture/architecture-as-a-capability/)
-- [Architecture Review & Governance Toolkit](/enterprise%20architecture/architecture-checklist/)
+- [Don’t Confuse Order with Bottlenecks](/governance/confusing-order-with-bottlenecks/) — how apparently orderly governance can create queues and dependencies
+- [Roles vs Titles: Why Architecture Depends on Responsibilities, Not Job Names](/governance/roles-vs-titles-architecture/) — why responsibilities matter more than formal titles
+- [Architecture as a Capability: Why Architecture Is Not a Function](/enterprise%20architecture/architecture-as-a-capability/) — architecture as a distributed organizational capability
+- [Architecture Review & Governance Toolkit](/enterprise%20architecture/architecture-checklist/) — practical mechanisms for reviews, exceptions, and decision records
 
 ### External Perspectives
 
-- [Decision Rights Are the Real Architecture](https://medium.com/@sabarish_nair/decision-rights-are-the-real-architecture-b9dbc0f93840) — Sabarish Sasidharan Nair
-- [Decision Architecture: The Missing Layer Between Project Visibility and Control](https://www.linkedin.com/pulse/decision-architecture-missing-layer-between-project-control-guerard-qsxvf) — Bertrand Guerard
-- [Who Owns Enterprise Architecture?](https://www.eatransformation.com/p/who-owns-enterprise-architecture) — Eetu Niemi
-- [Architecture as a Decision System](https://www.linkedin.com/pulse/architecture-decision-system-phil-myint-acidc) — Phil Myint
-
+- [Decision Rights Are the Real Architecture](https://medium.com/@sabarish_nair/decision-rights-are-the-real-architecture-b9dbc0f93840) — Sabarish Sasidharan Nair on decision rights as an often-hidden organizational structure
+- [Decision Architecture: The Missing Layer Between Project Visibility and Control](https://www.linkedin.com/pulse/decision-architecture-missing-layer-between-project-control-guerard-qsxvf) — Bertrand Guerard on authority and escalation in project governance
+- [Who Owns Enterprise Architecture?](https://www.eatransformation.com/p/who-owns-enterprise-architecture) — Eetu Niemi on ownership of architecture work, deliverables, and outcomes
+- [Architecture as a Decision System](https://www.linkedin.com/pulse/architecture-decision-system-phil-myint-acidc) — Phil Myint on connecting architecture artefacts to real decisions
 
 [^jensen-meckling]: Michael C. Jensen and William H. Meckling, “Specific and General Knowledge, and Organizational Structure,” in *Contract Economics*, 1992.
 
