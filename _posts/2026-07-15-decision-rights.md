@@ -432,6 +432,7 @@ The architect may recommend against deployment.
 The business owner must decide whether the residual risk is acceptable.
 
 That decision should be explicit and documented.
+
 Established risk-management guidance makes a similar distinction: specialists may assess and recommend treatment, while an authorized risk owner remains accountable for the risk-based decision and its consequences.[^nist-risk-owner]
 
 ## Architects Should Not Decide Everything
@@ -507,6 +508,7 @@ The purpose of EDGY is not primarily to create better diagrams.
 It is to provide a shared visual language that allows business leaders, architects, designers, product teams, and technologists to discuss the same enterprise from different perspectives.
 
 Identity, experience, and architecture are connected rather than treated as separate conversations.
+
 EDGY connects these perspectives to support holistic and collaborative enterprise design.[^edgy]
 
 This matters because decision rights alone are not enough.
