@@ -669,13 +669,12 @@ That creates dependency and turns architecture into a queue.
 
 Architects should help:
 
-- Identify which decisions are architecturally significant
+Architects should help:
+
+- Identify architecturally significant decisions
 - Establish principles and guardrails
-- Expose cross-domain consequences
-- Provide options and trade-offs
-- Facilitate shared decisions
-- Support predictable escalation
-- Govern material exceptions
+- Expose wider consequences and trade-offs
+- Facilitate cross-boundary decisions and predictable escalation
 - Preserve important decision context
 
 Architectural influence also extends beyond formal architecture roles.
