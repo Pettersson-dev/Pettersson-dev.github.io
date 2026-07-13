@@ -1,5 +1,5 @@
 ---
-title: "Decision Rights Are the Real Architecture"
+title: "Who Decides Shapes the Architecture"
 excerpt: "Organizations often focus on systems, structures, and governance forums. But the real architecture becomes visible in who is allowed to make which decisions."
 date: 2026-07-15
 categories:
