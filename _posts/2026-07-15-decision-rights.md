@@ -699,34 +699,20 @@ It helps the organization establish clear decision authority, guardrails, escala
 
 ## Final Thoughts
 
-The formal organization chart shows reporting lines.
+Architecture diagrams describe structures.
 
-The application landscape shows systems.
+Decision rights explain how those structures are allowed to change.
 
-The capability map shows what the organization must be able to do.
+When authority is unclear, teams wait, forums become hidden gates, and accountability becomes separated from influence.
 
-Decision rights reveal how authority and accountability operate in practice.
+When authority is explicit, teams can act locally, escalate predictably, and preserve the reasoning behind consequential choices.
 
-They show:
+Architecture is therefore not shaped only through formal architecture work.
 
-- Where authority sits
-- Where accountability sits
-- Which decisions belong to teams
-- Which concerns require wider coordination
-- Which forums create bottlenecks
-- Who can accept risk
-- How uncertainty should be escalated
-- Whether autonomy is genuine
-
-Architecture is not created only by architects.
-
-It emerges from the consequential decisions the organization repeatedly makes.
-
-Architecture is not only the structure of systems.
-
-It is also the structure of authority, accountability, and choice.
+It emerges through the decisions the organization repeatedly permits, constrains, escalates, and records.
 
 > Who decides shapes the architecture.
+
 
 ## Related Perspectives
 
