@@ -198,6 +198,29 @@ A team may have the best understanding of its immediate problem while lacking vi
 
 Decision rights should therefore be placed close to the relevant knowledge while authority and control mechanisms remain aligned.[^jensen-meckling]
 
+## The Decision Architecture Lens
+
+For every consequential decision, five questions should be explicit:
+
+1. **Significance** — Why does this decision require wider attention?
+2. **Authority** — Who has the right to make the decision?
+3. **Contribution** — Who must advise, assess, recommend, or execute?
+4. **Escalation** — What happens when the decision exceeds the current mandate?
+5. **Memory** — How will the decision, rationale, and conditions be preserved?
+
+```mermaid
+flowchart LR
+    Significance["Significance"]
+    Authority["Authority"]
+    Contribution["Contribution"]
+    Escalation["Escalation"]
+    Memory["Memory"]
+
+    Significance --> Authority
+    Authority --> Contribution
+    Contribution --> Escalation
+    Escalation --> Memory
+
 ## Decision Rights in Practice
 
 The following examples illustrate how different categories of decisions may be distributed.
