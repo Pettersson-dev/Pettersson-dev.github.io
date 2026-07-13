@@ -672,7 +672,7 @@ Decentralize when:
 
 Decision rights should reflect current organizational capability, not ideology.
 
-## The Real Architects May Be the Decision-Makers
+## Architectural Influence Extends Beyond Architects
 
 Organizations often assume that architecture is created by architects.
 
