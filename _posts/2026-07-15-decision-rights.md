@@ -590,7 +590,7 @@ Architecture Decision Records provide one lightweight mechanism for preserving a
 Important decisions should capture:
 
 - The decision
-- The owner
+- The decision authority
 - The context
 - Alternatives considered
 - Trade-offs
