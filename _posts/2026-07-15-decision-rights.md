@@ -73,6 +73,12 @@ A well-designed operating model connects context, authority, accountability, and
 
 A poorly designed one leaves teams guessing.
 
+Not every decision involving technology is architectural.
+
+A decision becomes architecturally significant when it creates long-term dependencies, affects multiple teams, changes important boundaries, introduces material risk, or constrains future choices.
+
+The governance mechanism should reflect the consequences of the decision, not simply the fact that technology is involved.
+
 ## Unclear Decision Rights Create Hidden Gates
 
 Organizations often claim to have autonomous teams.
