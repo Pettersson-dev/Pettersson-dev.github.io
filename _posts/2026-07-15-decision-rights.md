@@ -270,14 +270,11 @@ The mechanism should match the impact of the decision.
 
 A Product Owner or Product Manager should typically own decisions such as:
 
-- Which customer problem to address
-- Feature priority
-- Roadmap sequencing
+- Customer problems and outcomes
+- Feature and roadmap priorities
 - Release scope
 - Product trade-offs
 - Acceptance criteria
-- Which outcomes to measure
-- Whether to defer lower-value functionality
 
 These are product-value decisions.
 
@@ -289,14 +286,11 @@ When a product choice creates wider dependencies or conflicts with enterprise gu
 
 A Domain Architect or equivalent may own or facilitate decisions such as:
 
-- Domain-wide integration patterns
-- Shared services within the domain
-- Domain data ownership
+- Domain integration patterns
+- Shared services and data ownership
 - Domain target architecture
-- Retirement of duplicated applications
 - Cross-product dependencies
-- Domain-specific technology standards
-- Architectural exceptions affecting multiple products
+- Domain standards and exceptions
 
 These decisions are broader than one product but may not require enterprise-wide governance.
 
@@ -308,14 +302,10 @@ Depending on the operating model, Enterprise Architecture may hold decision auth
 
 These may include:
 
-- Enterprise architecture principles
+- Enterprise principles
 - Strategic platforms
-- Enterprise integration standards
-- Identity and access direction
-- Enterprise data principles
+- Cross-domain standards
 - Technology lifecycle policy
-- Approved technology catalog
-- Cross-domain reference architectures
 - Enterprise-wide exceptions
 
 These decisions create long-term consequences across the organization.
