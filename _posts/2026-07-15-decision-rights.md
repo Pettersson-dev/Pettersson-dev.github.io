@@ -32,8 +32,8 @@ But these descriptions do not show who has the authority to shape them.
 Together, these decision rights form a decision architecture: who can decide, who must be consulted, who remains accountable, and when a decision must be escalated.
 > The real architecture of an organization becomes visible in who is allowed to make which decisions.
 
-> **Note:** The decision-rights examples in this article are illustrative, not prescriptive. Different organizations may assign the same decisions to different roles depending on their structure, maturity, regulatory obligations, and operating model.
-
+**Note:** The decision-rights examples in this article are illustrative, not prescriptive. Different organizations may assign the same decisions to different roles depending on their structure, maturity, regulatory obligations, and operating model.
+{: .notice--info}
 
 ## Architecture Is a Decision System
 
