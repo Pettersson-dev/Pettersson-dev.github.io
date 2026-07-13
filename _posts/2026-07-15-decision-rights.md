@@ -717,7 +717,7 @@ That includes:
 
 A strong architecture function does not attempt to own every decision.
 
-It shapes an environment in which the organization can make better decisions at the right level.
+It establishes the guardrails, authority, escalation paths, and shared context needed for better decisions at the right level.
 
 ## Final Thoughts
 
