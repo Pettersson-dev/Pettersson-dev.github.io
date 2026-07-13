@@ -434,6 +434,7 @@ No single role needs to own every part of the process.
 
 For each consequential decision, authority and accountability must still be explicit.
 
+
 ## Shared Decisions Need Explicit Authority
 
 Some decisions require multiple perspectives.
@@ -448,7 +449,7 @@ Selecting a strategic platform may involve:
 
 That does not mean the decision should belong to a vague collective.
 
-A shared process still needs explicit decision authority, whether it sits with an individual role or a clearly defined collective body. 
+A shared process still needs explicit decision authority, whether it sits with an individual role or a clearly defined collective body.
 
 Shared decisions also require shared understanding.
 
@@ -529,7 +530,7 @@ Architecture Decision Records provide one lightweight mechanism for preserving a
 
 Records of important decisions should capture:
 
-- The decision and its authority
+- The decision and decision authority
 - Context and alternatives considered
 - Trade-offs and risks
 - Consulted roles
