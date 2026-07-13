@@ -29,7 +29,7 @@ Architecture is often documented through systems, platforms, integrations, capab
 
 But these descriptions do not show who has the authority to shape them.
 
-Together, these elements form a decision architecture: who can decide, who must be consulted, who remains accountable, and when a decision must be escalated.
+This pattern of authority, consultation, accountability, and escalation forms a decision architecture.
 
 > The real architecture of an organization becomes visible in who is allowed to make which decisions.
 
