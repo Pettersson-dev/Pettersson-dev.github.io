@@ -749,6 +749,21 @@ It is also the structure of authority, accountability, and choice.
 
 > Who decides shapes the architecture.
 
+## Related Perspectives
+
+### On pettersson.dev
+
+- [Architecture as a Capability: Why Architecture Is Not a Function](/enterprise%20architecture/architecture-as-a-capability/)
+- [Dependencies, Platforms, and the Hidden Architecture](/enterprise%20architecture/transformation/governance/hidden-architecture-dependencies-platforms/)
+- [Autonomy Beyond Team Independence](/autonomy-and-continuous-delivery/)
+
+### External Perspectives
+
+- [Decision Rights Are the Real Architecture](https://medium.com/@sabarish_nair/decision-rights-are-the-real-architecture-b9dbc0f93840) — Sabarish Sasidharan Nair
+- [Decision Architecture: The Missing Layer Between Project Visibility and Control](https://www.linkedin.com/pulse/decision-architecture-missing-layer-between-project-control-guerard-qsxvf) — Bertrand Guerard
+- [Who Owns Enterprise Architecture?](https://www.eatransformation.com/p/who-owns-enterprise-architecture) — Eetu Niemi
+- [Architecture as a Decision System](https://www.linkedin.com/pulse/architecture-decision-system-phil-myint-acidc) — Phil Myint
+
 
 [^jensen-meckling]: Michael C. Jensen and William H. Meckling, “Specific and General Knowledge, and Organizational Structure,” in *Contract Economics*, 1992.
 
