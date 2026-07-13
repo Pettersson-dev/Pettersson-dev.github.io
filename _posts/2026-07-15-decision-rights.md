@@ -273,7 +273,7 @@ But the security team may not be the correct owner for every risk decision.
 
 For example:
 
-| Decision | Typical Owner |
+| Decision | Typical Decision Authority |
 |---|---|
 | Define mandatory security control | Security |
 | Implement the control | Delivery team |
