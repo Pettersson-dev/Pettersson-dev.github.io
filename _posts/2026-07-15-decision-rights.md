@@ -392,12 +392,10 @@ Platform teams often sit between autonomy and standardization.
 They may own decisions such as:
 
 - Platform roadmap
-- Supported capabilities
-- Service levels
+- Supported capabilities and service levels
 - Standard deployment patterns
 - Upgrade strategy
-- Self-service interfaces
-- Platform guardrails
+- Self-service interfaces and guardrails
 
 Delivery teams should decide how to use the platform within those boundaries.
 
