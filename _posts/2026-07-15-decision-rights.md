@@ -142,7 +142,7 @@ These distinctions matter.
 | Advise | Provide expertise or options |
 | Consult | Give input before a decision |
 | Recommend | Propose a preferred direction |
-| Approve | Confirm that defined conditions are met |
+| Approve | Confirm that a proposal meets defined conditions |
 | Decide | Select the course of action |
 | Accept risk | Take accountability for residual exposure |
 | Execute | Implement the decision |
