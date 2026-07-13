@@ -141,7 +141,7 @@ A manager may approve funding without deciding the technical design.
 
 These distinctions matter.
 
-| Involvement | Meaning |
+| Decision role | Meaning |
 |---|---|
 | Advise | Provide expertise or options |
 | Consult | Give input before a decision |
