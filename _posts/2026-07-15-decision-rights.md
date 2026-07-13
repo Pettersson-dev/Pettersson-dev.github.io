@@ -440,10 +440,6 @@ Some decisions require multiple perspectives.
 
 Selecting a strategic platform may involve:
 
-Selecting a strategic platform may involve:
-
-Selecting a strategic platform may involve:
-
 - Business and product leadership
 - Enterprise Architecture
 - Security
@@ -530,8 +526,6 @@ It should not depend on who knows whom.
 Clear decision rights should be complemented by decision records.
 
 Architecture Decision Records provide one lightweight mechanism for preserving architecturally significant decisions, their context, and their consequences.[^nygard-adr]
-
-Records of important decisions should capture:
 
 Records of important decisions should capture:
 
