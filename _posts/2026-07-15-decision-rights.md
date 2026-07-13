@@ -292,7 +292,7 @@ For example:
 
 Security identifies and evaluates risk.
 
-Business accountability is still required to accept it.
+Residual business risk still requires acceptance by an accountable business owner.
 
 ## Example: Data Decisions
 
