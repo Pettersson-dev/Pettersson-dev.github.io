@@ -377,9 +377,9 @@ Decision rights may therefore be distributed.
 | Accept residual risk | Business owner |
 | Decide enterprise standardization | Management and enterprise architecture |
 
-No single role owns the whole decision.
+No single role needs to own every part of the process.
 
-But one role must still own the final outcome.
+But the final decision authority and accountability must still be explicit.
 
 ## Example: Technology Selection
 
