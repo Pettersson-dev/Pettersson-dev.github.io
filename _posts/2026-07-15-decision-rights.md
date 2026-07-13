@@ -706,7 +706,7 @@ It also means designing how important decisions are made.
 That includes:
 
 - Decision categories
-- Decision owners
+- Decision authorities
 - Guardrails
 - Approval thresholds
 - Consultation requirements
