@@ -555,9 +555,9 @@ flowchart TD
     Enterprise -.->|"Material residual risk"| Risk
 ```
 
-Risk does not always need to pass through Enterprise Architecture.
+Risk acceptance does not always need to pass through an enterprise-level authority.
 
-It should be accepted at the level defined by the organization’s risk thresholds and delegation model.
+It should sit at the level defined by the organization’s risk thresholds and delegation model.
 
 Escalation should be predictable.
 
