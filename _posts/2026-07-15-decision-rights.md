@@ -753,7 +753,10 @@ It is also the structure of authority, accountability, and choice.
 
 ### On pettersson.dev
 
+- [Don’t Confuse Order with Bottlenecks](/governance/confusing-order-with-bottlenecks/)
+- [Roles vs Titles: Why Architecture Depends on Responsibilities, Not Job Names](/governance/roles-vs-titles-architecture/)
 - [Architecture as a Capability: Why Architecture Is Not a Function](/enterprise%20architecture/architecture-as-a-capability/)
+- [Architecture Review & Governance Toolkit](/enterprise%20architecture/architecture-checklist/)
 
 ### External Perspectives
 
