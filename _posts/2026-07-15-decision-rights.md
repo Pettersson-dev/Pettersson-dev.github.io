@@ -209,17 +209,22 @@ For every consequential decision, five questions should be explicit:
 5. **Memory** — How will the decision, rationale, and conditions be preserved?
 
 ```mermaid
-flowchart LR
+flowchart TD
+    Decision["Consequential Decision"]
     Significance["Significance"]
     Authority["Authority"]
     Contribution["Contribution"]
     Escalation["Escalation"]
     Memory["Memory"]
 
-    Significance --> Authority
-    Authority --> Contribution
-    Contribution --> Escalation
-    Escalation --> Memory
+    Decision --> Significance
+    Decision --> Authority
+    Decision --> Contribution
+    Decision --> Escalation
+    Decision --> Memory
+```
+
+A decision model becomes useful when these questions can be answered without relying on informal relationships or organizational guesswork.
 
 ## Decision Rights in Practice
 
