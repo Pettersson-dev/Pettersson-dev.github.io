@@ -219,7 +219,7 @@ Technology choices can be treated differently depending on their consequences:
 |---|---|
 | A team chooses between supported libraries | Local team decision |
 | A team selects a database from the approved technology catalogue | Local decision within guardrails |
-| A team requires an unsupported technology | Architecture exception |
+| A team requires an unsupported technology | Formal exception process |
 | The organization considers a new strategic cloud platform | Enterprise decision |
 
 The mechanism should match the impact of the decision.
@@ -262,8 +262,7 @@ Domain-level authority can combine local knowledge with accountability for wider
 
 ### Enterprise Architecture Decisions
 
-Depending on the operating model, Enterprise Architecture may decide, facilitate, or govern decisions such as:
-
+Depending on the operating model, Enterprise Architecture may hold decision authority for some categories while facilitating or governing others, such as:
 - Enterprise architecture principles
 - Strategic platforms
 - Enterprise integration standards
