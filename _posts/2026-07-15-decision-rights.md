@@ -154,7 +154,7 @@ This creates accountability without influence.
 
 The opposite is also dangerous.
 
-A forum may have authority to approve decisions without being accountable for the consequences.
+A forum may have authority to approve a proposal without being accountable for its consequences.
 
 For example:
 
