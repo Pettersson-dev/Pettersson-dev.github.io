@@ -42,7 +42,7 @@ These views show what exists.
 
 They rarely show who has the authority to shape it.
 
-That pattern of authority, consultation, accountability, and escalation forms a decision architecture.
+That pattern of authority, consultation, accountability, and escalation forms a **decision architecture**.
 
 Decision rights make clear who can decide, who must contribute, and where accountability sits.
 
