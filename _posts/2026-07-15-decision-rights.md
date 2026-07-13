@@ -24,23 +24,29 @@ classes: wide
 mermaid: true
 ---
 
-Many decisions that shape architecture are never labeled architecture decisions.
+Architecture is shaped by many decisions that are never called architecture decisions.
 
-They happen when a product team introduces a new platform, when management funds one capability rather than another, when security defines a mandatory control, or when a business owner accepts a risk.
+A product team introduces a new platform.
 
-These decisions create dependencies, boundaries, standards, and future constraints.
+Management funds one capability rather than another.
 
-Yet architecture is still commonly documented through systems, platforms, integrations, capabilities, and target states.
+Security sets a mandatory control.
 
-Those descriptions show what exists.
+A business owner accepts a risk.
 
-They do not show who had the authority to shape the resulting architecture.
+Each decision creates dependencies, boundaries, standards, and future constraints.
 
-The pattern of authority, consultation, accountability, and escalation forms a **decision architecture**.
+Architecture is often documented through systems, platforms, integrations, capabilities, and target states.
 
-Decision rights describe how authority is allocated, constrained, and exercised within that architecture.
+These views show what exists.
 
-> Those who hold authority over consequential decisions shape the architecture that emerges.
+They rarely show who had the authority to shape it.
+
+That pattern of authority, consultation, accountability, and escalation forms a decision architecture.
+
+Decision rights make clear who can decide, who must contribute, and where accountability sits.
+
+> Those who make consequential decisions shape the architecture that emerges.
 
 **Note:** The decision-rights examples in this article are illustrative, not prescriptive. Different organizations may assign the same decisions to different roles depending on their structure, maturity, regulatory obligations, and operating model.
 {: .notice--info}
