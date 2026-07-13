@@ -228,7 +228,9 @@ A decision model becomes useful when these questions can be answered without rel
 
 ## Decision Rights in Practice
 
-The following examples illustrate how different categories of decisions may be distributed.
+The following examples apply the Decision Architecture Lens to different categories of decisions.
+
+They illustrate how significance, authority, contribution, escalation, and memory may vary depending on the scope and consequences of the decision. 
 
 The allocation is not universal. What matters is that the boundary between local, shared, and enterprise decisions is explicit.
 
