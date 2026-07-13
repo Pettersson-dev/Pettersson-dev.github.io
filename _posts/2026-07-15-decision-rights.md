@@ -481,14 +481,14 @@ flowchart TD
     Architecture["Architecture Input"]
     Security["Security Input"]
     Finance["Financial Input"]
-    Owner["Accountable Decision Owner"]
+    Authority["Decision Authority"]
     Decision["Decision"]
 
-    Business --> Owner
-    Architecture --> Owner
-    Security --> Owner
-    Finance --> Owner
-    Owner --> Decision
+    Business --> Authority
+    Architecture --> Authority
+    Security --> Authority
+    Finance --> Authority
+    Authority --> Decision
 ```
 
 Shared decisions also require shared understanding.
@@ -505,7 +505,7 @@ EDGY connects these perspectives to support holistic and collaborative enterpris
 
 This matters because decision rights alone are not enough.
 
-A clearly identified decision owner may still make a poor decision if the participants do not share the same understanding of:
+Clearly assigned decision authority does not guarantee a good decision if the participants do not share the same understanding of:
 
 - The intended outcome
 - The stakeholders affected
@@ -515,7 +515,7 @@ A clearly identified decision owner may still make a poor decision if the partic
 
 EDGY can help create that shared context.
 
-It does not replace decision ownership.
+It does not replace explicit decision authority or accountability.
 
 It helps ensure that the people contributing to a decision are discussing the same enterprise.
 
