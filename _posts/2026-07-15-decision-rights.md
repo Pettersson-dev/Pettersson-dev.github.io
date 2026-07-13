@@ -31,9 +31,9 @@ Architecture is often documented through systems, platforms, integrations, capab
 
 But none of these descriptions explains who has the authority to shape them.
 
-Organizations therefore have another kind of architecture.
+Architecture is therefore shaped by more than systems and models.
 
-A decision architecture.
+It is also shaped by a decision architecture: who can decide, who must be consulted, who remains accountable, and when a decision must be escalated.
 
 It determines who can decide, who must be consulted, who is accountable, and when a decision must be escalated.
 
