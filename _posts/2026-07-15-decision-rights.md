@@ -41,7 +41,7 @@ The pattern of authority, consultation, accountability, and escalation forms a *
 
 Decision rights describe how authority is allocated, constrained, and exercised within that architecture.
 
-> Who can make consequential decisions shapes the architecture that emerges.
+> Those who hold authority over consequential decisions shape the architecture that emerges.
 
 **Note:** The decision-rights examples in this article are illustrative, not prescriptive. Different organizations may assign the same decisions to different roles depending on their structure, maturity, regulatory obligations, and operating model.
 {: .notice--info}
