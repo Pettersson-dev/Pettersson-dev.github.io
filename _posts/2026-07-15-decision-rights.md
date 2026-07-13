@@ -495,9 +495,7 @@ Shared decisions also require shared understanding.
 
 Approaches such as EDGY can help participants examine the same enterprise through complementary perspectives of identity, experience, and architecture.[^edgy]
 
-This does not replace explicit authority or accountability.
-
-It improves the context in which the decision is made.
+This does not replace explicit authority or accountability. It improves the context in which the decision is made.
 
 > Shared language informs the decision. Clear decision rights determine who makes it.
 
