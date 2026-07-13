@@ -717,7 +717,7 @@ That includes:
 
 A strong architecture function does not attempt to own every decision.
 
-It designs a decision system that enables the organization to make better decisions at the right level.
+It shapes an environment in which the organization can make better decisions at the right level.
 
 ## Final Thoughts
 
