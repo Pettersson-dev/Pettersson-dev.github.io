@@ -31,12 +31,12 @@ But these descriptions do not show who has the authority to shape them.
 
 This pattern of authority, consultation, accountability, and escalation forms a decision architecture.
 
-> The real architecture of an organization becomes visible in who is allowed to make which decisions.
+> Decision authority reveals how architecture is actually shaped.
 
 **Note:** The decision-rights examples in this article are illustrative, not prescriptive. Different organizations may assign the same decisions to different roles depending on their structure, maturity, regulatory obligations, and operating model.
 {: .notice--info}
 
-## Architecture Is a Decision System
+## Architecture Emerges Through Decisions
 
 Every architecture reflects decisions.
 
@@ -696,7 +696,7 @@ It makes their purpose clearer.
 
 Architects help ensure that important decisions are informed, coherent, and connected across the enterprise.
 
-## Architecture Should Design the Decision System
+## Architecture Should Shape the Decision Environment
 
 Architecture is more than designing systems.
 
