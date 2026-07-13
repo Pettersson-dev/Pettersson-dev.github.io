@@ -688,7 +688,7 @@ A delivery team that introduces a new technology shapes the architecture.
 
 An architect may provide direction, but the resulting architecture is created through the decisions the organization actually makes.
 
-> People with consequential decision rights shape the architecture, whether or not architecture appears in their title.
+> People with consequential decision rights shape the architecture, whether or not they hold a formal architecture role.
 
 This does not make formal architecture roles irrelevant.
 
