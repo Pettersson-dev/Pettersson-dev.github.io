@@ -12,7 +12,6 @@ tags:
   - Operating Model
   - Team Autonomy
   - Accountability
-  - EDGY
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -300,7 +299,10 @@ Domain-level authority can combine local knowledge with accountability for wider
 
 ### Enterprise Architecture Decisions
 
-Depending on the operating model, Enterprise Architecture may hold decision authority for some categories while facilitating or governing others, such as:
+Depending on the operating model, Enterprise Architecture may hold decision authority for some categories of decision while facilitating or governing others.
+
+These may include:
+
 - Enterprise architecture principles
 - Strategic platforms
 - Enterprise integration standards
