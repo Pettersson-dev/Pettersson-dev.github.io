@@ -203,7 +203,7 @@ For every consequential decision, five questions should be explicit:
 
 1. **Significance** — Why does this decision require wider attention?
 2. **Authority** — Who has the right to make the decision?
-3. **Contribution** — Who must advise, assess, recommend, or execute?
+3. **Involvement** — Who must advise, assess, recommend, approve, accept risk, or execute?
 4. **Escalation** — What happens when the decision exceeds the current mandate?
 5. **Memory** — How will the decision, rationale, and conditions be preserved?
 
@@ -212,13 +212,13 @@ flowchart TD
     Decision["Consequential Decision"]
     Significance["Significance"]
     Authority["Authority"]
-    Contribution["Contribution"]
+    Involvement["Involvement"]
     Escalation["Escalation"]
     Memory["Memory"]
 
     Decision --> Significance
     Decision --> Authority
-    Decision --> Contribution
+    Decision --> Involvement
     Decision --> Escalation
     Decision --> Memory
 ```
@@ -227,7 +227,7 @@ A decision model becomes useful when these questions can be answered without rel
 
 ## Decision Rights in Practice
 
-The following examples illustrate how decision authority and contribution may vary across different categories of decisions.
+The following examples illustrate how decision authority and involvement may vary across different categories of decisions.
 
 The Decision Architecture Lens can then be used to clarify significance, escalation, and memory for each specific case.
 
