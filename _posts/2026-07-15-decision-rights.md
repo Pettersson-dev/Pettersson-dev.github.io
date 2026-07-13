@@ -754,8 +754,6 @@ It is also the structure of authority, accountability, and choice.
 ### On pettersson.dev
 
 - [Architecture as a Capability: Why Architecture Is Not a Function](/enterprise%20architecture/architecture-as-a-capability/)
-- [Dependencies, Platforms, and the Hidden Architecture](/enterprise%20architecture/transformation/governance/hidden-architecture-dependencies-platforms/)
-- [Autonomy Beyond Team Independence](/autonomy-and-continuous-delivery/)
 
 ### External Perspectives
 
