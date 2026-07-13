@@ -24,7 +24,7 @@ classes: wide
 mermaid: true
 ---
 
-Most decisions that shape architecture are never labelled architecture decisions.
+Many decisions that shape architecture are never labeled architecture decisions.
 
 They happen when a product team introduces a new platform, when management funds one capability rather than another, when security defines a mandatory control, or when a business owner accepts a risk.
 
@@ -565,11 +565,11 @@ It should not depend on who knows whom.
 
 ## Decision Records Create Organizational Memory
 
-Decision rights are incomplete without decision records.
+Clear decision rights should be complemented by decision records.
 
 Architecture Decision Records provide one lightweight mechanism for preserving architecturally significant decisions, their context, and their consequences.[^nygard-adr]
 
-Important decisions should capture:
+Records of important decisions should capture:
 
 - The decision
 - The decision authority
@@ -687,7 +687,7 @@ It clarifies their purpose.
 
 A strong architecture function does not attempt to own every decision.
 
-It establishes the authority, guardrails, escalation paths, and shared context needed for better decisions at the right level.
+It helps the organization establish clear decision authority, guardrails, escalation paths, and shared context for better decisions at the right level.
 
 ## Final Thoughts
 
