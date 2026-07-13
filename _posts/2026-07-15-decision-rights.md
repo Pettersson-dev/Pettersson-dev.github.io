@@ -25,15 +25,23 @@ classes: wide
 mermaid: true
 ---
 
-Architecture is often documented through systems, platforms, integrations, capabilities, and target states.
+Most decisions that shape architecture are never labelled architecture decisions.
 
-But these descriptions do not show who has the authority to shape them.
+They happen when a product team introduces a new platform, when management funds one capability rather than another, when security defines a mandatory control, or when a business owner accepts a risk.
+
+These decisions create dependencies, boundaries, standards, and future constraints.
+
+Yet architecture is still commonly documented through systems, platforms, integrations, capabilities, and target states.
+
+Those descriptions show what exists.
+
+They do not show who had the authority to shape it.
 
 The pattern of authority, consultation, accountability, and escalation forms a **decision architecture**.
 
 Decision rights describe how authority is allocated, constrained, and exercised within that architecture.
 
-> Decision authority reveals a critical part of how architecture is actually shaped.
+> Who can make consequential decisions shapes the architecture that emerges.
 
 **Note:** The decision-rights examples in this article are illustrative, not prescriptive. Different organizations may assign the same decisions to different roles depending on their structure, maturity, regulatory obligations, and operating model.
 {: .notice--info}
