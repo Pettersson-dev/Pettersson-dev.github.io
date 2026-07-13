@@ -246,13 +246,10 @@ The allocation is not universal. What matters is that the boundary between local
 Delivery teams should typically own decisions such as:
 
 - Internal code structure
-- Naming conventions within the codebase
 - Test implementation
 - Refactoring approach
-- Local caching
 - Internal component design
-- Logging details within agreed standards
-- Choice between supported libraries
+- Choices between supported technologies
 
 These decisions are close to the work, comparatively easy to reverse, and usually limited in scope.
 
