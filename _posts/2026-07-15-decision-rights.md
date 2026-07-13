@@ -58,13 +58,13 @@ They require authority.
 ```mermaid
 flowchart LR
     Context["Decision Context"]
-    Owner["Decision Owner"]
+    Authority["Decision Authority"]
     Decision["Decision"]
     Delivery["Delivery"]
     Outcome["Outcome"]
 
-    Context --> Owner
-    Owner --> Decision
+    Context --> Authority
+    Authority --> Decision
     Decision --> Delivery
     Delivery --> Outcome
 ```
