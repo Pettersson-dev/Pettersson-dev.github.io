@@ -1,6 +1,7 @@
 ---
 title: "Who Decides Shapes the Architecture"
 excerpt: "Architecture is shaped not only by systems and structures, but by who has the authority to make consequential decisions."
+date: 2026-07-15
 categories:
   - Governance
 tags:
