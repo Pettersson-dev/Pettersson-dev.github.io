@@ -122,6 +122,7 @@ There is an important difference between:
 - Approving
 - Deciding
 - Accepting risk
+- Executing
 - Being accountable
 
 An architect may recommend a solution without holding final decision authority.
@@ -141,8 +142,9 @@ These distinctions matter.
 | Recommend | Propose a preferred direction |
 | Approve | Confirm that a proposal meets defined conditions |
 | Decide | Select the course of action |
-| Accept risk | Take accountability for residual exposure |
+| Accept risk | Formally accept residual exposure within delegated authority |
 | Execute | Implement the decision |
+| Be accountable | Own the outcome and answer for its consequences |
 
 Problems emerge when one role believes it is advising while another believes it is approving.
 
@@ -203,7 +205,7 @@ For every consequential decision, five questions should be explicit:
 
 1. **Significance** — Why does this decision require wider attention?
 2. **Authority** — Who has the right to make the decision?
-3. **Involvement** — Who must advise, assess, recommend, approve, accept risk, or execute?
+3. **Involvement** — Who must advise, consult, assess, recommend, approve, accept risk, or execute?
 4. **Escalation** — What happens when the decision exceeds the current mandate?
 5. **Memory** — How will the decision, rationale, and conditions be preserved?
 
