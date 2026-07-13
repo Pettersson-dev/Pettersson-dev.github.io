@@ -452,23 +452,7 @@ Selecting a strategic platform may involve:
 
 That does not mean the decision should belong to a vague collective.
 
-A shared process still needs explicit decision authority, whether it sits with an individual role or a clearly defined collective body.
-
-```mermaid
-flowchart TD
-    Business["Business Input"]
-    Architecture["Architecture Input"]
-    Security["Security Input"]
-    Finance["Financial Input"]
-    Authority["Decision Authority"]
-    Decision["Decision"]
-
-    Business --> Authority
-    Architecture --> Authority
-    Security --> Authority
-    Finance --> Authority
-    Authority --> Decision
-```
+A shared process still needs explicit decision authority, whether it sits with an individual role or a clearly defined collective body. 
 
 Shared decisions also require shared understanding.
 
