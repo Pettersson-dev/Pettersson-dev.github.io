@@ -366,26 +366,20 @@ Data decision rights often span several roles.
 
 A data owner may decide:
 
-- Who can access the data
-- How sensitive it is
-- Required retention
-- Acceptable use
-- Data quality expectations
-- Accountability for its meaning
+- Access, sensitivity, and acceptable use
+- Retention and quality expectations
+- Accountability for meaning
 
 A data architect may decide or recommend:
 
-- Canonical models
-- Metadata standards
-- Data integration patterns
-- Authoritative sources
+- Canonical models and metadata standards
+- Integration patterns and authoritative sources
 - Data platform direction
 
 A product team may decide:
 
-- How data is used within the product
-- How local transformations are implemented
-- How product-specific views are created
+- Product-specific use and transformations
+- Local views within shared data guardrails
 
 A team should not independently create a competing source of truth for enterprise customer data merely because doing so is locally convenient.
 
