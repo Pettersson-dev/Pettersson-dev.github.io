@@ -39,7 +39,7 @@ It determines who can decide, who must be consulted, who is accountable, and whe
 
 > The real architecture of an organization becomes visible in who is allowed to make which decisions.
 
-When decision rights are clear, teams move faster.
+When decision rights are clear, teams can move faster.
 
 When they are unclear, governance becomes informal, political, and unpredictable.
 
