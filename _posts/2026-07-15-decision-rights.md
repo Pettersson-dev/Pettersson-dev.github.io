@@ -86,7 +86,7 @@ A decision becomes architecturally significant when it:
 - Constrains future choices
 - Is difficult or expensive to reverse
 
-The governance mechanism should reflect the consequences of the decision, not simply the fact that technology is involved.
+Governance should reflect the consequences of the decision, not simply the fact that technology is involved.
 
 ## Unclear Decision Rights Create Hidden Gates
 
