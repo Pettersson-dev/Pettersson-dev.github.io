@@ -257,7 +257,7 @@ Technology choices can be treated differently depending on their consequences:
 | Situation | Typical treatment |
 |---|---|
 | A team chooses between supported libraries | Local team decision |
-| A team selects a database from the approved technology catalogue | Local decision within guardrails |
+| A team selects a database from the approved technology catalog | Local decision within guardrails |
 | A team requires an unsupported technology | Formal exception process |
 | The organization considers a new strategic cloud platform | Enterprise decision |
 
@@ -311,7 +311,7 @@ These may include:
 - Identity and access direction
 - Enterprise data principles
 - Technology lifecycle policy
-- Approved technology catalogue
+- Approved technology catalog
 - Cross-domain reference architectures
 - Enterprise-wide exceptions
 
@@ -609,7 +609,7 @@ Examples include:
 - Team onboarding
 - Platform documentation
 - Governance guidance
-- Technology catalogues
+- Technology catalogs
 - Exception processes
 - Architecture Decision Records
 - Capability ownership models
