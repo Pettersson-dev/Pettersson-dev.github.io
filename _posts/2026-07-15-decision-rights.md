@@ -35,7 +35,7 @@ Yet architecture is still commonly documented through systems, platforms, integr
 
 Those descriptions show what exists.
 
-They do not show who had the authority to shape it.
+They do not show who had the authority to shape the resulting architecture.
 
 The pattern of authority, consultation, accountability, and escalation forms a **decision architecture**.
 
