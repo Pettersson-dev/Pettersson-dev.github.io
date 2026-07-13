@@ -480,7 +480,7 @@ For example, selecting a strategic platform may involve:
 
 That does not mean the decision should be owned by a vague collective.
 
-A shared process still needs a clear decision owner.
+A shared process still needs explicit decision authority, whether it sits with an individual role or a clearly defined collective body.
 
 ```mermaid
 flowchart TD
