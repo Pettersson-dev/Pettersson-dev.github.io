@@ -40,7 +40,7 @@ Architecture is often documented through systems, platforms, integrations, capab
 
 These views show what exists.
 
-They rarely show who had the authority to shape it.
+They rarely show who has the authority to shape it.
 
 That pattern of authority, consultation, accountability, and escalation forms a decision architecture.
 
