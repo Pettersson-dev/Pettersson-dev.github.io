@@ -273,7 +273,7 @@ But the security team may not be the correct owner for every risk decision.
 
 For example:
 
-| Decision | Typical Decision Authority |
+| Responsibility | Typical Role |
 |---|---|
 | Define mandatory security control | Security |
 | Implement the control | Delivery team |
@@ -358,7 +358,7 @@ A new SaaS solution may affect:
 
 Decision rights may therefore be distributed.
 
-| Decision | Typical Owner |
+| Activity or Decision | Typical Role |
 |---|---|
 | Define business need | Product or business owner |
 | Evaluate product fit | Product team |
@@ -370,7 +370,7 @@ Decision rights may therefore be distributed.
 
 No single role needs to own every part of the process.
 
-But the final decision authority and accountability must still be explicit.
+For each consequential decision, authority and accountability must still be explicit.
 
 ## Example: Technology Selection
 
