@@ -742,14 +742,13 @@ They reveal:
 
 Architecture is not created only by architects.
 
-It emerges from the decisions the organization repeatedly makes.
+It emerges from the consequential decisions the organization repeatedly makes.
 
 Architecture is not only the structure of systems.
 
-It is also the structure of decisions.
+It is also the structure of authority, accountability, and choice.
 
-> Clear decision rights turn governance from a queue into an operating model.
-
+> Who decides shapes the architecture.
 
 
 [^jensen-meckling]: Michael C. Jensen and William H. Meckling, “Specific and General Knowledge, and Organizational Structure,” in *Contract Economics*, 1992.
