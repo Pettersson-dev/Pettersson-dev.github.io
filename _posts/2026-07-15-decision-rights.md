@@ -25,21 +25,20 @@ classes: wide
 mermaid: true
 ---
 
-> **Note:** The decision-rights examples in this article are illustrative, not prescriptive. Different organizations may assign the same decisions to different roles depending on their structure, maturity, regulatory obligations, and operating model.
-
 Architecture is often documented through systems, platforms, integrations, capabilities, and target states.
 
-But none of these descriptions explains who has the authority to shape them.
+But these descriptions do not show who has the authority to shape them.
 
-Architecture is therefore shaped by more than systems and models.
-
-It is also shaped by a decision architecture: who can decide, who must be consulted, who remains accountable, and when a decision must be escalated.
+That authority forms a decision architecture: who can decide, who must be consulted, who remains accountable, and when a decision must be escalated.
 
 > The real architecture of an organization becomes visible in who is allowed to make which decisions.
 
+> **Note:** The decision-rights examples in this article are illustrative, not prescriptive. Different organizations may assign the same decisions to different roles depending on their structure, maturity, regulatory obligations, and operating model.
+
+
 ## Architecture Is a Decision System
 
-Every architecture contains decisions.
+Every architecture reflects decisions.
 
 Which platforms should be shared?
 
@@ -53,7 +52,7 @@ When does a product decision become an enterprise decision?
 
 These questions are not answered by diagrams alone.
 
-They require authority.
+They require explicit decision authority.
 
 ```mermaid
 flowchart LR
