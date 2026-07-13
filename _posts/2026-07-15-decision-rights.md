@@ -318,11 +318,9 @@ Final authority may sit with Enterprise Architecture, technology leadership, man
 
 Security functions may define:
 
-- Mandatory controls
-- Security standards
-- Threat-model requirements
+- Mandatory controls and security standards
+- Threat-model and identity requirements
 - Approved cryptographic methods
-- Identity requirements
 - Logging and monitoring obligations
 
 Delivery teams remain responsible for implementing the controls.
@@ -442,13 +440,15 @@ Some decisions require multiple perspectives.
 
 Selecting a strategic platform may involve:
 
-- Business leadership
+Selecting a strategic platform may involve:
+
+Selecting a strategic platform may involve:
+
+- Business and product leadership
 - Enterprise Architecture
 - Security
-- Procurement
-- Finance
+- Finance and procurement
 - Operations
-- Product leadership
 
 That does not mean the decision should belong to a vague collective.
 
@@ -533,15 +533,13 @@ Architecture Decision Records provide one lightweight mechanism for preserving a
 
 Records of important decisions should capture:
 
-- The decision
-- The decision authority
-- The context
-- Alternatives considered
-- Trade-offs
-- Risks
+Records of important decisions should capture:
+
+- The decision and its authority
+- Context and alternatives considered
+- Trade-offs and risks
 - Consulted roles
-- Date
-- Review point
+- Date and review point
 - Conditions or exceptions
 
 This matters because people change roles.
