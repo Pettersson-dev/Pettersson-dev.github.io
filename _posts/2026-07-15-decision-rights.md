@@ -415,14 +415,11 @@ That does not mean the team should necessarily be able to purchase and introduce
 
 A new SaaS solution may affect:
 
-- Security
-- Data protection
-- Identity
-- Integration
-- Procurement
-- Legal obligations
-- Support
-- Business continuity
+- Security and privacy
+- Identity and integration
+- Procurement and legal obligations
+- Support and business continuity
+- Data ownership
 - Architecture complexity
 
 Decision rights may therefore be distributed.
