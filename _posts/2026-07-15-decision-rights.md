@@ -465,7 +465,7 @@ The goal is not to make architects the owners of all architectural decisions.
 
 The goal is to make architectural decision rights explicit.
 
-## Shared Decisions Still Need Owners
+## Shared Decisions Still Need Explicit Authority
 
 Some decisions require multiple perspectives.
 
