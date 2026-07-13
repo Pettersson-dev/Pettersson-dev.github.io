@@ -35,13 +35,7 @@ Architecture is therefore shaped by more than systems and models.
 
 It is also shaped by a decision architecture: who can decide, who must be consulted, who remains accountable, and when a decision must be escalated.
 
-It determines who can decide, who must be consulted, who is accountable, and when a decision must be escalated.
-
 > The real architecture of an organization becomes visible in who is allowed to make which decisions.
-
-When decision rights are clear, teams can move faster.
-
-When they are unclear, governance becomes informal, political, and unpredictable.
 
 ## Architecture Is a Decision System
 
