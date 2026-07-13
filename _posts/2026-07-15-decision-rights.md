@@ -669,8 +669,6 @@ That creates dependency and turns architecture into a queue.
 
 Architects should help:
 
-Architects should help:
-
 - Identify architecturally significant decisions
 - Establish principles and guardrails
 - Expose wider consequences and trade-offs
