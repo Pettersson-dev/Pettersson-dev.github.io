@@ -593,7 +593,7 @@ It should not depend on who knows whom.
 
 Decision rights are incomplete without decision records.
 
-Architecture Decision Records provide one lightweight mechanism for preserving architecturally significant decisions, their context, and their consequences.[^nygard-adr] 
+Architecture Decision Records provide one lightweight mechanism for preserving architecturally significant decisions, their context, and their consequences.[^nygard-adr]
 
 Important decisions should capture:
 
