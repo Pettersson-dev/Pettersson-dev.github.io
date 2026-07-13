@@ -29,8 +29,7 @@ Architecture is often documented through systems, platforms, integrations, capab
 
 But these descriptions do not show who has the authority to shape them.
 
-That authority forms a decision architecture: who can decide, who must be consulted, who remains accountable, and when a decision must be escalated.
-
+Together, these decision rights form a decision architecture: who can decide, who must be consulted, who remains accountable, and when a decision must be escalated.
 > The real architecture of an organization becomes visible in who is allowed to make which decisions.
 
 > **Note:** The decision-rights examples in this article are illustrative, not prescriptive. Different organizations may assign the same decisions to different roles depending on their structure, maturity, regulatory obligations, and operating model.
@@ -269,7 +268,7 @@ A security team may define:
 - Identity requirements
 - Logging and monitoring obligations
 
-But the security team may not be the correct owner for every risk decision.
+But the security team may not hold decision authority for every risk decision.
 
 For example:
 
