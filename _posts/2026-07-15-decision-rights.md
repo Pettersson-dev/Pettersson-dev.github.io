@@ -27,19 +27,11 @@ mermaid: true
 
 > **Note:** The decision-rights examples in this article are illustrative, not prescriptive. Different organizations may assign the same decisions to different roles depending on their structure, maturity, regulatory obligations, and operating model.
 
-Architecture is often described as the structure of systems.
+Architecture is often documented through systems, platforms, integrations, capabilities, and target states.
 
-Applications.
+But none of these descriptions explains who has the authority to shape them.
 
-Platforms.
-
-Integrations.
-
-Data.
-
-Technology.
-
-But organizations have another kind of architecture.
+Organizations therefore have another kind of architecture.
 
 A decision architecture.
 
