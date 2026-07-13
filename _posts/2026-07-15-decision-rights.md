@@ -688,7 +688,7 @@ A delivery team that introduces a new technology shapes the architecture.
 
 An architect may provide direction, but the resulting architecture is created through the decisions the organization actually makes.
 
-> Perhaps the real architects in an organization are the people whose decisions shape its long-term structure.
+> People with consequential decision rights shape the architecture, whether or not architecture appears in their title.
 
 This does not make formal architecture roles irrelevant.
 
