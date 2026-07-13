@@ -501,10 +501,6 @@ It improves the context in which the decision is made.
 
 > Shared language informs the decision. Clear decision rights determine who makes it.
 
-Consensus can inform a decision.
-
-It should not replace accountability.
-
 ## Decision Rights Enable Autonomy
 
 Autonomy is not created by telling teams to move faster.
