@@ -263,7 +263,7 @@ Without that clarity, teams either wait unnecessarily or act locally and create 
 
 Escalation is sometimes treated as a failure. It is not.
 
-A team may have authority to select technology from an approved catalog but discover that none of the supported options meets a regulatory requirement. Escalation is the correct response because the decision exceeds the team's mandate; it is not evidence that the team lacks autonomy.
+A team may have authority to select technology from an approved catalog but discover that none of the supported options meets a regulatory requirement. Escalation is the correct response because the decision exceeds the team's mandate.
 
 A useful escalation path defines the trigger, destination, required information, final authority, expected response time, and how the outcome becomes visible to others.
 
