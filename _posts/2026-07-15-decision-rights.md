@@ -66,7 +66,9 @@ Governance should reflect those consequences, not simply the fact that technolog
 
 Organizations often claim to have autonomous teams.
 
-Nobody has formally asked for five approvals, but the team often seeks them anyway because it does not know whose objection could appear later. When decision rights are unclear, teams search for informal approval, wait for the next forum, or seek agreement from everyone who might object later.
+In practice, a team planning a new integration may not know who can stop the work. Nobody has formally asked for five approvals, but the team often seeks them anyway because it does not know whose objection could appear later.
+
+When decision rights are unclear, teams search for informal approval, wait for the next forum, or seek agreement from everyone who might object later.
 
 The formal gate may have disappeared.
 
