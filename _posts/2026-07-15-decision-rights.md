@@ -248,16 +248,6 @@ The risk owner must decide whether the remaining exposure is acceptable within t
 
 Established risk-management guidance makes a similar distinction between specialist assessment and accountable risk-based decision-making.[^nist-risk-owner]
 
-### Data Decisions
-
-Data decisions often reveal how quickly a local solution can become an enterprise problem.
-
-A product team may add a field called `customer_status` to support a new journey. Another team already uses the same name with a different meaning. Both solutions work until the data is combined for reporting, automation, or customer service.
-
-The product team should retain authority over product-specific transformations and views. A data owner may decide acceptable use, sensitivity, retention, and the business meaning of shared data. A data architect may establish metadata standards, integration patterns, and authoritative sources.
-
-A team should not create a competing source of truth for enterprise customer data merely because doing so is locally convenient. That decision has consequences beyond the product boundary.
-
 ### Platform Decisions
 
 Platform teams need enough authority to operate their services as products. They should normally control the platform roadmap, supported capabilities, service levels, upgrade strategy, deployment patterns, and self-service interfaces.
