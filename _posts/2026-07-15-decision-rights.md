@@ -359,8 +359,6 @@ Architects should not become the default owners of every uncertain decision. The
 
 Product leaders shape it through priorities. Platform teams shape it through the capabilities they provide and retire. Security functions shape it through mandatory controls. Procurement shapes it through contractual commitments. Delivery teams shape it through local choices that others may later depend on.
 
-People with consequential decision rights shape the architecture, whether or not they hold a formal architecture role.
-
 The purpose of a strong architecture function is not to own every decision. It is to help the organization make consequential decisions with clearer authority, better context, and fewer hidden dependencies.
 
 ## Final Thoughts
