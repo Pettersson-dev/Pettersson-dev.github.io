@@ -87,8 +87,6 @@ The formal gate may have disappeared.
 
 The hidden gate remains.
 
-See [Don't Confuse Order with Bottlenecks](/governance/confusing-order-with-bottlenecks/).
-
 ## Advice Is Not Approval
 
 Organizations often blur different forms of involvement.
