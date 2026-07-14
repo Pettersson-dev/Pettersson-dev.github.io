@@ -207,25 +207,21 @@ The product role decides whether the outcome is worth pursuing. Other roles cont
 
 When a product choice conflicts with enterprise guardrails or creates dependencies outside the product boundary, consultation or escalation becomes necessary.
 
-### Domain Architecture Decisions
+### Domain and Enterprise Architecture Decisions
 
-Domain-level authority becomes useful when several products need a coherent answer but the decision does not need enterprise-wide governance.
+Some architectural decisions are too broad for a single product but do not automatically require enterprise-level authority.
 
-For example, three customer-facing products may use different definitions of an "active customer." Each definition may work locally, but the differences create problems for reporting, service, and integration. Resolving the meaning, ownership, and authoritative source is a domain decision rather than an internal product choice.
+Three customer-facing products may, for example, use different definitions of an "active customer." Each definition works locally, but the differences create problems for reporting, service, and integration. Resolving the meaning, ownership, and authoritative source is a domain-level decision because the consequences cross product boundaries.
 
-A Domain Architect or equivalent may own or facilitate decisions about integration patterns, shared services, data ownership, target architecture, cross-product dependencies, and domain standards.
+Other decisions create wider and more durable commitments. Selecting an enterprise identity provider, adopting a strategic platform, establishing technology lifecycle policy, or approving an exception that others may use as a precedent can affect several domains and constrain future choices.
 
-The role is not valuable because it sits higher in a hierarchy. It is valuable because it has enough context and mandate to address consequences across product boundaries.
+The distinction is mainly one of scope.
 
-### Enterprise Architecture Decisions
+Domain architecture helps coordinate decisions across related products, services, processes, and data. Enterprise architecture becomes relevant when a decision crosses domains, establishes an organization-wide direction, or creates a dependency that the wider organization must fund, govern, and live with.
 
-Enterprise-level authority becomes relevant when a decision creates long-lived commitments across domains.
+A Domain Architect or equivalent may own or facilitate decisions about shared services, integration patterns, data ownership, cross-product dependencies, and domain standards. Enterprise Architecture may hold authority for some broader decisions while preparing, facilitating, or governing others.
 
-Examples include adopting a strategic cloud platform, selecting an enterprise identity provider, establishing lifecycle policy, or approving an exception that other teams are likely to treat as precedent.
-
-Such decisions should not be made independently by whichever team happens to act first.
-
-Final authority may sit with Enterprise Architecture, technology leadership, management, an investment forum, or another explicitly authorized body. What matters is that the authority is visible and accountable for the broader consequences.
+Final authority may still sit with technology leadership, management, an investment forum, or another explicitly authorized body. Architecture should make the consequences visible and help place the decision with the role that can actually stand behind it.
 
 ### Security and Risk Decisions
 
