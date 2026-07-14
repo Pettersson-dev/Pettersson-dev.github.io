@@ -254,8 +254,6 @@ Selecting a strategic platform may require business leadership to explain the ou
 
 This is where organizations often confuse participation with authority. Because many people need to contribute, the decision gradually becomes something that "the group" owns. Meetings continue, concerns accumulate, and nobody is quite sure who can bring the discussion to a close.
 
-Multiple perspectives do not require vague collective accountability.
-
 A shared process still needs an explicit decision authority. That authority may sit with an individual or a formally mandated body, but participants should understand where input ends and the decision begins.
 
 Approaches such as EDGY can help participants examine the same enterprise through complementary perspectives of identity, experience, and architecture.[^edgy] This improves shared understanding, but it does not replace authority or accountability.
