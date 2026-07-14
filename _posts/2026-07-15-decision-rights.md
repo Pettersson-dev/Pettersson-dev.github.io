@@ -122,8 +122,6 @@ Organizations sometimes make people accountable for outcomes without giving them
 
 A Product Owner may be accountable for product outcomes but unable to influence platform priorities. An architect may be expected to reduce duplication but have no mandate to challenge competing investments. A delivery team may own reliability targets while being required to use a platform whose roadmap and service levels it cannot influence.
 
-This creates accountability without meaningful influence.
-
 The reverse is equally problematic. A forum may approve a design and then disappear from the consequences.
 
 > The architecture board approved the design.
