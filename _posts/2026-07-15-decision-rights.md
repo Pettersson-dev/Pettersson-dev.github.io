@@ -246,10 +246,6 @@ Consider a service that does not meet the required recovery-time objective. The 
 
 The risk owner must decide whether the remaining exposure is acceptable within the delegated mandate.
 
-> The solution does not meet the resilience standard and may cause an extended service disruption.
-
-The architect may recommend against deployment. The decision to proceed belongs to the authorized person who is accountable for the business consequences.
-
 Established risk-management guidance makes a similar distinction between specialist assessment and accountable risk-based decision-making.[^nist-risk-owner]
 
 ### Data Decisions
