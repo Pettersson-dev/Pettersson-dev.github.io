@@ -213,7 +213,7 @@ Some decisions are inherently broader than a single team.
 
 A team may have the best understanding of its immediate problem while lacking visibility into the wider consequences of its choice.
 
-Decision rights should therefore be placed close to the relevant knowledge while authority and control mechanisms remain aligned.[^jensen-meckling][^weill-ross]
+Decision rights should therefore be placed close to the relevant knowledge while authority and control mechanisms remain aligned.[^jensen-meckling]
 
 ## The Decision Architecture Lens
 
