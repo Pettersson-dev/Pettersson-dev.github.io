@@ -176,8 +176,6 @@ flowchart TD
     Decision --> Memory
 ```
 
-The lens is not intended to turn every choice into a governance exercise. Its purpose is to make consequential decisions easier to recognize and easier to place.
-
 A decision model becomes useful when these questions can be answered without relying on informal relationships or organizational guesswork.
 
 ## Decision Rights in Practice
