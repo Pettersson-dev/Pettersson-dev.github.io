@@ -213,7 +213,7 @@ Some decisions are inherently broader than a single team.
 
 A team may have the best understanding of its immediate problem while lacking visibility into the wider consequences of its choice.
 
-Decision rights should therefore be placed close to the relevant knowledge while authority and control mechanisms remain aligned.[^jensen-meckling]
+Decision rights should therefore be placed close to the relevant knowledge while authority and control mechanisms remain aligned.[^jensen-meckling][^weill-ross]
 
 ## The Decision Architecture Lens
 
@@ -691,3 +691,6 @@ The following articles explore adjacent questions about architecture, authority,
 [^nygard-adr]: Michael Nygard, “Documenting Architecture Decisions,” 2011.
 
 [^edgy]: Intersection Group, *Enterprise Design with EDGY*.
+
+[^weill-ross]: Peter Weill and Jeanne W. Ross, *IT Governance: How Top Performers Manage IT Decision Rights for Superior Results*, Harvard Business School Press, 2004.
+
