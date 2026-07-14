@@ -26,52 +26,38 @@ mermaid: true
 
 Architecture is shaped by many decisions that are never labeled as architecture decisions.
 
-A product team introduces a new platform.
+A product team introduces a platform to solve an immediate delivery problem. Management funds one capability rather than another. Security mandates a control. A business owner accepts a risk.
 
-Management funds one capability rather than another.
+None of these decisions may appear in an architecture repository, but each can create dependencies, boundaries, standards, and constraints that remain for years.
 
-Security mandates a control.
+Architecture is usually documented through systems, platforms, integrations, capabilities, and target states. These views are useful, but they mainly show what exists. They rarely show who had the authority to create it, or who can change it now.
 
-A business owner accepts a risk.
+In this article, I use **decision architecture** to describe how authority, involvement, accountability, escalation, and organizational memory are distributed around consequential decisions.
 
-Each decision creates dependencies, boundaries, standards, and future constraints.
-
-Architecture is usually documented through systems, platforms, integrations, capabilities, and target states.
-
-These views show what exists.
-
-They rarely show who has the authority to change it.
-
-A **decision architecture** is the explicit distribution of authority, involvement, accountability, escalation, and organizational memory for consequential decisions.
-
-Explicit decision rights make clear who can decide, who must contribute, who is accountable, and where a decision goes when it exceeds the current mandate.[^weill-ross]
+Explicit decision rights clarify who can decide, who must contribute, who is accountable for the outcome, and where a decision goes when it exceeds the current mandate.[^weill-ross]
 
 > Those who make consequential decisions shape the architecture that emerges.
 
-**Note:** The decision-rights examples in this article are illustrative, not prescriptive. Different organizations may assign the same decisions to different roles depending on their structure, maturity, regulatory obligations, and operating model.
+**Note:** The examples in this article are illustrative rather than prescriptive. The same decision may belong to different roles in different organizations, depending on structure, maturity, regulation, competence, and operating model.
 {: .notice--info}
 
 ## Architecture Emerges Through Decisions
 
-Every architecture reflects decisions.
+Every architecture reflects a history of decisions.
 
-Which platforms should be shared?
+Some were deliberate and carefully governed. Others were made locally to meet a deadline, respond to an incident, satisfy a customer, or work around a constraint.
 
-Which technologies are supported?
+Over time, these decisions determine which platforms become shared, which technologies remain supported, where data ownership sits, and which dependencies teams have to live with.
 
-Who owns customer data?
+This raises questions that diagrams alone cannot answer:
 
-Which risks can a team accept locally?
+- Which platforms should be shared?
+- Which technologies should be supported?
+- Who owns customer data?
+- Which risks can a team accept locally?
+- When does a product decision become an enterprise decision?
 
-When does a product decision become an enterprise decision?
-
-These questions are not answered by diagrams alone.
-
-They require explicit decision authority.
-
-A well-designed operating model connects context, authority, accountability, and execution.
-
-A poorly designed one leaves teams guessing.
+A well-designed operating model connects context, authority, accountability, and execution. A poorly designed one leaves teams guessing, or allows important boundaries to emerge without anyone consciously owning them.
 
 Not every decision involving technology is architecturally significant.
 
@@ -106,19 +92,13 @@ In practice, teams still ask:
 - Who accepts the risk?
 - Which forum should decide?
 
-When the answer is unclear, teams search for informal approval.
-
-They ask the most senior person available.
-
-They wait for the next architecture forum.
-
-They seek consensus from everyone who might object later.
+When the answers are unclear, teams search for informal approval. They ask the most senior person available, wait for the next architecture forum, or seek consensus from everyone who might object later.
 
 The formal gate may have disappeared.
 
 The hidden gate remains.
 
-This is one way apparently orderly governance can create queues, dependencies, and bottlenecks rather than effective coordination. See [Don’t Confuse Order with Bottlenecks](/governance/confusing-order-with-bottlenecks/).
+This is one way apparently orderly governance can create queues, dependencies, and bottlenecks rather than effective coordination. See [Donât Confuse Order with Bottlenecks](/governance/confusing-order-with-bottlenecks/).
 
 ## Advice Is Not Approval
 
@@ -135,13 +115,7 @@ There is an important difference between:
 - Executing
 - Being accountable
 
-An architect may recommend a solution without holding final decision authority.
-
-A security specialist may identify a risk without being authorized to accept it.
-
-A Product Owner may prioritize delivery without being able to override enterprise policy.
-
-A manager may approve funding without deciding the technical design.
+An architect may recommend a solution without holding final decision authority. A security specialist may identify a risk without being authorized to accept it. A Product Owner may prioritize delivery without being able to override enterprise policy. A manager may approve funding without deciding the technical design.
 
 These distinctions matter.
 
@@ -158,9 +132,7 @@ These distinctions matter.
 
 Problems emerge when one role believes it is advising while another believes it is approving.
 
-Approval authority is itself a form of decision authority because an approver can prevent the proposed course of action.
-
-It should therefore be assigned as deliberately as final decision authority.
+Approval authority is itself a form of decision authority because an approver can prevent the proposed course of action. It should therefore be assigned as deliberately as final decision authority.
 
 ## Authority Must Match Accountability
 
@@ -174,19 +146,19 @@ A delivery team may be accountable for reliability while being required to use a
 
 This creates accountability without influence.
 
-The opposite is also dangerous.
-
-A forum may have authority to approve a proposal without being accountable for its consequences.
+The reverse situation is equally problematic: a role or forum may have the authority to approve a proposal without being accountable for what follows.
 
 For example:
 
 > The architecture board approved the design.
 
-That does not mean the architecture board owns the operational risk, delivery outcome, or business impact.
+That statement may explain how the design passed a governance checkpoint. It does not tell us who owns the operational risk, the delivery outcome, or the business impact.
 
-Authority, influence, and accountability should be deliberately aligned.
+This is why approval cannot be treated as a harmless administrative step. Approval changes what can happen and therefore carries a form of decision authority.
 
-> Accountability without authority creates helplessness. Authority without accountability creates careless governance.
+Authority, influence, and accountability will rarely align perfectly, but large gaps between them should be visible and deliberate.
+
+Accountability without authority creates helplessness, while authority without accountability creates careless governance.
 
 ## Different Decisions Belong at Different Levels
 
@@ -209,9 +181,7 @@ A useful principle is:
 
 That is not the same as pushing every decision downward.
 
-Some decisions are inherently broader than a single team.
-
-A team may have the best understanding of its immediate problem while lacking visibility into the wider consequences of its choice.
+Some decisions are inherently broader than a single team. A team may have the best understanding of its immediate problem while lacking visibility into the wider consequences of its choice.
 
 Decision rights should therefore be placed close to the relevant knowledge while authority and control mechanisms remain aligned.[^jensen-meckling]
 
@@ -219,11 +189,11 @@ Decision rights should therefore be placed close to the relevant knowledge while
 
 For every consequential decision, five questions should be explicit:
 
-1. **Significance** — Why does this decision require wider attention?
-2. **Authority** — Who has the right to make the decision?
-3. **Involvement** — Who must advise, consult, assess, recommend, approve, accept risk, or execute?
-4. **Escalation** — What happens when the decision exceeds the current mandate?
-5. **Memory** — How will the decision, rationale, and conditions be preserved?
+1. **Significance** â Why does this decision require wider attention?
+2. **Authority** â Who has the right to make the decision?
+3. **Involvement** â Who must advise, consult, assess, recommend, approve, accept risk, or execute?
+4. **Escalation** â What happens when the decision exceeds the current mandate?
+5. **Memory** â How will the decision, rationale, and conditions be preserved?
 
 ```mermaid
 flowchart TD
@@ -247,13 +217,11 @@ A decision model becomes useful when these questions can be answered without rel
 
 The following examples illustrate how decision authority and involvement may vary across different categories of decisions.
 
-The allocation is not universal.
-
-What matters is that the boundary between local, shared, and enterprise decisions is explicit.
+The allocation is not universal. What matters is that the boundary between local, shared, and enterprise decisions is explicit.
 
 ### Team and Technology Decisions
 
-Delivery teams should typically own decisions such as:
+Most delivery teams should be free to decide:
 
 - Internal code structure
 - Test implementation
@@ -261,9 +229,7 @@ Delivery teams should typically own decisions such as:
 - Internal component design
 - Choices between supported technologies
 
-These decisions are close to the work, comparatively easy to reverse, and usually limited in scope.
-
-They should not require enterprise governance.
+These decisions are close to the work, comparatively easy to reverse, and usually limited in scope. They should not require enterprise governance.
 
 Technology choices can be treated differently depending on their consequences:
 
@@ -278,7 +244,7 @@ The mechanism should match the impact and reversibility of the decision.
 
 ### Product Decisions
 
-A Product Owner or Product Manager should typically own decisions such as:
+Product-level authority will often cover:
 
 - Customer problems and outcomes
 - Feature and roadmap priorities
@@ -294,7 +260,7 @@ When a product choice creates wider dependencies or conflicts with enterprise gu
 
 ### Domain Architecture Decisions
 
-A Domain Architect or equivalent may own or facilitate decisions such as:
+At domain level, decisions commonly concern:
 
 - Domain integration patterns
 - Shared services and data ownership
@@ -308,7 +274,7 @@ Domain-level authority can combine local knowledge with accountability for wider
 
 ### Enterprise Architecture Decisions
 
-Depending on the operating model, Enterprise Architecture may hold decision authority for some categories of decisions while facilitating or governing others.
+Enterprise-level authority becomes relevant when decisions create consequences across domains or establish long-lived organizational commitments.
 
 These may include:
 
@@ -318,11 +284,9 @@ These may include:
 - Technology lifecycle policy
 - Enterprise-wide exceptions
 
-These decisions create long-term consequences across the organization.
+Such decisions should not be made independently by whichever team happens to act first.
 
-They should not be made independently by whichever team happens to act first.
-
-Final authority may sit with Enterprise Architecture, technology leadership, management, an investment forum, or another explicitly authorized body.
+Depending on the operating model, final authority may sit with Enterprise Architecture, technology leadership, management, an investment forum, or another explicitly authorized body.
 
 ### Security and Risk Decisions
 
@@ -333,9 +297,7 @@ Security functions may define:
 - Approved cryptographic methods
 - Logging and monitoring obligations
 
-Delivery teams remain responsible for implementing the controls.
-
-Security or assurance functions may verify compliance.
+Delivery teams remain responsible for implementing the controls, while security or assurance functions may verify compliance.
 
 Risk acceptance is a separate decision.
 
@@ -356,9 +318,7 @@ For example:
 
 > The solution does not meet the resilience standard and may cause an extended service disruption.
 
-The architect may recommend against deployment.
-
-The risk owner must decide whether the remaining exposure is acceptable.
+The architect may recommend against deployment. The risk owner must decide whether the remaining exposure is acceptable.
 
 That decision should be explicit and documented.
 
@@ -391,9 +351,7 @@ That decision has consequences beyond the product boundary.
 
 ### Platform Decisions
 
-Platform teams often sit between autonomy and standardization.
-
-They may own decisions such as:
+A platform team normally needs enough authority to manage the platform as a product, including:
 
 - Platform roadmap
 - Supported capabilities and service levels
@@ -411,9 +369,7 @@ Operation, product ownership, architecture, and investment authority are related
 
 ### Vendor and SaaS Decisions
 
-A team may identify a useful SaaS product.
-
-That does not mean the team should necessarily be able to purchase and introduce it independently.
+A team may identify a useful SaaS product. That does not mean the team should necessarily be able to purchase and introduce it independently.
 
 A new SaaS solution may affect:
 
@@ -440,39 +396,31 @@ No single role needs to own every part of the process.
 
 For each consequential decision, authority and accountability must still be explicit.
 
-## Shared Decisions Need Explicit Authority
+## Shared Decisions Still Need an Owner
 
-Some decisions require multiple perspectives.
+Some decisions cannot be made responsibly from a single perspective.
 
-Selecting a strategic platform may involve:
+Selecting a strategic platform may require input from business and product leadership, Enterprise Architecture, security, finance, procurement, and operations.
 
-- Business and product leadership
-- Enterprise Architecture
-- Security
-- Finance and procurement
-- Operations
+In practice, this is where organizations often confuse participation with authority. Because many people need to contribute, the decision gradually becomes something that âthe groupâ owns. Meetings continue, concerns accumulate, and nobody is quite sure who can bring the discussion to a close.
 
-That does not mean the decision should belong to a vague collective.
+Multiple perspectives do not require vague collective accountability.
 
-A shared process still needs explicit decision authority, whether it sits with an individual role or a clearly defined collective body.
+A shared process still needs an explicit decision authority. That authority may sit with an individual or a formally mandated body, but participants should understand where input ends and the decision begins.
 
-Shared decisions also require shared understanding.
+Shared decisions also require shared understanding. Approaches such as EDGY can help participants examine the same enterprise through complementary perspectives of identity, experience, and architecture.[^edgy]
 
-Approaches such as EDGY can help participants examine the same enterprise through complementary perspectives of identity, experience, and architecture.[^edgy]
+This improves the context in which the decision is made. It does not replace authority or accountability.
 
-This does not replace explicit authority or accountability.
-
-It improves the context in which the decision is made.
-
-> Shared language informs the decision. Clear decision rights determine who makes it.
+Shared language can inform the decision. Clear decision rights determine who makes it.
 
 ## Decision Rights Enable Autonomy
 
 Autonomy is not created by telling teams to move faster.
 
-It is created by making clear what teams can decide without asking permission.
+It emerges when teams know which decisions they can make without asking permission.
 
-Teams need to know:
+Teams need to understand:
 
 - Which decisions are theirs
 - Which guardrails apply
@@ -484,15 +432,11 @@ Teams need to know:
 
 Without this clarity, teams either wait unnecessarily or make decisions that create wider problems.
 
-Good decision rights create confident autonomy.
-
-They replace repeated permission-seeking with clear boundaries and predictable escalation.
+Good decision rights create confident autonomy. They replace repeated permission-seeking with clear boundaries and predictable escalation.
 
 ## Escalation Is Part of the Model
 
-Escalation is sometimes treated as a failure.
-
-It is not.
+Escalation is sometimes treated as a failure. It is not.
 
 Some decisions genuinely exceed the authority, competence, or scope of the current decision-maker.
 
@@ -521,13 +465,9 @@ flowchart TD
     Enterprise -.->|"Material residual risk"| Risk
 ```
 
-Risk acceptance does not always need to pass through an enterprise-level authority.
+Risk acceptance does not always need to pass through an enterprise-level authority. It should sit at the level defined by the organizationâs risk thresholds and delegation model.
 
-It should sit at the level defined by the organization’s risk thresholds and delegation model.
-
-Escalation should be predictable.
-
-It should not depend on who knows whom.
+Escalation should be predictable. It should not depend on who knows whom.
 
 ## Decision Records Create Organizational Memory
 
@@ -545,11 +485,7 @@ Records of important decisions should capture:
 - Date and review point
 - Conditions or exceptions
 
-This matters because people change roles.
-
-Teams reorganize.
-
-Platforms evolve.
+This matters because people change roles, teams reorganize, and platforms evolve.
 
 Without records, organizations repeatedly reopen old discussions or treat temporary exceptions as permanent policy.
 
@@ -559,9 +495,7 @@ Lightweight review, exception, and decision-record practices are also included i
 
 ## Decision Rights Should Be Visible
 
-A decision model should not live only in governance documentation.
-
-It should be visible where work happens.
+A decision model should not live only in governance documentation. It should be visible where work happens.
 
 Examples include:
 
@@ -594,13 +528,9 @@ Decision rights are not permanent.
 
 As organizations mature, decisions may move.
 
-A central architecture function may initially approve cloud designs.
+A central architecture function may initially approve cloud designs. Later, standardized platforms, encoded guardrails, and stronger team competence may allow those decisions to become local.
 
-Later, standardized platforms, encoded guardrails, and stronger team competence may allow those decisions to become local.
-
-A product team may initially decide its own data model.
-
-Later, cross-product dependencies may require domain-level governance.
+A product team may initially decide its own data model. Later, cross-product dependencies may require domain-level governance.
 
 The direction can move both ways.
 
@@ -626,44 +556,40 @@ Decision rights should reflect current organizational capability rather than an 
 
 ## The Role of Architecture
 
+Uncertainty often gets redirected to architects.
+
+When nobody knows who can decide, architecture becomes the place where teams seek permission, conflict resolution, or protection from objections that may appear later. This can make architects influential, but it also turns architecture into a dependency and eventually a queue.
+
 Architects should not become the default owners of every uncertain decision.
 
-That creates dependency and turns architecture into a queue.
-
-Architects should help:
+Their contribution is usually more valuable when they help the organization:
 
 - Identify architecturally significant decisions
 - Establish principles and guardrails
 - Expose wider consequences and trade-offs
-- Facilitate cross-boundary decisions
+- Facilitate decisions that cross organizational boundaries
 - Create predictable escalation paths
 - Preserve important decision context
 
-Architectural influence also extends beyond formal architecture roles.
+This does not mean that only architects shape architecture.
 
-Product leaders, managers, security functions, delivery teams, procurement functions, and risk owners all shape the architecture through consequential decisions.
+Product leaders, managers, security functions, delivery teams, procurement functions, and risk owners all influence the architecture through the decisions they make and the constraints they introduce.
 
-> People with consequential decision rights shape the architecture, whether or not they hold a formal architecture role.
+People with consequential decision rights shape the architecture, whether or not they hold a formal architecture role.
 
-This does not make formal architects irrelevant.
-
-It clarifies their purpose.
-
-A strong architecture function does not attempt to own every decision.
-
-It helps the organization establish clear decision authority, guardrails, escalation paths, and shared context for better decisions at the right level.
+The purpose of a strong architecture function is therefore not to own every decision. It is to help the organization make consequential decisions with clearer authority, better context, and fewer hidden dependencies.
 
 ## Final Thoughts
 
-Architecture diagrams describe structures.
+Architecture diagrams describe structures. They do not show the negotiations, trade-offs, mandates, exceptions, and risk decisions that allowed those structures to emerge.
 
-Decision rights explain how those structures are allowed to change.
+When authority is unclear, teams wait or search for informal approval. Forums become hidden gates. People may be held accountable for outcomes they cannot influence, while others exercise authority without carrying the consequences.
 
-When authority is unclear, teams wait, forums become hidden gates, and accountability becomes separated from influence.
+Clear decision rights do not eliminate disagreement, uncertainty, or poor decisions.
 
-When authority is explicit, teams can act locally, escalate predictably, and preserve the reasoning behind consequential choices.
+They make it easier to see where a decision belongs, who needs to contribute, when it should escalate, and who must ultimately stand behind it.
 
-Architecture emerges through the decisions an organization repeatedly permits, constrains, escalates, and records.
+Architecture is shaped not only through formal architecture work, but through the decisions an organization repeatedly permits, constrains, escalates, and records.
 
 > Who decides shapes the architecture.
 
@@ -673,24 +599,23 @@ The following articles explore adjacent questions about architecture, authority,
 
 ### On pettersson.dev
 
-- [Don’t Confuse Order with Bottlenecks](/governance/confusing-order-with-bottlenecks/) — how apparently orderly governance can create queues and dependencies
-- [Roles vs Titles: Why Architecture Depends on Responsibilities, Not Job Names](/governance/roles-vs-titles-architecture/) — why responsibilities matter more than formal titles
-- [Architecture as a Capability: Why Architecture Is Not a Function](/enterprise%20architecture/architecture-as-a-capability/) — architecture as a distributed organizational capability
+- [Donât Confuse Order with Bottlenecks](/governance/confusing-order-with-bottlenecks/) â how apparently orderly governance can create queues and dependencies
+- [Roles vs Titles: Why Architecture Depends on Responsibilities, Not Job Names](/governance/roles-vs-titles-architecture/) â why responsibilities matter more than formal titles
+- [Architecture as a Capability: Why Architecture Is Not a Function](/enterprise%20architecture/architecture-as-a-capability/) â architecture as a distributed organizational capability
 
 ### External Perspectives
 
-- [Decision Rights Are the Real Architecture](https://medium.com/@sabarish_nair/decision-rights-are-the-real-architecture-b9dbc0f93840) — Sabarish Sasidharan Nair on decision rights as an often-hidden organizational structure
-- [Decision Architecture: The Missing Layer Between Project Visibility and Control](https://www.linkedin.com/pulse/decision-architecture-missing-layer-between-project-control-guerard-qsxvf) — Bertrand Guerard on authority and escalation in project governance
-- [Who Owns Enterprise Architecture?](https://www.eatransformation.com/p/who-owns-enterprise-architecture) — Eetu Niemi on ownership of architecture work, deliverables, and the architecture that actually emerges
-- [Architecture as a Decision System](https://www.linkedin.com/pulse/architecture-decision-system-phil-myint-acidc) — Phil Myint on connecting architectural decisions to living records
+- [Decision Rights Are the Real Architecture](https://medium.com/@sabarish_nair/decision-rights-are-the-real-architecture-b9dbc0f93840) â Sabarish Sasidharan Nair on decision rights as an often-hidden organizational structure
+- [Decision Architecture: The Missing Layer Between Project Visibility and Control](https://www.linkedin.com/pulse/decision-architecture-missing-layer-between-project-control-guerard-qsxvf) â Bertrand Guerard on authority and escalation in project governance
+- [Who Owns Enterprise Architecture?](https://www.eatransformation.com/p/who-owns-enterprise-architecture) â Eetu Niemi on ownership of architecture work, deliverables, and the architecture that actually emerges
+- [Architecture as a Decision System](https://www.linkedin.com/pulse/architecture-decision-system-phil-myint-acidc) â Phil Myint on connecting architectural decisions to living records
 
-[^jensen-meckling]: Michael C. Jensen and William H. Meckling, “Specific and General Knowledge, and Organizational Structure,” in *Contract Economics*, 1992.
+[^jensen-meckling]: Michael C. Jensen and William H. Meckling, âSpecific and General Knowledge, and Organizational Structure,â in *Contract Economics*, 1992.
 
 [^nist-risk-owner]: NIST, *Prioritizing Cybersecurity Risk for Enterprise Risk Management*, NIST IR 8286B, 2022.
 
-[^nygard-adr]: Michael Nygard, “Documenting Architecture Decisions,” 2011.
+[^nygard-adr]: Michael Nygard, âDocumenting Architecture Decisions,â 2011.
 
 [^edgy]: Intersection Group, *Enterprise Design with EDGY*.
 
 [^weill-ross]: Peter Weill and Jeanne W. Ross, *IT Governance: How Top Performers Manage IT Decision Rights for Superior Results*, Harvard Business School Press, 2004.
-
