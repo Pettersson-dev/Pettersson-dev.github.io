@@ -120,7 +120,7 @@ The formal gate may have disappeared.
 
 The hidden gate remains.
 
-This is one way apparently orderly governance can create queues, dependencies, and bottlenecks rather than effective coordination. See [Donât Confuse Order with Bottlenecks](/governance/confusing-order-with-bottlenecks/).
+This is one way apparently orderly governance can create queues, dependencies, and bottlenecks rather than effective coordination. See [Don't Confuse Order with Bottlenecks](/governance/confusing-order-with-bottlenecks/).
 
 ## Advice Is Not Approval
 
@@ -221,11 +221,11 @@ Decision rights should therefore be placed close to the relevant knowledge while
 
 For every consequential decision, five questions should be explicit:
 
-1. **Significance** â Why does this decision require wider attention?
-2. **Authority** â Who has the right to make the decision?
-3. **Involvement** â Who must advise, consult, assess, recommend, approve, accept risk, or execute?
-4. **Escalation** â What happens when the decision exceeds the current mandate?
-5. **Memory** â How will the decision, rationale, and conditions be preserved?
+1. **Significance** -- Why does this decision require wider attention?
+2. **Authority** -- Who has the right to make the decision?
+3. **Involvement** -- Who must advise, consult, assess, recommend, approve, accept risk, or execute?
+4. **Escalation** -- What happens when the decision exceeds the current mandate?
+5. **Memory** -- How will the decision, rationale, and conditions be preserved?
 
 ```mermaid
 flowchart TD
@@ -525,7 +525,7 @@ flowchart TD
 
 Risk acceptance does not always need to pass through an enterprise-level authority.
 
-It should sit at the level defined by the organizationâs risk thresholds and delegation model.
+It should sit at the level defined by the organization's risk thresholds and delegation model.
 
 Escalation should be predictable.
 
@@ -675,21 +675,21 @@ The following articles explore adjacent questions about architecture, authority,
 
 ### On pettersson.dev
 
-- [Donât Confuse Order with Bottlenecks](/governance/confusing-order-with-bottlenecks/) â how apparently orderly governance can create queues and dependencies
-- [Roles vs Titles: Why Architecture Depends on Responsibilities, Not Job Names](/governance/roles-vs-titles-architecture/) â why responsibilities matter more than formal titles
-- [Architecture as a Capability: Why Architecture Is Not a Function](/enterprise%20architecture/architecture-as-a-capability/) â architecture as a distributed organizational capability
+- [Don't Confuse Order with Bottlenecks](/governance/confusing-order-with-bottlenecks/) -- how apparently orderly governance can create queues and dependencies
+- [Roles vs Titles: Why Architecture Depends on Responsibilities, Not Job Names](/governance/roles-vs-titles-architecture/) -- why responsibilities matter more than formal titles
+- [Architecture as a Capability: Why Architecture Is Not a Function](/enterprise%20architecture/architecture-as-a-capability/) -- architecture as a distributed organizational capability
 
 ### External Perspectives
 
-- [Decision Rights Are the Real Architecture](https://medium.com/@sabarish_nair/decision-rights-are-the-real-architecture-b9dbc0f93840) â Sabarish Sasidharan Nair on decision rights as an often-hidden organizational structure
-- [Decision Architecture: The Missing Layer Between Project Visibility and Control](https://www.linkedin.com/pulse/decision-architecture-missing-layer-between-project-control-guerard-qsxvf) â Bertrand Guerard on authority and escalation in project governance
-- [Who Owns Enterprise Architecture?](https://www.eatransformation.com/p/who-owns-enterprise-architecture) â Eetu Niemi on ownership of architecture work, deliverables, and the architecture that actually emerges
-- [Architecture as a Decision System](https://www.linkedin.com/pulse/architecture-decision-system-phil-myint-acidc) â Phil Myint on connecting architectural decisions to living records
+- [Decision Rights Are the Real Architecture](https://medium.com/@sabarish_nair/decision-rights-are-the-real-architecture-b9dbc0f93840) -- Sabarish Sasidharan Nair on decision rights as an often-hidden organizational structure
+- [Decision Architecture: The Missing Layer Between Project Visibility and Control](https://www.linkedin.com/pulse/decision-architecture-missing-layer-between-project-control-guerard-qsxvf) -- Bertrand Guerard on authority and escalation in project governance
+- [Who Owns Enterprise Architecture?](https://www.eatransformation.com/p/who-owns-enterprise-architecture) -- Eetu Niemi on ownership of architecture work, deliverables, and the architecture that actually emerges
+- [Architecture as a Decision System](https://www.linkedin.com/pulse/architecture-decision-system-phil-myint-acidc) -- Phil Myint on connecting architectural decisions to living records
 
-[^jensen-meckling]: Michael C. Jensen and William H. Meckling, âSpecific and General Knowledge, and Organizational Structure,â in *Contract Economics*, 1992.
+[^jensen-meckling]: Michael C. Jensen and William H. Meckling, "Specific and General Knowledge, and Organizational Structure," in *Contract Economics*, 1992.
 
 [^nist-risk-owner]: NIST, *Prioritizing Cybersecurity Risk for Enterprise Risk Management*, NIST IR 8286B, 2022.
 
-[^nygard-adr]: Michael Nygard, âDocumenting Architecture Decisions,â 2011.
+[^nygard-adr]: Michael Nygard, "Documenting Architecture Decisions," 2011.
 
 [^edgy]: Intersection Group, *Enterprise Design with EDGY*.
