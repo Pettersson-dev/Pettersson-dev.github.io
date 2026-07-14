@@ -47,8 +47,6 @@ Some were deliberate and carefully governed. Others were made locally to meet a 
 
 A team may introduce a second customer record because the existing source is slow to change. The temporary solution works, the product ships, and the workaround gradually becomes part of the operating model. Two years later, several teams depend on it and nobody is certain who can retire it.
 
-That is architecture emerging through decisions.
-
 Over time, decisions like these determine which platforms become shared, which technologies remain supported, where data ownership sits, and which dependencies teams have to live with.
 
 They also raise questions that diagrams alone cannot answer:
