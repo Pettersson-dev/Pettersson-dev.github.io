@@ -290,8 +290,6 @@ A shared process still needs an explicit decision authority. That authority may 
 
 Approaches such as EDGY can help participants examine the same enterprise through complementary perspectives of identity, experience, and architecture.[^edgy] This improves shared understanding, but it does not replace authority or accountability.
 
-Shared language can inform the decision. Clear decision rights determine who makes it.
-
 ## Decision Rights Enable Autonomy
 
 Autonomy becomes real when teams know what they can decide without asking permission.
