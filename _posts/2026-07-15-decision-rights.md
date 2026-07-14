@@ -36,8 +36,6 @@ In this article, I use **decision architecture** to describe how authority, invo
 
 Explicit decision rights clarify who can decide, who must contribute, who is accountable for the outcome, and where a decision goes when it exceeds the current mandate.[^weill-ross]
 
-> Those who make consequential decisions shape the architecture that emerges.
-
 **Note:** The examples in this article are illustrative rather than prescriptive. The same decision may belong to different roles in different organizations, depending on structure, maturity, regulation, competence, and operating model.
 {: .notice--info}
 
