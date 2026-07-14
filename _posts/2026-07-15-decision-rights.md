@@ -1,6 +1,6 @@
 ---
 title: "Who Decides Shapes the Architecture"
-excerpt: "Architecture is shaped not only by systems and structures, but by who holds the authority to make consequential decisions."
+excerpt: "Architecture is shaped not only by systems and structures, but by how decision authority, accountability, and escalation are distributed."
 date: 2026-07-15
 categories:
   - Governance
@@ -24,27 +24,29 @@ classes: wide
 mermaid: true
 ---
 
-Architecture is shaped by many decisions that are never called architecture decisions.
+Architecture is shaped by many decisions that are never labeled as architecture decisions.
 
 A product team introduces a new platform.
 
 Management funds one capability rather than another.
 
-Security sets a mandatory control.
+Security mandates a control.
 
 A business owner accepts a risk.
 
 Each decision creates dependencies, boundaries, standards, and future constraints.
 
-Architecture is often documented through systems, platforms, integrations, capabilities, and target states.
+Architecture is usually documented through systems, platforms, integrations, capabilities, and target states.
 
 These views show what exists.
 
-They rarely show who has the authority to shape it.
+They rarely show who has the authority to change it.
 
-That pattern of authority, consultation, accountability, and escalation forms a **decision architecture**.
+That distribution of authority, involvement, accountability, escalation, and organizational memory forms a **decision architecture**.
 
-Explicit decision rights make clear who can decide, who must contribute, and where accountability sits.
+A decision architecture is the explicit distribution of authority, involvement, accountability, escalation, and organizational memory for consequential decisions.
+
+Explicit decision rights make clear who can decide, who must contribute, who is accountable, and where a decision goes when it exceeds the current mandate.
 
 > Those who make consequential decisions shape the architecture that emerges.
 
@@ -73,7 +75,7 @@ A well-designed operating model connects context, authority, accountability, and
 
 A poorly designed one leaves teams guessing.
 
-Not every decision involving technology is architectural.
+Not every decision involving technology is architecturally significant.
 
 A decision becomes architecturally significant when it:
 
@@ -86,7 +88,11 @@ A decision becomes architecturally significant when it:
 - Constrains future choices
 - Is difficult or expensive to reverse
 
-Governance should reflect the consequences of the decision, not simply the fact that technology is involved.
+Governance should reflect the consequences of a decision, not simply the fact that technology is involved.
+
+A useful principle is:
+
+> The wider the impact and the harder the decision is to reverse, the more explicit its decision authority should be.
 
 ## Unclear Decision Rights Create Hidden Gates
 
@@ -114,7 +120,7 @@ The formal gate may have disappeared.
 
 The hidden gate remains.
 
-This is one way apparently orderly governance can create queues, dependencies, and bottlenecks rather than effective coordination. See [Don’t Confuse Order with Bottlenecks](/governance/confusing-order-with-bottlenecks/).
+This is one way apparently orderly governance can create queues, dependencies, and bottlenecks rather than effective coordination. See [Donât Confuse Order with Bottlenecks](/governance/confusing-order-with-bottlenecks/).
 
 ## Advice Is Not Approval
 
@@ -150,9 +156,13 @@ These distinctions matter.
 | Decide | Select the course of action |
 | Accept risk | Formally accept residual exposure within delegated authority |
 | Execute | Implement the decision |
-| Be accountable | Own the outcome and answer for its consequences |
+| Be accountable | Own the outcome and answer for the consequences |
 
 Problems emerge when one role believes it is advising while another believes it is approving.
+
+Approval authority is itself a form of decision authority because an approver can prevent the proposed course of action.
+
+It should therefore be assigned as deliberately as final decision authority.
 
 ## Authority Must Match Accountability
 
@@ -177,6 +187,8 @@ For example:
 That does not mean the architecture board owns the operational risk, delivery outcome, or business impact.
 
 Authority, influence, and accountability should be deliberately aligned.
+
+> Accountability without authority creates helplessness. Authority without accountability creates careless governance.
 
 ## Different Decisions Belong at Different Levels
 
@@ -209,11 +221,11 @@ Decision rights should therefore be placed close to the relevant knowledge while
 
 For every consequential decision, five questions should be explicit:
 
-1. **Significance** — Why does this decision require wider attention?
-2. **Authority** — Who has the right to make the decision?
-3. **Involvement** — Who must advise, consult, assess, recommend, approve, accept risk, or execute?
-4. **Escalation** — What happens when the decision exceeds the current mandate?
-5. **Memory** — How will the decision, rationale, and conditions be preserved?
+1. **Significance** â Why does this decision require wider attention?
+2. **Authority** â Who has the right to make the decision?
+3. **Involvement** â Who must advise, consult, assess, recommend, approve, accept risk, or execute?
+4. **Escalation** â What happens when the decision exceeds the current mandate?
+5. **Memory** â How will the decision, rationale, and conditions be preserved?
 
 ```mermaid
 flowchart TD
@@ -237,9 +249,9 @@ A decision model becomes useful when these questions can be answered without rel
 
 The following examples illustrate how decision authority and involvement may vary across different categories of decisions.
 
-The Decision Architecture Lens can then be used to clarify significance, escalation, and memory for each specific case.
+The allocation is not universal.
 
-The allocation is not universal. What matters is that the boundary between local, shared, and enterprise decisions is explicit.
+What matters is that the boundary between local, shared, and enterprise decisions is explicit.
 
 ### Team and Technology Decisions
 
@@ -264,7 +276,7 @@ Technology choices can be treated differently depending on their consequences:
 | A team requires an unsupported technology | Formal exception process |
 | The organization considers a new strategic cloud platform | Enterprise decision |
 
-The mechanism should match the impact of the decision.
+The mechanism should match the impact and reversibility of the decision.
 
 ### Product Decisions
 
@@ -298,7 +310,7 @@ Domain-level authority can combine local knowledge with accountability for wider
 
 ### Enterprise Architecture Decisions
 
-Depending on the operating model, Enterprise Architecture may hold decision authority for some categories of decision while facilitating or governing others.
+Depending on the operating model, Enterprise Architecture may hold decision authority for some categories of decisions while facilitating or governing others.
 
 These may include:
 
@@ -319,7 +331,7 @@ Final authority may sit with Enterprise Architecture, technology leadership, man
 Security functions may define:
 
 - Mandatory controls and security standards
-- Threat-model and identity requirements
+- Threat-modeling and identity requirements
 - Approved cryptographic methods
 - Logging and monitoring obligations
 
@@ -338,13 +350,9 @@ Risk acceptance is a separate decision.
 | Fund remediation | Management or product leadership |
 | Accept residual business risk | Authorized risk owner |
 
-An architect can explain architectural risk.
+Architects, security specialists, and privacy specialists can assess and explain different forms of exposure.
 
-A security specialist can explain cyber risk.
-
-A privacy specialist can explain regulatory exposure.
-
-But accepting material residual risk belongs to an authorized risk owner who is accountable for its consequences.
+But accepting material residual risk belongs to an authorized risk owner who is accountable for the consequences.
 
 For example:
 
@@ -399,7 +407,7 @@ Delivery teams should decide how to use the platform within those boundaries.
 
 Enterprise Architecture or management may decide whether the organization needs the platform, whether it should become strategic, and when it should be replaced or retired.
 
-> Operating a platform does not automatically grant authority over the enterprise platform strategy.
+> Operating a platform does not automatically grant authority over enterprise platform strategy.
 
 Operation, product ownership, architecture, and investment authority are related but distinct responsibilities.
 
@@ -434,7 +442,6 @@ No single role needs to own every part of the process.
 
 For each consequential decision, authority and accountability must still be explicit.
 
-
 ## Shared Decisions Need Explicit Authority
 
 Some decisions require multiple perspectives.
@@ -455,7 +462,9 @@ Shared decisions also require shared understanding.
 
 Approaches such as EDGY can help participants examine the same enterprise through complementary perspectives of identity, experience, and architecture.[^edgy]
 
-This does not replace explicit authority or accountability. It improves the context in which the decision is made.
+This does not replace explicit authority or accountability.
+
+It improves the context in which the decision is made.
 
 > Shared language informs the decision. Clear decision rights determine who makes it.
 
@@ -516,7 +525,7 @@ flowchart TD
 
 Risk acceptance does not always need to pass through an enterprise-level authority.
 
-It should sit at the level defined by the organization’s risk thresholds and delegation model.
+It should sit at the level defined by the organizationâs risk thresholds and delegation model.
 
 Escalation should be predictable.
 
@@ -530,7 +539,8 @@ Architecture Decision Records provide one lightweight mechanism for preserving a
 
 Records of important decisions should capture:
 
-- The decision and decision authority
+- The decision
+- The decision authority
 - Context and alternatives considered
 - Trade-offs and risks
 - Consulted roles
@@ -570,13 +580,13 @@ Examples include:
 
 A simple decision-rights table can often remove more ambiguity than another governance forum.
 
-| Decision | Decide | Consult | Execute |
-|---|---|---|---|
-| Product backlog priority | Product Owner | Architect and delivery team | Delivery team |
-| New domain integration pattern | Domain Architect | Product teams, security, and platforms | Delivery teams |
-| Enterprise platform introduction | Authorized management body | EA, security, finance, and operations | Platform organization |
-| Local implementation detail | Delivery team | Architect when needed | Delivery team |
-| Material risk acceptance | Authorized risk owner | Security, architecture, and business stakeholders | Responsible delivery organization |
+| Decision | Decide | Consult or assess | Execute | Accept residual risk |
+|---|---|---|---|---|
+| Product backlog priority | Product Owner | Architect and delivery team | Delivery team | Product or business owner within mandate |
+| New domain integration pattern | Domain Architect | Product teams, security, and platforms | Delivery teams | Authorized domain risk owner |
+| Enterprise platform introduction | Authorized management body | EA, security, finance, and operations | Platform organization | Authorized enterprise risk owner |
+| Local implementation detail | Delivery team | Architect when needed | Delivery team | Delivery or product owner within mandate |
+| Material risk exception | Authorized risk owner | Security, architecture, legal, and business stakeholders | Responsible delivery organization | Authorized risk owner |
 
 The terminology matters less than the clarity.
 
@@ -627,7 +637,8 @@ Architects should help:
 - Identify architecturally significant decisions
 - Establish principles and guardrails
 - Expose wider consequences and trade-offs
-- Facilitate cross-boundary decisions and predictable escalation
+- Facilitate cross-boundary decisions
+- Create predictable escalation paths
 - Preserve important decision context
 
 Architectural influence also extends beyond formal architecture roles.
@@ -654,12 +665,9 @@ When authority is unclear, teams wait, forums become hidden gates, and accountab
 
 When authority is explicit, teams can act locally, escalate predictably, and preserve the reasoning behind consequential choices.
 
-Architecture is therefore not shaped only through formal architecture work.
-
-It emerges through the decisions the organization repeatedly permits, constrains, escalates, and records.
+Architecture emerges through the decisions an organization repeatedly permits, constrains, escalates, and records.
 
 > Who decides shapes the architecture.
-
 
 ## Related Perspectives
 
@@ -667,21 +675,21 @@ The following articles explore adjacent questions about architecture, authority,
 
 ### On pettersson.dev
 
-- [Don’t Confuse Order with Bottlenecks](/governance/confusing-order-with-bottlenecks/) — how apparently orderly governance can create queues and dependencies
-- [Roles vs Titles: Why Architecture Depends on Responsibilities, Not Job Names](/governance/roles-vs-titles-architecture/) — why responsibilities matter more than formal titles
-- [Architecture as a Capability: Why Architecture Is Not a Function](/enterprise%20architecture/architecture-as-a-capability/) — architecture as a distributed organizational capability
+- [Donât Confuse Order with Bottlenecks](/governance/confusing-order-with-bottlenecks/) â how apparently orderly governance can create queues and dependencies
+- [Roles vs Titles: Why Architecture Depends on Responsibilities, Not Job Names](/governance/roles-vs-titles-architecture/) â why responsibilities matter more than formal titles
+- [Architecture as a Capability: Why Architecture Is Not a Function](/enterprise%20architecture/architecture-as-a-capability/) â architecture as a distributed organizational capability
 
 ### External Perspectives
 
-- [Decision Rights Are the Real Architecture](https://medium.com/@sabarish_nair/decision-rights-are-the-real-architecture-b9dbc0f93840) — Sabarish Sasidharan Nair on decision rights as an often-hidden organizational structure
-- [Decision Architecture: The Missing Layer Between Project Visibility and Control](https://www.linkedin.com/pulse/decision-architecture-missing-layer-between-project-control-guerard-qsxvf) — Bertrand Guerard on authority and escalation in project governance
-- [Who Owns Enterprise Architecture?](https://www.eatransformation.com/p/who-owns-enterprise-architecture) — Eetu Niemi on ownership of architecture work, deliverables, and the architecture that actually emerges
-- [Architecture as a Decision System](https://www.linkedin.com/pulse/architecture-decision-system-phil-myint-acidc) — Phil Myint on connecting architectural decisions to living records
+- [Decision Rights Are the Real Architecture](https://medium.com/@sabarish_nair/decision-rights-are-the-real-architecture-b9dbc0f93840) â Sabarish Sasidharan Nair on decision rights as an often-hidden organizational structure
+- [Decision Architecture: The Missing Layer Between Project Visibility and Control](https://www.linkedin.com/pulse/decision-architecture-missing-layer-between-project-control-guerard-qsxvf) â Bertrand Guerard on authority and escalation in project governance
+- [Who Owns Enterprise Architecture?](https://www.eatransformation.com/p/who-owns-enterprise-architecture) â Eetu Niemi on ownership of architecture work, deliverables, and the architecture that actually emerges
+- [Architecture as a Decision System](https://www.linkedin.com/pulse/architecture-decision-system-phil-myint-acidc) â Phil Myint on connecting architectural decisions to living records
 
-[^jensen-meckling]: Michael C. Jensen and William H. Meckling, “Specific and General Knowledge, and Organizational Structure,” in *Contract Economics*, 1992.
+[^jensen-meckling]: Michael C. Jensen and William H. Meckling, âSpecific and General Knowledge, and Organizational Structure,â in *Contract Economics*, 1992.
 
 [^nist-risk-owner]: NIST, *Prioritizing Cybersecurity Risk for Enterprise Risk Management*, NIST IR 8286B, 2022.
 
-[^nygard-adr]: Michael Nygard, “Documenting Architecture Decisions,” 2011.
+[^nygard-adr]: Michael Nygard, âDocumenting Architecture Decisions,â 2011.
 
 [^edgy]: Intersection Group, *Enterprise Design with EDGY*.
