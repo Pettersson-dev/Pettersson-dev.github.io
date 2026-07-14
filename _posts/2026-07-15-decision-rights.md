@@ -365,8 +365,6 @@ A simple table can remove more ambiguity than another governance forum:
 
 Residual risk should be accepted separately by the authorized risk owner whenever it exceeds the decision-maker's delegated threshold.
 
-The terminology matters less than whether people can understand the model and use it during real work.
-
 ## Decision Rights Must Evolve
 
 Decision rights are not permanent.
