@@ -195,8 +195,6 @@ A useful distinction is:
 | Use an unsupported database for a specific need | Exception with explicit conditions |
 | Introduce a new strategic cloud or integration platform | Enterprise-level decision |
 
-The mechanism should match the impact and reversibility of the choice.
-
 ### Product Decisions
 
 Product authority concerns customer and business outcomes: which problem to solve, which trade-off to make, what enters the roadmap, and what can wait.
