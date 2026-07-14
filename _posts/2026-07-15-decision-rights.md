@@ -334,13 +334,9 @@ Centralization is more defensible when risk is high, expertise is scarce, coordi
 
 ## The Role of Architecture
 
-Uncertainty often gets redirected to architects.
+Uncertainty often gets redirected to architects. They should not become the default owners of every uncertain decision. Their contribution is more valuable when they identify architecturally significant choices, expose wider consequences, establish principles and guardrails, facilitate cross-boundary discussions, create escalation paths, and preserve decision context.
 
-A team presents two viable options and asks the architect to choose, not because the architect owns the outcome, but because nobody knows who does. Another team asks for "architecture approval" mainly to protect itself from objections that may appear after implementation.
-
-This can make architects influential, but it also turns architecture into a dependency and eventually a queue.
-
-Architects should not become the default owners of every uncertain decision. Their contribution is usually more valuable when they identify architecturally significant choices, expose wider consequences, establish principles and guardrails, facilitate cross-boundary discussions, create escalation paths, and preserve decision context.
+Architecture is also shaped by product priorities, platform capabilities, mandatory controls, contractual commitments, and local delivery choices.
 
 The purpose of a strong architecture function is not to own every decision. It is to help the organization make consequential decisions with clearer authority, better context, and fewer hidden dependencies.
 
