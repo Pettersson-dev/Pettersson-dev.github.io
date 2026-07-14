@@ -174,8 +174,6 @@ flowchart TD
     Decision --> Memory
 ```
 
-A decision model becomes useful when these questions can be answered without relying on informal relationships or organizational guesswork.
-
 ## Decision Rights in Practice
 
 The examples below show how decision rights change with scope and consequence.
