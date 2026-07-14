@@ -178,7 +178,7 @@ A decision model becomes useful when these questions can be answered without rel
 
 ## Decision Rights in Practice
 
-The allocation of decision rights will vary between organizations. The examples below are not a role catalogue. They illustrate how the same basic logic changes with scope and consequence.
+The examples below show how decision rights change with scope and consequence.
 
 ### Team and Technology Decisions
 
