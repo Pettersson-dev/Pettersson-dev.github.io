@@ -89,7 +89,7 @@ The formal gate may have disappeared.
 
 The hidden gate remains.
 
-This is one way apparently orderly governance creates queues, dependencies, and bottlenecks rather than effective coordination. See [Don't Confuse Order with Bottlenecks](/governance/confusing-order-with-bottlenecks/).
+See [Don't Confuse Order with Bottlenecks](/governance/confusing-order-with-bottlenecks/).
 
 ## Advice Is Not Approval
 
