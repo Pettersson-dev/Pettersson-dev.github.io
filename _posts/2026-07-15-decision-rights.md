@@ -32,7 +32,7 @@ None of these decisions may appear in an architecture repository. Yet each can c
 
 Architecture is usually documented through systems, platforms, integrations, capabilities, and target states. These views are useful, but they mainly show what exists. They rarely show who had the authority to create it, who accepted the trade-offs, or who can change it now.
 
-In this article, I use **decision architecture** to describe how authority, involvement, accountability, escalation, and organizational memory are distributed around consequential decisions.
+By decision architecture, I mean how authority, involvement, accountability, escalation, and organizational memory are distributed around consequential decisions.
 
 Explicit decision rights clarify who can decide, who must contribute, who is accountable for the outcome, and where a decision goes when it exceeds the current mandate.[^weill-ross]
 
