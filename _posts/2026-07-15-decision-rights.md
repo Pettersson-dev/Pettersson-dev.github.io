@@ -229,8 +229,6 @@ Enterprise-level authority becomes relevant when a decision creates long-lived c
 
 Examples include adopting a strategic cloud platform, selecting an enterprise identity provider, establishing lifecycle policy, or approving an exception that other teams are likely to treat as precedent.
 
-Imagine that one business area funds a new workflow platform. Locally, the business case is sound. At enterprise level, however, the organization may already operate two similar platforms and lack the skills to support a third. The architectural question is no longer whether the product works. It is whether the organization should accept another strategic dependency.
-
 Such decisions should not be made independently by whichever team happens to act first.
 
 Final authority may sit with Enterprise Architecture, technology leadership, management, an investment forum, or another explicitly authorized body. What matters is that the authority is visible and accountable for the broader consequences.
