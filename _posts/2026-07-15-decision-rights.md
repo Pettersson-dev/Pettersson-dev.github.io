@@ -44,7 +44,7 @@ They rarely show who has the authority to change it.
 
 A **decision architecture** is the explicit distribution of authority, involvement, accountability, escalation, and organizational memory for consequential decisions.
 
-Explicit decision rights make clear who can decide, who must contribute, who is accountable, and where a decision goes when it exceeds the current mandate.
+Explicit decision rights make clear who can decide, who must contribute, who is accountable, and where a decision goes when it exceeds the current mandate.[^weill-ross]
 
 > Those who make consequential decisions shape the architecture that emerges.
 
