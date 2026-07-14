@@ -36,9 +36,6 @@ By decision architecture, I mean how authority, involvement, accountability, esc
 
 Explicit decision rights clarify who can decide, who must contribute, who is accountable for the outcome, and where a decision goes when it exceeds the current mandate.[^weill-ross]
 
-**Note:** The examples in this article are illustrative rather than prescriptive. The same decision may belong to different roles in different organizations, depending on structure, maturity, regulation, competence, and operating model.
-{: .notice--info}
-
 ## Architecture Emerges Through Decisions
 
 Every architecture reflects a history of decisions.
