@@ -66,7 +66,7 @@ Governance should reflect those consequences, not simply the fact that technolog
 
 Organizations often claim to have autonomous teams.
 
-In practice, a team planning a new integration may still need to discover whether the API owner, security architect, domain architect, platform team, or architecture board can stop the work. Nobody has formally asked for five approvals, but the team seeks them anyway because it does not know whose objection could appear later.
+In practice, a team planning a new integration may still need to discover whether the API owner, security architect, domain architect, platform team, or architecture board can stop the work. Nobody has formally asked for five approvals, but the team may seek them anyway because it does not know whose objection could appear later.
 
 The questions are familiar:
 
