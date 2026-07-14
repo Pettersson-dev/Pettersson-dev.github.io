@@ -59,8 +59,6 @@ They also raise questions that diagrams alone cannot answer:
 - Which risks can a team accept locally?
 - When does a product decision become an enterprise decision?
 
-A well-designed operating model connects context, authority, accountability, and execution. A poorly designed one leaves teams guessing, or allows important boundaries to emerge without anyone consciously owning them.
-
 Not every decision involving technology is architecturally significant. Choosing between two supported test libraries is different from introducing a new identity provider or creating another source of truth for customer data.
 
 A decision becomes architecturally significant when it creates consequences beyond the immediate task. It may establish a long-term dependency, affect several teams, change an important boundary, introduce material risk, create a precedent, or become difficult and expensive to reverse.
