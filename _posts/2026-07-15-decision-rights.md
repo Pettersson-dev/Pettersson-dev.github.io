@@ -213,10 +213,6 @@ Other decisions create wider and more durable commitments. Selecting an enterpri
 
 The distinction is mainly one of scope.
 
-Domain architecture helps coordinate decisions across related products, services, processes, and data. Enterprise architecture becomes relevant when a decision crosses domains, establishes an organization-wide direction, or creates a dependency that the wider organization must fund, govern, and live with.
-
-A Domain Architect or equivalent may own or facilitate decisions about shared services, integration patterns, data ownership, cross-product dependencies, and domain standards. Enterprise Architecture may hold authority for some broader decisions while preparing, facilitating, or governing others.
-
 Final authority may still sit with technology leadership, management, an investment forum, or another explicitly authorized body. Architecture should make the consequences visible and help place the decision with the role that can actually stand behind it.
 
 ### Security and Risk Decisions
