@@ -246,8 +246,6 @@ Tension appears when a platform team makes an enterprise strategy decision throu
 
 Operating a platform does not automatically grant authority over enterprise platform strategy.
 
-Platform ownership, architecture, operations, and investment authority are related, but they are not the same responsibility.
-
 ## Shared Decisions Still Need an Owner
 
 Some decisions cannot be made responsibly from a single perspective.
