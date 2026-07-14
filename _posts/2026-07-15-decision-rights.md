@@ -342,8 +342,6 @@ This can make architects influential, but it also turns architecture into a depe
 
 Architects should not become the default owners of every uncertain decision. Their contribution is usually more valuable when they identify architecturally significant choices, expose wider consequences, establish principles and guardrails, facilitate cross-boundary discussions, create escalation paths, and preserve decision context.
 
-Product leaders shape it through priorities. Platform teams shape it through the capabilities they provide and retire. Security functions shape it through mandatory controls. Procurement shapes it through contractual commitments. Delivery teams shape it through local choices that others may later depend on.
-
 The purpose of a strong architecture function is not to own every decision. It is to help the organization make consequential decisions with clearer authority, better context, and fewer hidden dependencies.
 
 ## Final Thoughts
