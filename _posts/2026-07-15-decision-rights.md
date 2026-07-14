@@ -203,8 +203,6 @@ Product authority concerns customer and business outcomes: which problem to solv
 
 Suppose a Product Manager wants to introduce automated cancellation to reduce service costs. The product decision belongs with product leadership, but the choice may also affect billing, customer data, legal obligations, and contact-center processes. Architecture should expose those consequences without taking ownership of the product backlog.
 
-The product role decides whether the outcome is worth pursuing. Other roles contribute the information needed to make that decision responsibly.
-
 When a product choice conflicts with enterprise guardrails or creates dependencies outside the product boundary, consultation or escalation becomes necessary.
 
 ### Domain and Enterprise Architecture Decisions
