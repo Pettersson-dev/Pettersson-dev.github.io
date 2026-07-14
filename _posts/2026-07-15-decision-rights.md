@@ -302,8 +302,6 @@ Teams need to know which decisions are theirs, which guardrails apply, when cons
 
 Without that clarity, teams either wait unnecessarily or act locally and create wider problems.
 
-Good decision rights replace repeated permission-seeking with clear boundaries and predictable escalation.
-
 ## Escalation Is Part of the Model
 
 Escalation is sometimes treated as a failure. It is not.
