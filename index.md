@@ -29,8 +29,8 @@ If you're short on time, start with the curated reading path below.
 
 If you're new to this site, this path explains how to approach enterprise architecture as a system for continuous change — from purpose, to direction, to execution.
 
-> tldr;
-> Architecture for Continuous Change
+> tldr; Architecture for Continuous Change.
+> 
 > Strategy provides direction.
 > Capabilities describe what must exist.
 > Operating models distribute responsibility.
