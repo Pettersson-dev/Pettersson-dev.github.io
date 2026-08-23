@@ -1,7 +1,7 @@
 ---
 title: "Transformation Looks Different From Every Role"
 excerpt: "A transformation may be one initiative on a roadmap, but every role experiences a different change in authority, accountability, capability, dependency, incentives, and risk."
-date: 2026-08-23
+date: 2026-08-22
 categories:
   - Transformation
   - Governance
