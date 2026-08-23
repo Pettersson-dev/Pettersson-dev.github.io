@@ -247,6 +247,130 @@ For feedback to change organizational behavior, someone must have both the respo
 
 This connects operating-model design directly to decision rights.
 
+## Designing a Feedback Loop
+
+A feedback loop needs more than measurement.
+
+For an organizational feedback loop to work, several things need to connect:
+
+```mermaid
+flowchart LR
+    O["Outcome"] --> S["Sense"]
+    S --> I["Interpret"]
+    I --> D["Decide"]
+    D --> A["Act"]
+    A --> M["Measure Effect"]
+    M --> S
+```
+
+### Define the Outcome
+
+Start with the behavior or outcome the organization is trying to influence.
+
+Not:
+
+> Adopt the shared platform.
+
+But:
+
+> Reduce the cost and lead time of delivering integrations without increasing operational risk.
+
+The distinction matters because platform adoption is an intervention. It is not necessarily the desired outcome.
+
+If the organization measures only adoption, it can successfully execute the transformation while making the underlying system worse.
+
+### Decide What to Sense
+
+The organization needs signals that reveal whether the system is moving in the intended direction.
+
+For a shared platform, these might include delivery lead time, platform demand, reliability, exceptions, workarounds, adoption, support load, and product-team dependency.
+
+No individual measure describes the system.
+
+Together they provide signals about its behavior.
+
+### Put Interpretation Close to Context
+
+A signal does not explain itself.
+
+An increase in platform exceptions could mean that teams are avoiding standards.
+
+It could also mean that the platform is missing an important capability.
+
+The people interpreting the signal therefore need enough context to distinguish symptoms from causes.
+
+This is where qualitative feedback matters alongside metrics.
+
+### Assign Decision Authority
+
+Someone must be able to respond.
+
+If everyone can observe a problem but nobody can change priorities, funding, guardrails, platform capabilities, or decision rights, the loop remains open.
+
+```mermaid
+flowchart LR
+    S["Signal"] --> I["Interpretation"]
+    I --> D{"Authority?"}
+    D -->|"Yes"| A["Action"]
+    D -->|"No"| E["Escalation"]
+    E --> A
+```
+
+The escalation path is part of the feedback loop, not an exception to it.
+
+### Make Interventions Explicit
+
+When the organization responds, it should be possible to distinguish the intervention from the outcome.
+
+For example:
+
+> Platform lead time is increasing.
+
+The organization decides to introduce self-service provisioning.
+
+That creates a testable relationship:
+
+```mermaid
+flowchart LR
+    P["Observed Problem"] --> H["Hypothesis"]
+    H --> I["Intervention"]
+    I --> O["Observed Outcome"]
+    O --> E["Evaluate"]
+    E -->|"Adjust"| H
+```
+
+Now the organization can ask whether self-service actually reduced lead time rather than simply recording that self-service was delivered.
+
+### Allow Enough Time to Observe the Response
+
+The feedback interval should reflect how quickly the system can reasonably respond.
+
+Operational metrics may provide useful feedback within hours.
+
+A platform change may take weeks.
+
+A change in decision rights may take months before its effects become visible.
+
+Reacting faster than the system can respond creates noise and encourages overcorrection.
+
+> **The cadence of governance should reflect the response time of the system being governed.**
+
+A useful feedback-loop design can therefore be summarized as:
+
+| Element | Question |
+|---|---|
+| **Outcome** | What are we actually trying to change? |
+| **Signal** | What tells us whether it is happening? |
+| **Interpretation** | Who can understand what the signal means? |
+| **Authority** | Who can respond? |
+| **Action** | What can they change? |
+| **Delay** | When should we expect an effect? |
+| **Learning** | How does the result change the next decision? |
+
+A feedback loop is therefore not a dashboard, a retrospective, or a governance meeting. Those may be components of one.
+
+The loop only closes when observation can lead to an authorized intervention, the consequences of that intervention can be observed, and what is learned influences the next decision.
+
 ## Delay Changes Everything
 
 One of the most important properties of a control system is delay.
