@@ -1,6 +1,7 @@
 ---
 layout: home
 author_profile: true
+mermaid: true
 classes: wide
 title: Architecture for Continuous Change
 header:
