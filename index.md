@@ -39,6 +39,17 @@ If you're new to this site, this path explains how to approach enterprise archit
 > Feedback reveals what actually happened.
 > Architecture helps the organization adapt.
 
+```mermaid
+flowchart LR
+    A[Strategy] --> B[Capabilities]
+    B --> C[Operating Model]
+    C --> D[Decisions]
+    D --> E[Action]
+    E --> F[Evidence]
+    F --> G[Feedback]
+    G --> H[Adaptation]
+    H -. informs .-> A
+```
 ### 1. Architecture as a Capability
 
 Why architecture creates value when treated as an organizational capability rather than a centralized function.
